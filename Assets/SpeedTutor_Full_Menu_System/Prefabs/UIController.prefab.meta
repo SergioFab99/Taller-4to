@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ed022c6eaaa372f498c83d69665e2adc
+timeCreated: 1575652338
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 158919
+  packageName: Full Menu System - FREE
+  packageVersion: 1.1.3
+  assetPath: Assets/SpeedTutor_Full_Menu_System/Prefabs/UIController.prefab
+  uploadId: 377976

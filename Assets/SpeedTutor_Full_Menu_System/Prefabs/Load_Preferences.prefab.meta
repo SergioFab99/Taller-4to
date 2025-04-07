@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cc18238686906234bb678b403db8d8fd
+timeCreated: 1575652328
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 158919
+  packageName: Full Menu System - FREE
+  packageVersion: 1.1.3
+  assetPath: Assets/SpeedTutor_Full_Menu_System/Prefabs/Load_Preferences.prefab
+  uploadId: 377976

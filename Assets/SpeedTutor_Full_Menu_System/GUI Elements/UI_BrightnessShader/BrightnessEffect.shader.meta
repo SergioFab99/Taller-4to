@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: aa28d8b840c1bcb4297c6dea68c63a36
+timeCreated: 1528578955
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 158919
+  packageName: Full Menu System - FREE
+  packageVersion: 1.1.3
+  assetPath: Assets/SpeedTutor_Full_Menu_System/GUI Elements/UI_BrightnessShader/BrightnessEffect.shader
+  uploadId: 377976
