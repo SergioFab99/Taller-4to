@@ -9,6 +9,7 @@ public class pe : MonoBehaviour
     public float chargeTime = 1f; 
     public string groundTag = "Ground";
     public float rotationSpeed = 100f;
+    public Transform cameraTransform;
 
     private Rigidbody rb;
     public bool isGrounded = true;
@@ -22,8 +23,6 @@ public class pe : MonoBehaviour
 
     void Update()
     {
-        float mouseX = Input.GetAxis("Mouse X") * rotationSpeed * Time.deltaTime;
-        transform.Rotate(Vector3.up * mouseX);
         if (isGrounded) 
         {
             if (Input.GetMouseButtonDown(0))
@@ -43,7 +42,10 @@ public class pe : MonoBehaviour
         {
             float jumpStrength = Mathf.Lerp(minJumpForce, maxJumpForce, holdTime / chargeTime);
 
-            Vector3 jumpDirection = (transform.forward + Vector3.up).normalized;
+            Vector3 camDir = cameraTransform.forward;
+            camDir.y = Mathf.Clamp(camDir.y, 0.1f, 1f); 
+            Vector3 jumpDirection = camDir.normalized;
+
             rb.AddForce(jumpDirection * jumpStrength, ForceMode.Impulse);
 
             isCharging = false;
@@ -52,7 +54,7 @@ public class pe : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.AddForce(Vector3.down * 100);
+        rb.AddForce(Vector3.down * 10);
     }
 
     void OnCollisionEnter(Collision collision)
