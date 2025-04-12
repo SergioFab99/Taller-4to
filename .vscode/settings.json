@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Taller de 4to.sln"
+    "dotnet.defaultSolution": "Taller-4to.sln"
 }
