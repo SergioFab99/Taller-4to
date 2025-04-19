@@ -1,9 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class bar : MonoBehaviour
 {
-    public Image oxygenImage;   
+    public Image oxygenImage;
+    public GameObject cat;
     public float maxOxygen = 100f;
     public float drainRate = 5f; 
 
@@ -13,6 +15,7 @@ public class bar : MonoBehaviour
     {
         currentOxygen = maxOxygen;
         UpdateBar();
+        cat.SetActive(false);
     }
 
     void Update()
@@ -20,6 +23,16 @@ public class bar : MonoBehaviour
         currentOxygen -= drainRate * Time.deltaTime;
         currentOxygen = Mathf.Clamp(currentOxygen, 0f, maxOxygen);
         UpdateBar();
+
+        if(currentOxygen <= 0)
+        {
+            cat.SetActive(true);
+        }
+
+        if(Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(2);
+        }
     }
 
     public void RefillOxygen(float amount)
