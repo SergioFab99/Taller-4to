@@ -3,18 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ChargedJumpController : MonoBehaviour
+public class Jump : MonoBehaviour
 {
-    public Slider powerBar; // Drag and drop desde el Inspector
+    public Slider powerBar;
 
-    [Header("Jump Settings")]
     public float minJumpForce = 20f;
     public float maxJumpForce = 50f;
     public float chargeTime = 0.1f;
-    public float fallMultiplier = 3f; // Acelera caída
+    public float fallMultiplier = 3f;
     public string groundTag = "Ground";
 
-    [Header("Camera Reference")]
     public Transform cameraTransform;
 
     private Rigidbody rb;
@@ -28,7 +26,7 @@ public class ChargedJumpController : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
-        powerBar.gameObject.SetActive(false); // Ocultar al inicio
+        powerBar.gameObject.SetActive(false);
         powerBar.value = 0f;
     }
 
@@ -38,14 +36,14 @@ public class ChargedJumpController : MonoBehaviour
         {
             isCharging = true;
             holdTime = 0f;
-            powerBar.gameObject.SetActive(true); // Mostrar barra al empezar
+            powerBar.gameObject.SetActive(true);
         }
 
         if (isCharging && Input.GetMouseButton(0))
         {
             holdTime += Time.deltaTime;
             holdTime = Mathf.Clamp(holdTime, 0f, chargeTime);
-            powerBar.value = holdTime / chargeTime; // Cargar visualmente
+            powerBar.value = holdTime / chargeTime;
         }
 
         if (isCharging && Input.GetMouseButtonUp(0))
@@ -56,11 +54,7 @@ public class ChargedJumpController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // Aumenta la velocidad de caída si estás cayendo
-        if (rb.linearVelocity.y < 0)
-        {
-            rb.linearVelocity += Vector3.up * Physics.gravity.y * (fallMultiplier - 1) * Time.fixedDeltaTime;
-        }
+        rb.AddForce(Vector3.down * 100);
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -69,7 +63,6 @@ public class ChargedJumpController : MonoBehaviour
         {
             isGrounded = true;
 
-            // Reiniciar la barra al tocar el suelo
             powerBar.value = 0f;
             powerBar.gameObject.SetActive(false);
         }
@@ -96,6 +89,5 @@ public class ChargedJumpController : MonoBehaviour
         rb.AddForce(jumpDirection * jumpStrength, ForceMode.Impulse);
 
         isCharging = false;
-        // La barra queda visible con el valor hasta que se toque suelo
     }
 }

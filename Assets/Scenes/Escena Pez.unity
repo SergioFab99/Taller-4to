@@ -1313,7 +1313,7 @@ MonoBehaviour:
   sensitivityX: 3
   sensitivityY: 3
   minY: -30
-  maxY: 70
+  maxY: 90
 --- !u!114 &1122605459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2238,6 +2238,7 @@ GameObject:
   - component: {fileID: 2058648994}
   - component: {fileID: 2058648987}
   - component: {fileID: 2058648993}
+  - component: {fileID: 2058648995}
   m_Layer: 0
   m_Name: Pez
   m_TagString: Untagged
@@ -2258,10 +2259,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerBar: {fileID: 1455415626}
-  minJumpForce: 10
+  minJumpForce: 20
   maxJumpForce: 50
   chargeTime: 1
-  fallMultiplier: 1
+  fallMultiplier: 3
   groundTag: Ground
   cameraTransform: {fileID: 1122605457}
 --- !u!54 &2058648988
@@ -2394,6 +2395,27 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2058648995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058648986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 867d4918e273e564b9ac9996f6dc8336, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minJumpForce: 20
+  maxJumpForce: 50
+  chargeTime: 0.1
+  fallMultiplier: 3
+  groundTag: Ground
+  cameraTransform: {fileID: 1122605457}
+  baseFOV: 60
+  zoomedFOV: 40
+  zoomSpeed: 5
 --- !u!1 &2096709050
 GameObject:
   m_ObjectHideFlags: 0
