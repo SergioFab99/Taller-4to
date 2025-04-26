@@ -27,6 +27,10 @@ public class BonecaAmbalabu : MonoBehaviour
     private Color originalColor;
     public float warning = 0.5f;
 
+    public GameObject tonguePrefab;
+    public Transform tongueSpawn;
+    public float projectileSpeed = 30f;
+
 
     private void Start()
     {
@@ -96,16 +100,19 @@ public class BonecaAmbalabu : MonoBehaviour
             sapoTruco.material.color = Color.red;
         }
 
-        yield return new WaitForSeconds(warning); 
+        yield return new WaitForSeconds(warning);
 
-        if (player != null)
+        if (tonguePrefab != null && tongueSpawn != null)
         {
-            Vector3 pullDir = (transform.position - player.position).normalized;
-            Rigidbody playerRb = player.GetComponent<Rigidbody>();
+            GameObject projectile = Instantiate(tonguePrefab, tongueSpawn.position, Quaternion.identity);
+            Rigidbody rb = projectile.GetComponent<Rigidbody>();
 
-            if (playerRb != null)
+            if (rb != null && player != null)
             {
-                playerRb.AddForce(pullDir * pull, ForceMode.Impulse);
+                Vector3 dir = (player.position - tongueSpawn.position).normalized;
+                rb.linearVelocity = dir * projectileSpeed;
+
+                projectile.GetComponent<Lenguileta>().Initialize(transform);
             }
         }
 
