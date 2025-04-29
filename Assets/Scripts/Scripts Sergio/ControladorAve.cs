@@ -10,8 +10,10 @@ public class ControladorAve : MonoBehaviour
     public float duracionCazaMaxima = 8f;
     public float rangoRadioPoligono = 5f;
     public Transform jugador;
+    public Transform[] plataformasObjetivo;
 
     private bool enDescenso = false;
+    private bool jugadorAtrapado = false;
     private float alturaInicial;
     private Vector3[] verticesPoligono;
     private int indiceVerticeActual = 0;
@@ -21,7 +23,7 @@ public class ControladorAve : MonoBehaviour
     {
         alturaInicial = transform.position.y;
         centro = new Vector3(transform.position.x, 0, transform.position.z);
-        int lados = Random.Range(3, 10); // 3 a 9 lados
+        int lados = Random.Range(3, 10);
         verticesPoligono = CalcularVerticesPoligono(lados);
         StartCoroutine(RutinaCaza());
     }
@@ -63,27 +65,37 @@ public class ControladorAve : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(Random.Range(4f, 10f)); // tiempo aleatorio
+            yield return new WaitForSeconds(Random.Range(4f, 10f));
             enDescenso = true;
+            jugadorAtrapado = false;
 
-            Vector3 objetivo = jugador.position;
+            Transform plataformaObjetivo = plataformasObjetivo[Random.Range(0, plataformasObjetivo.Length)];
+            Vector3 objetivo = new Vector3(plataformaObjetivo.position.x, plataformaObjetivo.position.y, plataformaObjetivo.position.z);
 
-            // Descender hacia la posición del jugador (X, Y, Z)
             while (Vector3.Distance(transform.position, objetivo) > 0.5f)
             {
                 transform.position = Vector3.MoveTowards(transform.position, objetivo, velocidadDescenso * Time.deltaTime);
+
+                if (!jugadorAtrapado && Vector3.Distance(jugador.position, plataformaObjetivo.position) < 1.5f)
+                {
+                    jugadorAtrapado = true;
+                }
                 yield return null;
             }
 
-            // Simular la caza
             float duracionCaza = Random.Range(duracionCazaMinima, duracionCazaMaxima);
             yield return new WaitForSeconds(duracionCaza);
 
-            // Subida a la altura original
+            Vector3 alturaObjetivo = new Vector3(transform.position.x, alturaInicial, transform.position.z);
             while (transform.position.y < alturaInicial - 0.1f)
             {
-                Vector3 arriba = new Vector3(transform.position.x, alturaInicial, transform.position.z);
-                transform.position = Vector3.MoveTowards(transform.position, arriba, velocidadDescenso * Time.deltaTime);
+                transform.position = Vector3.MoveTowards(transform.position, alturaObjetivo, velocidadDescenso * Time.deltaTime);
+
+                if (jugadorAtrapado)
+                {
+                    Vector3 nuevaPosJugador = new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z);
+                    jugador.position = nuevaPosJugador;
+                }
                 yield return null;
             }
 
