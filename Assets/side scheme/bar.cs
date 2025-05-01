@@ -29,10 +29,6 @@ public class bar : MonoBehaviour
             cat.SetActive(true);
         }
 
-        if(Input.GetKeyDown(KeyCode.R))
-        {
-            SceneManager.LoadScene(2);
-        }
     }
 
     public void RefillOxygen(float amount)

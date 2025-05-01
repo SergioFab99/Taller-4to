@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using TMPro;
 
 public class Jump : MonoBehaviour
 {
@@ -33,6 +35,7 @@ public class Jump : MonoBehaviour
 
         powerBar.gameObject.SetActive(false);
         powerBar.value = 0f;
+        
     }
 
     private void Update()
@@ -54,6 +57,11 @@ public class Jump : MonoBehaviour
         if (isCharging && Input.GetMouseButtonUp(0))
         {
             PerformJump();
+        }
+        //eliminar despues
+        if(Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(2);
         }
     }
 

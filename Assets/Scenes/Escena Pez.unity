@@ -3194,7 +3194,7 @@ GameObject:
   - component: {fileID: 967337633}
   m_Layer: 0
   m_Name: Pescado
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3208,7 +3208,7 @@ Transform:
   m_GameObject: {fileID: 967337628}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 3.86, y: 2.32, z: -3.47}
+  m_LocalPosition: {x: 2.35, y: 2.7, z: -6.85}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -3242,9 +3242,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerBar: {fileID: 1455415626}
-  minJumpForce: 12
-  maxJumpForce: 150
-  chargeTime: 1
+  minJumpForce: 10
+  maxJumpForce: 130
+  chargeTime: 2
   fallMultiplier: 3
   groundTag: Ground
   raycastDistance: 1.2
@@ -3268,8 +3268,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.5417826, y: 1.8259037, z: 5.58554}
-  m_Center: {x: -0.024626374, y: 0.7084695, z: 0.15318537}
+  m_Size: {x: 1.7227969, y: 1.418623, z: 5.58554}
+  m_Center: {x: 0.0319407, y: 0.063607216, z: 0.15318537}
 --- !u!54 &967337633
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4650,7 +4650,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1435354691}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c31212467899d414faf5012cd3112044, type: 3}
   m_Name: 
@@ -7086,41 +7086,45 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2058648992}
     - target: {fileID: 3634453038500282490, guid: cff9a3c080c66c84c91b61e2e752c273, type: 3}
+      propertyPath: radioCaptura
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3634453038500282490, guid: cff9a3c080c66c84c91b61e2e752c273, type: 3}
       propertyPath: plataformasObjetivo.Array.size
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3634453038500282490, guid: cff9a3c080c66c84c91b61e2e752c273, type: 3}
       propertyPath: 'plataformasObjetivo.Array.data[0]'
       value: 
-      objectReference: {fileID: 1757007217}
+      objectReference: {fileID: 1659444822}
     - target: {fileID: 3634453038500282490, guid: cff9a3c080c66c84c91b61e2e752c273, type: 3}
       propertyPath: 'plataformasObjetivo.Array.data[1]'
       value: 
-      objectReference: {fileID: 1047722427}
+      objectReference: {fileID: 1757007217}
     - target: {fileID: 3634453038500282490, guid: cff9a3c080c66c84c91b61e2e752c273, type: 3}
       propertyPath: 'plataformasObjetivo.Array.data[2]'
       value: 
-      objectReference: {fileID: 575382558}
+      objectReference: {fileID: 1047722427}
     - target: {fileID: 3634453038500282490, guid: cff9a3c080c66c84c91b61e2e752c273, type: 3}
       propertyPath: 'plataformasObjetivo.Array.data[3]'
       value: 
-      objectReference: {fileID: 133457837}
+      objectReference: {fileID: 575382558}
     - target: {fileID: 3634453038500282490, guid: cff9a3c080c66c84c91b61e2e752c273, type: 3}
       propertyPath: 'plataformasObjetivo.Array.data[4]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 133457837}
     - target: {fileID: 3634453038500282490, guid: cff9a3c080c66c84c91b61e2e752c273, type: 3}
       propertyPath: 'plataformasObjetivo.Array.data[5]'
       value: 
-      objectReference: {fileID: 1169194539}
+      objectReference: {fileID: 734240081}
     - target: {fileID: 3634453038500282490, guid: cff9a3c080c66c84c91b61e2e752c273, type: 3}
       propertyPath: 'plataformasObjetivo.Array.data[6]'
       value: 
-      objectReference: {fileID: 610651742}
+      objectReference: {fileID: 1169194539}
     - target: {fileID: 3634453038500282490, guid: cff9a3c080c66c84c91b61e2e752c273, type: 3}
       propertyPath: 'plataformasObjetivo.Array.data[7]'
       value: 
-      objectReference: {fileID: 1659444822}
+      objectReference: {fileID: 610651742}
     - target: {fileID: 5245958868455013455, guid: cff9a3c080c66c84c91b61e2e752c273, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.8
@@ -7163,7 +7167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5906357436257062664, guid: cff9a3c080c66c84c91b61e2e752c273, type: 3}
       propertyPath: m_Name
-      value: Bird
+      value: Grulla
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7250,7 +7254,7 @@ Transform:
   m_GameObject: {fileID: 2058648986}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.39, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
