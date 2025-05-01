@@ -5,5 +5,6 @@ public class SuccessOrb : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Success!");
+        Destroy(gameObject);
     }
 }

@@ -150,4 +150,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pullForce: 75
-  lifetime: 1
+  lifetime: 1.5
