@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ControladorAve : MonoBehaviour
 {
@@ -18,7 +19,9 @@ public class ControladorAve : MonoBehaviour
     private Vector3[] verticesPoligono;
     private int indiceVerticeActual = 0;
     private Vector3 centro;
-    private int indicePlataformaActual = 0; // Nuevo: para seguir la secuencia de plataformas
+    private int indicePlataformaActual = 0;
+
+    private CharacterController controllerJugador;
 
     void Start()
     {
@@ -26,6 +29,7 @@ public class ControladorAve : MonoBehaviour
         centro = new Vector3(transform.position.x, 0, transform.position.z);
         int lados = Random.Range(3, 10);
         verticesPoligono = CalcularVerticesPoligono(lados);
+        controllerJugador = jugador.GetComponent<CharacterController>();
         StartCoroutine(RutinaCaza());
     }
 
@@ -70,7 +74,6 @@ public class ControladorAve : MonoBehaviour
             enDescenso = true;
             jugadorAtrapado = false;
 
-            // Usa la plataforma actual en la secuencia en lugar de elegir aleatoriamente
             Transform plataformaObjetivo = plataformasObjetivo[indicePlataformaActual];
             Vector3 objetivo = plataformaObjetivo.position;
 
@@ -78,13 +81,17 @@ public class ControladorAve : MonoBehaviour
             {
                 transform.position = Vector3.MoveTowards(transform.position, objetivo, velocidadDescenso * Time.deltaTime);
 
-                // Si el jugador está dentro del radio de captura
                 if (!jugadorAtrapado && Vector3.Distance(transform.position, jugador.position) < radioCaptura)
                 {
                     jugadorAtrapado = true;
+
+                    // Desactiva control del jugador
+                    if (controllerJugador != null)
+                        controllerJugador.enabled = false;
+
+                    StartCoroutine(ReiniciarEscenaTrasRetraso(3f));
                 }
 
-                // Si ya está atrapado, que lo siga
                 if (jugadorAtrapado)
                 {
                     Vector3 nuevaPosJugador = new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z);
@@ -97,7 +104,6 @@ public class ControladorAve : MonoBehaviour
             float duracionCaza = Random.Range(duracionCazaMinima, duracionCazaMaxima);
             yield return new WaitForSeconds(duracionCaza);
 
-            // Subida
             Vector3 alturaObjetivo = new Vector3(transform.position.x, alturaInicial, transform.position.z);
             while (transform.position.y < alturaInicial - 0.1f)
             {
@@ -112,12 +118,17 @@ public class ControladorAve : MonoBehaviour
                 yield return null;
             }
 
-            // Avanza al siguiente índice de plataforma después de completar la caza
             indicePlataformaActual = (indicePlataformaActual + 1) % plataformasObjetivo.Length;
-            
+
             jugadorAtrapado = false;
             enDescenso = false;
         }
+    }
+
+    IEnumerator ReiniciarEscenaTrasRetraso(float segundos)
+    {
+        yield return new WaitForSeconds(segundos);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     private void OnDrawGizmosSelected()
