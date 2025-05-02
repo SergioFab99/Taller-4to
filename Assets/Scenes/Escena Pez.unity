@@ -3872,13 +3872,13 @@ MonoBehaviour:
   groundTag: Ground
   range: 100
   cooldown: 3
-  pull: 15
+  pull: 10
   delay: 0.2
   sapoTruco: {fileID: 807072527}
   warning: 0.5
   tonguePrefab: {fileID: 4074846789053839954, guid: 45b13cbe3c6b1ac40a3e788cd5e9cc19, type: 3}
   tongueSpawn: {fileID: 1369232873}
-  projectileSpeed: 50
+  projectileSpeed: 30
 --- !u!65 &807072526
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4255,13 +4255,13 @@ MonoBehaviour:
   groundTag: Ground
   range: 100
   cooldown: 3
-  pull: 15
+  pull: 10
   delay: 0.2
   sapoTruco: {fileID: 956852309}
   warning: 0.5
   tonguePrefab: {fileID: 4074846789053839954, guid: 45b13cbe3c6b1ac40a3e788cd5e9cc19, type: 3}
   tongueSpawn: {fileID: 449154685}
-  projectileSpeed: 50
+  projectileSpeed: 30
 --- !u!65 &956852308
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6883,13 +6883,13 @@ MonoBehaviour:
   groundTag: Ground
   range: 100
   cooldown: 3
-  pull: 15
+  pull: 10
   delay: 0.2
   sapoTruco: {fileID: 1559228171}
   warning: 0.5
   tonguePrefab: {fileID: 4074846789053839954, guid: 45b13cbe3c6b1ac40a3e788cd5e9cc19, type: 3}
   tongueSpawn: {fileID: 1068827079}
-  projectileSpeed: 50
+  projectileSpeed: 30
 --- !u!65 &1559228170
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8565,13 +8565,13 @@ MonoBehaviour:
   groundTag: Ground
   range: 100
   cooldown: 3
-  pull: 15
+  pull: 10
   delay: 0.2
   sapoTruco: {fileID: 1915264783}
   warning: 0.5
   tonguePrefab: {fileID: 4074846789053839954, guid: 45b13cbe3c6b1ac40a3e788cd5e9cc19, type: 3}
   tongueSpawn: {fileID: 1703156666}
-  projectileSpeed: 50
+  projectileSpeed: 30
 --- !u!65 &1915264782
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8963,13 +8963,13 @@ MonoBehaviour:
   groundTag: Ground
   range: 100
   cooldown: 3
-  pull: 15
+  pull: 10
   delay: 0.2
   sapoTruco: {fileID: 1989096962}
   warning: 0.5
   tonguePrefab: {fileID: 4074846789053839954, guid: 45b13cbe3c6b1ac40a3e788cd5e9cc19, type: 3}
   tongueSpawn: {fileID: 371130152}
-  projectileSpeed: 50
+  projectileSpeed: 30
 --- !u!65 &1989096961
 BoxCollider:
   m_ObjectHideFlags: 0

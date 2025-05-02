@@ -70,7 +70,7 @@ public class ControladorAve : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(Random.Range(4f, 10f));
+            yield return new WaitForSeconds(Random.Range(1f, 3f));
             enDescenso = true;
             jugadorAtrapado = false;
 
