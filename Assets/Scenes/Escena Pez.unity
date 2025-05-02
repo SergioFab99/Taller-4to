@@ -4484,6 +4484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splashEffectPrefab: {fileID: 3302210790268913260, guid: cf12326620d6c414e9f5636945d8af28, type: 3}
+  splashSound: {fileID: 8300000, guid: b1427f0f7adddfb4f8d16023d712fcfe, type: 3}
   collisionVelocityThreshold: 1
 --- !u!1 &1002990521
 GameObject:

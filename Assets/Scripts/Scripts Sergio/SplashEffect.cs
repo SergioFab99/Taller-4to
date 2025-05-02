@@ -2,12 +2,27 @@ using UnityEngine;
 
 public class SplashEffect : MonoBehaviour
 {
-    public ParticleSystem splashEffectPrefab; // Tu prefab personalizado arrastrado
-    public float collisionVelocityThreshold = 1f;
+    public ParticleSystem splashEffectPrefab; 
+    public AudioClip splashSound;             
+    public float collisionVelocityThreshold = 1f;          
+
+    private AudioSource audioSource;
+    public float soundVolume = 0.5f;
+
+    void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+        audioSource.playOnAwake = false;
+    }
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Ground") && collision.relativeVelocity.magnitude > collisionVelocityThreshold)
+        if (collision.gameObject.CompareTag("Ground") &&
+            collision.relativeVelocity.magnitude > collisionVelocityThreshold)
         {
             foreach (ContactPoint contact in collision.contacts)
             {
@@ -22,27 +37,31 @@ public class SplashEffect : MonoBehaviour
 
         ParticleSystem splash = Instantiate(splashEffectPrefab, position, Quaternion.LookRotation(normal));
 
-        // FORZAR EFECTO PARABÓLICO
         var main = splash.main;
         main.loop = false;
         main.startLifetime = 0.8f;
-        main.startSpeed = new ParticleSystem.MinMaxCurve(4f, 7f); // Sube rápido
-        main.gravityModifier = 1f; // Luego cae
+        main.startSpeed = new ParticleSystem.MinMaxCurve(4f, 7f);
+        main.gravityModifier = 1f;
         main.simulationSpace = ParticleSystemSimulationSpace.World;
 
         var emission = splash.emission;
         emission.rateOverTime = 0;
-        emission.SetBursts(new ParticleSystem.Burst[]{
+        emission.SetBursts(new ParticleSystem.Burst[] {
             new ParticleSystem.Burst(0f, 20)
         });
 
         var shape = splash.shape;
         shape.shapeType = ParticleSystemShapeType.Cone;
-        shape.rotation = Vector3.zero; // Ajusta la rotación del cono si es necesario
-        shape.angle = 20f; // Ajusta el ángulo del cono para la dispersión
-        shape.radius = 0.1f; // Ajusta el radio de la base del cono
+        shape.rotation = Vector3.zero;
+        shape.angle = 20f;
+        shape.radius = 0.1f;
 
-        // Destruir el GameObject después de un tiempo (basado en la vida útil de las partículas)
+        if (splashSound != null)
+        {
+            audioSource.PlayOneShot(splashSound, soundVolume);
+        }
+
         Destroy(splash.gameObject, main.startLifetime.constantMax + 0.5f);
     }
 }
+
