@@ -3246,7 +3246,7 @@ GameObject:
   - component: {fileID: 710010474}
   - component: {fileID: 710010473}
   m_Layer: 3
-  m_Name: 4 (3)
+  m_Name: Bouncy
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
