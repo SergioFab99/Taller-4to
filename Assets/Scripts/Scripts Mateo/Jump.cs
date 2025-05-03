@@ -21,6 +21,7 @@ public class Jump : MonoBehaviour
     private Rigidbody rb;
     private bool isCharging = false;
     private bool isGrounded = false;
+    private bool isWater = false;
     private float holdTime = 0f;
 
     private Transform currentPlatform = null;
@@ -40,30 +41,44 @@ public class Jump : MonoBehaviour
 
     private void Update()
     {
-        if (isGrounded && Input.GetMouseButtonDown(0))
+        if(isGrounded || isWater)
         {
-            isCharging = true;
-            holdTime = 0f;
-            powerBar.gameObject.SetActive(true);
+            if (Input.GetMouseButtonDown(0))
+            {
+                isCharging = true;
+                holdTime = 0f;
+                powerBar.gameObject.SetActive(true);
+            }
+
+            if (isCharging && Input.GetMouseButton(0))
+            {
+                holdTime += Time.deltaTime*2;
+                holdTime = Mathf.Clamp(holdTime, 0f, chargeTime);
+                powerBar.value = holdTime / chargeTime;
+            }
+
+            if (isCharging && Input.GetMouseButtonUp(0))
+            {
+                PerformJump();
+            }
+            //eliminar despues
         }
 
-        if (isCharging && Input.GetMouseButton(0))
-        {
-            holdTime += Time.deltaTime;
-            holdTime = Mathf.Clamp(holdTime, 0f, chargeTime);
-            powerBar.value = holdTime / chargeTime;
-        }
-
-        if (isCharging && Input.GetMouseButtonUp(0))
-        {
-            PerformJump();
-        }
-        //eliminar despues
-        if(Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(2);
         }
+
+        if (isWater)
+        {
+            bar bb = FindFirstObjectByType<bar>();
+            if (bb != null)
+            {
+                bb.RefillOxygen(100);
+            }
+        }
     }
+        
 
     private void FixedUpdate()
     {
@@ -74,6 +89,12 @@ public class Jump : MonoBehaviour
             platformDelta = currentPlatform.position - lastPlatformPosition;
             rb.MovePosition(rb.position + platformDelta);
             lastPlatformPosition = currentPlatform.position;
+        }
+
+        if (rb.linearVelocity.y < 0)
+        {
+            float gravityMultiplier = isWater ? 0.01f : fallMultiplier;
+            rb.linearVelocity += Vector3.up * Physics.gravity.y * (gravityMultiplier - 1) * Time.fixedDeltaTime;
         }
     }
 
@@ -130,6 +151,27 @@ public class Jump : MonoBehaviour
                 isGrounded = false;
                 currentPlatform = null;
             }
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Water"))
+        {
+            Debug.Log("water in");
+            isWater = true;
+            rb.linearDamping = 4f;           // testing aun
+            rb.angularDamping = 2f;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Water"))
+        {
+            isWater = false;
+            rb.linearDamping = 0f;
+            rb.angularDamping = 0.05f;
         }
     }
 }

@@ -141,4 +141,10 @@ public class BonecaAmbalabu : MonoBehaviour
             isGrounded = false;
         }
     }
+
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, detectionRadius);
+    }
 }
