@@ -9,10 +9,10 @@ public class Jump : MonoBehaviour
 {
     public Slider powerBar;
 
-    public float minJumpForce = 20f;
-    public float maxJumpForce = 50f;
-    public float chargeTime = 0.1f;
-    public float fallMultiplier = 3f;
+    public float minJumpForce = 10f;
+    public float maxJumpForce = 130f;
+    public float chargeTime = 2f;
+    public float fallMultiplier = 2f;
     public string groundTag = "Ground";
     public float raycastDistance = 1.2f;
 
@@ -28,6 +28,19 @@ public class Jump : MonoBehaviour
     private Vector3 lastPlatformPosition;
     private Vector3 platformDelta;
 
+    // Rotación para carga y retorno
+    private bool isReturning = false;
+    private float chargeRotationDuration = 1f;
+    private float jumpRotationDuration = 1f;
+    private float rotationTimer = 0f;
+    private float returnRotationTimer = 0f;
+    private float startAngle = 0f;
+    private float chargeEndAngle = -50f;
+    private float jumpEndAngle = 0f;
+    private float fixedRotationX = 0f;
+public float verySlowRotationDuration = 4f; // Puedes ajustar esto, entre 4 y 6 segundos queda bien
+
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -36,32 +49,66 @@ public class Jump : MonoBehaviour
 
         powerBar.gameObject.SetActive(false);
         powerBar.value = 0f;
-        
+
+        rb.freezeRotation = true;
     }
 
     private void Update()
     {
-        if(isGrounded || isWater)
+        if (isGrounded || isWater)
         {
             if (Input.GetMouseButtonDown(0))
             {
                 isCharging = true;
                 holdTime = 0f;
+                rotationTimer = 0f;
                 powerBar.gameObject.SetActive(true);
+                Debug.Log("Started charging, beginning rotation to -50");
             }
 
             if (isCharging && Input.GetMouseButton(0))
             {
-                holdTime += Time.deltaTime*2;
+                holdTime += Time.deltaTime * 2;
                 holdTime = Mathf.Clamp(holdTime, 0f, chargeTime);
                 powerBar.value = holdTime / chargeTime;
+
+                rotationTimer += Time.deltaTime;
+                float t = Mathf.Clamp01(rotationTimer / chargeRotationDuration);
+                float currentAngle = Mathf.Lerp(startAngle, chargeEndAngle, t);
+
+                Vector3 currentRotation = transform.localEulerAngles;
+                transform.localRotation = Quaternion.Euler(currentAngle, currentRotation.y, currentRotation.z);
+
+                Debug.Log($"Charge rotation: X = {currentAngle}, Y = {currentRotation.y}, Z = {currentRotation.z}");
             }
 
             if (isCharging && Input.GetMouseButtonUp(0))
             {
+                isCharging = false;
+                isReturning = true;
+                returnRotationTimer = 0f;
                 PerformJump();
+                Debug.Log("Released click, beginning slow return rotation to 0");
             }
-            //eliminar despues
+        }
+
+        if (isReturning)
+        {
+            returnRotationTimer += Time.deltaTime;
+            float t = Mathf.Clamp01(returnRotationTimer / jumpRotationDuration);
+            float currentAngle = Mathf.Lerp(chargeEndAngle, jumpEndAngle, t);
+
+            Vector3 currentRotation = transform.localEulerAngles;
+            transform.localRotation = Quaternion.Euler(currentAngle, currentRotation.y, currentRotation.z);
+
+            Debug.Log($"Return rotation: X = {currentAngle}, Y = {currentRotation.y}, Z = {currentRotation.z}");
+
+            if (t >= 1f)
+            {
+                isReturning = false;
+                transform.localRotation = Quaternion.Euler(jumpEndAngle, currentRotation.y, currentRotation.z);
+                Debug.Log("Return rotation complete");
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.R))
@@ -78,7 +125,6 @@ public class Jump : MonoBehaviour
             }
         }
     }
-        
 
     private void FixedUpdate()
     {
@@ -115,6 +161,15 @@ public class Jump : MonoBehaviour
 
                     currentPlatform = collision.transform;
                     lastPlatformPosition = currentPlatform.position;
+
+                    isReturning = false;
+                    rotationTimer = 0f;
+                    returnRotationTimer = 0f;
+
+                    Vector3 currentRotation = transform.localEulerAngles;
+                    transform.localRotation = Quaternion.Euler(0f, currentRotation.y, 0f);
+
+                    Debug.Log("Landed, rotation reset");
                 }
                 return;
             }
@@ -141,15 +196,19 @@ public class Jump : MonoBehaviour
 
                 Vector3 forward = cameraTransform.forward;
                 forward.y = 0f;
+                forward = forward.normalized;
 
                 Vector3 jumpDirection = (forward + Vector3.up).normalized;
 
                 rb.linearVelocity = Vector3.zero;
                 rb.AddForce(jumpDirection * jumpStrength, ForceMode.Impulse);
 
-                isCharging = false;
                 isGrounded = false;
                 currentPlatform = null;
+
+                transform.rotation = Quaternion.LookRotation(forward, Vector3.up);
+
+                Debug.Log("Jump performed");
             }
         }
     }
@@ -160,7 +219,7 @@ public class Jump : MonoBehaviour
         {
             Debug.Log("water in");
             isWater = true;
-            rb.linearDamping = 4f;           // testing aun
+            rb.linearDamping = 4f;
             rb.angularDamping = 2f;
         }
     }

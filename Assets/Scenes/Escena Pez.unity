@@ -4503,14 +4503,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 967337628}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 6.69, y: 4.1, z: -1.55}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 6, y: 2.91, z: -1.7}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2058648992}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &967337630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4539,12 +4539,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   powerBar: {fileID: 1455415626}
   minJumpForce: 10
-  maxJumpForce: 130
+  maxJumpForce: 100
   chargeTime: 2
   fallMultiplier: 2
   groundTag: Ground
   raycastDistance: 1.2
   cameraTransform: {fileID: 1122605457}
+  verySlowRotationDuration: 100
 --- !u!65 &967337632
 BoxCollider:
   m_ObjectHideFlags: 0
