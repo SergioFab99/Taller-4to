@@ -30,7 +30,11 @@ public class BonecaAmbalabu : MonoBehaviour
     public GameObject tonguePrefab;
     public Transform tongueSpawn;
     public float projectileSpeed = 30f;
-
+    
+    // Nuevas variables para el audio
+    public AudioClip attackSound; // Sonido cuando ataca
+    public float attackVolume = 1f;
+    private AudioSource audioSource;
 
     private void Start()
     {
@@ -40,6 +44,10 @@ public class BonecaAmbalabu : MonoBehaviour
         {
             originalColor = sapoTruco.material.color;
         }
+        
+        // Configurar AudioSource
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.volume = attackVolume;
     }
 
     private void Update()
@@ -95,6 +103,7 @@ public class BonecaAmbalabu : MonoBehaviour
     {
         ready = false;
 
+        // Cambio de color como advertencia
         if (sapoTruco != null)
         {
             sapoTruco.material.color = Color.red;
@@ -102,6 +111,13 @@ public class BonecaAmbalabu : MonoBehaviour
 
         yield return new WaitForSeconds(warning);
 
+        // Reproducir sonido de ataque
+        if (attackSound != null)
+        {
+            audioSource.PlayOneShot(attackSound);
+        }
+
+        // Disparar la lengua
         if (tonguePrefab != null && tongueSpawn != null)
         {
             GameObject projectile = Instantiate(tonguePrefab, tongueSpawn.position, Quaternion.identity);
@@ -116,6 +132,7 @@ public class BonecaAmbalabu : MonoBehaviour
             }
         }
 
+        // Restaurar color original
         if (sapoTruco != null)
         {
             sapoTruco.material.color = originalColor;

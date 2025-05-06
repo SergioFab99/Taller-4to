@@ -12,6 +12,8 @@ public class ControladorAve : MonoBehaviour
     public float radioCaptura = 5f;
     public Transform jugador;
     public Transform[] plataformasObjetivo;
+    public AudioClip sonidoDescenso; // Audio que se reproduce al descender
+    public float volumenSonido = 1f;
 
     private bool enDescenso = false;
     private bool jugadorAtrapado = false;
@@ -20,7 +22,7 @@ public class ControladorAve : MonoBehaviour
     private int indiceVerticeActual = 0;
     private Vector3 centro;
     private int indicePlataformaActual = 0;
-
+    private AudioSource audioSource;
     private CharacterController controllerJugador;
 
     void Start()
@@ -30,6 +32,11 @@ public class ControladorAve : MonoBehaviour
         int lados = Random.Range(3, 10);
         verticesPoligono = CalcularVerticesPoligono(lados);
         controllerJugador = jugador.GetComponent<CharacterController>();
+        
+        // Configurar AudioSource
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.volume = volumenSonido;
+        
         StartCoroutine(RutinaCaza());
     }
 
@@ -71,6 +78,13 @@ public class ControladorAve : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(Random.Range(1f, 3f));
+            
+            // Reproducir sonido de descenso
+            if (sonidoDescenso != null)
+            {
+                audioSource.PlayOneShot(sonidoDescenso);
+            }
+            
             enDescenso = true;
             jugadorAtrapado = false;
 

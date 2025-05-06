@@ -37,7 +37,6 @@ public class Jump : MonoBehaviour
     private float startAngle = 0f;
     private float chargeEndAngle = -50f;
     private float jumpEndAngle = 0f;
-    private float fixedRotationX = 0f;
 public float verySlowRotationDuration = 4f; // Puedes ajustar esto, entre 4 y 6 segundos queda bien
 
 
