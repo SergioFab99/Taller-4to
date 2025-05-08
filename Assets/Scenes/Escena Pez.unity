@@ -1531,6 +1531,8 @@ MonoBehaviour:
   - {fileID: 1436672188}
   - {fileID: 1755522879}
   - {fileID: 18051248}
+  sonidoDescenso: {fileID: 0}
+  volumenSonido: 1
 --- !u!65 &385343348
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3756,6 +3758,8 @@ MonoBehaviour:
   tonguePrefab: {fileID: 4074846789053839954, guid: 45b13cbe3c6b1ac40a3e788cd5e9cc19, type: 3}
   tongueSpawn: {fileID: 1369232873}
   projectileSpeed: 30
+  attackSound: {fileID: 0}
+  attackVolume: 1
 --- !u!65 &807072526
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4070,6 +4074,8 @@ MonoBehaviour:
   - {fileID: 1436672188}
   - {fileID: 1755522879}
   - {fileID: 18051248}
+  sonidoDescenso: {fileID: 0}
+  volumenSonido: 1
 --- !u!65 &900628935
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4384,6 +4390,8 @@ MonoBehaviour:
   tonguePrefab: {fileID: 4074846789053839954, guid: 45b13cbe3c6b1ac40a3e788cd5e9cc19, type: 3}
   tongueSpawn: {fileID: 449154685}
   projectileSpeed: 30
+  attackSound: {fileID: 0}
+  attackVolume: 1
 --- !u!65 &956852308
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6961,6 +6969,8 @@ MonoBehaviour:
   - {fileID: 1436672188}
   - {fileID: 1755522879}
   - {fileID: 18051248}
+  sonidoDescenso: {fileID: 0}
+  volumenSonido: 1
 --- !u!65 &1462526029
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7261,6 +7271,8 @@ MonoBehaviour:
   tonguePrefab: {fileID: 4074846789053839954, guid: 45b13cbe3c6b1ac40a3e788cd5e9cc19, type: 3}
   tongueSpawn: {fileID: 1068827079}
   projectileSpeed: 30
+  attackSound: {fileID: 0}
+  attackVolume: 1
 --- !u!65 &1559228170
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8616,6 +8628,8 @@ MonoBehaviour:
   - {fileID: 1436672188}
   - {fileID: 1755522879}
   - {fileID: 18051248}
+  sonidoDescenso: {fileID: 0}
+  volumenSonido: 1
 --- !u!65 &1755100971
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8945,6 +8959,8 @@ MonoBehaviour:
   tonguePrefab: {fileID: 4074846789053839954, guid: 45b13cbe3c6b1ac40a3e788cd5e9cc19, type: 3}
   tongueSpawn: {fileID: 1703156666}
   projectileSpeed: 30
+  attackSound: {fileID: 0}
+  attackVolume: 1
 --- !u!65 &1915264782
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9343,6 +9359,8 @@ MonoBehaviour:
   tonguePrefab: {fileID: 4074846789053839954, guid: 45b13cbe3c6b1ac40a3e788cd5e9cc19, type: 3}
   tongueSpawn: {fileID: 371130152}
   projectileSpeed: 30
+  attackSound: {fileID: 0}
+  attackVolume: 1
 --- !u!65 &1989096961
 BoxCollider:
   m_ObjectHideFlags: 0
