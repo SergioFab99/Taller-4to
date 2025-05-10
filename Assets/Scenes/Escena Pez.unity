@@ -4730,7 +4730,7 @@ MonoBehaviour:
   raycastDistance: 1.2
   cameraTransform: {fileID: 1122605457}
   chargingClip: {fileID: 0}
-  jumpClip: {fileID: 0}
+  jumpClip: {fileID: 8300000, guid: 45e722be386f0b74d939779268543f9c, type: 3}
   verySlowRotationDuration: 100
 --- !u!65 &967337632
 BoxCollider:
