@@ -770,6 +770,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   refillAmount: 100
+  PopSound: {fileID: 8300000, guid: 3fbd09ee8f1495a4b9bacdd51b607c24, type: 3}
+  soundVolume: 0.5
 --- !u!135 &174039352
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1304,6 +1306,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   refillAmount: 100
+  PopSound: {fileID: 8300000, guid: 3fbd09ee8f1495a4b9bacdd51b607c24, type: 3}
+  soundVolume: 0.5
 --- !u!135 &236910360
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3551,6 +3555,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   refillAmount: 100
+  PopSound: {fileID: 8300000, guid: 3fbd09ee8f1495a4b9bacdd51b607c24, type: 3}
+  soundVolume: 0.5
 --- !u!135 &743242461
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8142,6 +8148,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   refillAmount: 100
+  PopSound: {fileID: 8300000, guid: 3fbd09ee8f1495a4b9bacdd51b607c24, type: 3}
+  soundVolume: 0.5
 --- !u!135 &1681018904
 SphereCollider:
   m_ObjectHideFlags: 0
