@@ -102,7 +102,7 @@ public class Jump : MonoBehaviour
         // Reiniciar nivel
         if (Input.GetKeyDown(KeyCode.R))
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
         // Reabastecer oxígeno en agua
