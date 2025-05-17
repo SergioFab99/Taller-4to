@@ -9308,6 +9308,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Koi
       objectReference: {fileID: 0}
+    - target: {fileID: 3408294681061788871, guid: 0481337676de41745bfcc95a304256d8, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4544971334226401947, guid: 0481337676de41745bfcc95a304256d8, type: 3}
       propertyPath: m_CollisionDetection
       value: 1
