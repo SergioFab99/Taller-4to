@@ -17,6 +17,7 @@ public class Lenguileta : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Debug.Log("lick");
             Rigidbody playerRb = other.GetComponent<Rigidbody>();
             if (playerRb != null && frog != null)
             {
