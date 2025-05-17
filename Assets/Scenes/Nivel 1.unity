@@ -4239,6 +4239,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 509226997516359546, guid: 44cc5daa4c54df044af94e0cb3d1b761, type: 3}
+      propertyPath: maxOxygen
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 4463790513713405001, guid: 44cc5daa4c54df044af94e0cb3d1b761, type: 3}
       propertyPath: m_Name
       value: Canvas
