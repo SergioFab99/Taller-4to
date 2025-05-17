@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/LEGEND OF THE KOI.unity
+    path: Assets/Scenes/Menu Principal.unity
     guid: 48fbcf7f670d98c479359c1494654bea
   - enabled: 1
     path: Assets/Scenes/Experimental.unity
