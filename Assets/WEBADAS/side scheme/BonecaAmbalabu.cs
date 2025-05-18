@@ -19,7 +19,6 @@ public class BonecaAmbalabu : MonoBehaviour
     public float pull = 25f;
     public float delay = 0.2f;
 
-
     public GameObject tonguePrefab;
     public Transform tongueSpawn;
     public float projectileSpeed = 30f;
@@ -28,8 +27,9 @@ public class BonecaAmbalabu : MonoBehaviour
 
     public AudioClip attackSound;
     public float attackVolume = 1f;
-    private AudioSource audioSource;
+    public float distanciaAudible = 12f; // Nueva distancia para escuchar el sonido
 
+    private AudioSource audioSource;
     public float fireRate = 0.5f;
     private float nextFireTime = 0f;
 
@@ -55,7 +55,6 @@ public class BonecaAmbalabu : MonoBehaviour
 
         if (distanceToPlayer <= detectionRadius && distanceFromSpawn <= patrolRadius)
         {
-
             if (distanceToPlayer <= range && Time.time > nextFireTime)
             {
                 nextFireTime = Time.time + fireRate;
@@ -66,8 +65,8 @@ public class BonecaAmbalabu : MonoBehaviour
 
     private void FireTongue()
     {
-        // Reproducir sonido de ataque
-        if (attackSound != null)
+        // Solo reproduce sonido si el jugador está cerca
+        if (attackSound != null && Vector3.Distance(player.position, transform.position) <= distanciaAudible)
         {
             audioSource.PlayOneShot(attackSound);
         }

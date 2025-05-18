@@ -10,6 +10,8 @@ public class ControladorAve : MonoBehaviour
     public float duracionCazaMaxima = 8f;
     public float rangoRadioPoligono = 5f;
     public float radioCaptura = 5f;
+    public float distanciaAudible = 15f; // Distancia máxima para escuchar el sonido
+
     public Transform jugador;
     public Transform[] plataformasObjetivo;
     public AudioClip sonidoDescenso; // Audio que se reproduce al descender
@@ -79,12 +81,12 @@ public class ControladorAve : MonoBehaviour
         {
             yield return new WaitForSeconds(Random.Range(1f, 3f));
             
-            // Reproducir sonido de descenso
-            if (sonidoDescenso != null)
+            // Reproducir sonido solo si el jugador está cerca
+            if (sonidoDescenso != null && Vector3.Distance(transform.position, jugador.position) <= distanciaAudible)
             {
                 audioSource.PlayOneShot(sonidoDescenso);
             }
-            
+
             enDescenso = true;
             jugadorAtrapado = false;
 
