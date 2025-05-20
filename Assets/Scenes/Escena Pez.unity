@@ -1464,6 +1464,7 @@ MonoBehaviour:
   duracionCazaMaxima: 1
   rangoRadioPoligono: 5
   radioCaptura: 5
+  distanciaAudible: 15
   jugador: {fileID: 2058648992}
   plataformasObjetivo:
   - {fileID: 1436672188}
@@ -3490,6 +3491,7 @@ MonoBehaviour:
   attackRadius: 2
   attackSound: {fileID: 8300000, guid: c29115a5ad3a3994dbf996846ce582e4, type: 3}
   attackVolume: 1
+  distanciaAudible: 12
   fireRate: 4
 --- !u!65 &807072526
 BoxCollider:
@@ -3800,6 +3802,7 @@ MonoBehaviour:
   duracionCazaMaxima: 1
   rangoRadioPoligono: 5
   radioCaptura: 5
+  distanciaAudible: 15
   jugador: {fileID: 2058648992}
   plataformasObjetivo:
   - {fileID: 1436672188}
@@ -6255,6 +6258,7 @@ MonoBehaviour:
   duracionCazaMaxima: 1
   rangoRadioPoligono: 5
   radioCaptura: 5
+  distanciaAudible: 15
   jugador: {fileID: 2058648992}
   plataformasObjetivo:
   - {fileID: 1436672188}
@@ -6563,6 +6567,7 @@ MonoBehaviour:
   attackRadius: 2
   attackSound: {fileID: 8300000, guid: c29115a5ad3a3994dbf996846ce582e4, type: 3}
   attackVolume: 1
+  distanciaAudible: 12
   fireRate: 4
 --- !u!65 &1559228170
 BoxCollider:
@@ -7944,6 +7949,7 @@ MonoBehaviour:
   duracionCazaMaxima: 1
   rangoRadioPoligono: 5
   radioCaptura: 5
+  distanciaAudible: 15
   jugador: {fileID: 2058648992}
   plataformasObjetivo:
   - {fileID: 1436672188}
@@ -8302,6 +8308,7 @@ MonoBehaviour:
   attackRadius: 2
   attackSound: {fileID: 8300000, guid: c29115a5ad3a3994dbf996846ce582e4, type: 3}
   attackVolume: 1
+  distanciaAudible: 12
   fireRate: 4
 --- !u!65 &1915264782
 BoxCollider:
@@ -8702,6 +8709,7 @@ MonoBehaviour:
   attackRadius: 2
   attackSound: {fileID: 8300000, guid: c29115a5ad3a3994dbf996846ce582e4, type: 3}
   attackVolume: 1
+  distanciaAudible: 12
   fireRate: 4
 --- !u!65 &1989096961
 BoxCollider:
@@ -9201,6 +9209,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6111045183550243305, guid: 44cc5daa4c54df044af94e0cb3d1b761, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6838916757958192441, guid: 44cc5daa4c54df044af94e0cb3d1b761, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4645edc9aef3f0743a3ad1f56ea21c3e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
