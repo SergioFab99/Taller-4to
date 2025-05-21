@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 12146, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Rugged Mountains_2048x2048_0001_0
   m_EditorClassIdentifier: 
-  m_Mask: {fileID: 2800000, guid: 8f8a2297a64b4b44f82226629d42993b, type: 3}
+  m_Mask: {fileID: 2800000, guid: 4b3c2778a26b8314586565f0859e368e, type: 3}
   m_Falloff:
     serializedVersion: 2
     m_Curve:
