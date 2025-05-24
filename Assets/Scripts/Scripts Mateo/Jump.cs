@@ -143,8 +143,7 @@ public class Jump : MonoBehaviour
 
     private void OnCollisionStay(Collision collision)
     {
-        if (!collision.gameObject.CompareTag(groundTag)) return;
-
+        // Solo verificamos si contacto con superficie con algo de normal vertical
         foreach (ContactPoint contact in collision.contacts)
         {
             if (Vector3.Dot(contact.normal, Vector3.up) > 0.5f)
@@ -173,18 +172,27 @@ public class Jump : MonoBehaviour
 
     private void PerformJump()
     {
-        RaycastHit hit;
-        if (Physics.Raycast(transform.position, Vector3.down, out hit, raycastDistance)
-            && hit.collider.CompareTag(groundTag))
+        // Saltar si está en suelo o agua (no comprobamos raycast ni tag)
+        if (isGrounded || isWater)
         {
             float jumpStrength = Mathf.Lerp(minJumpForce, maxJumpForce, holdTime / chargeTime);
 
-            // Salto: hacia arriba + la mitad hacia adelante
-            Vector3 jumpDirection = transform.up * jumpStrength
-                                  + transform.forward * (jumpStrength * 0.5f);
+            Vector3 camForward = cameraTransform.forward;
 
-            rb.linearVelocity = Vector3.zero;              // Cancelamos velocidad previa
-            rb.AddForce(jumpDirection, ForceMode.Impulse);
+            if (camForward.y < 0.5f)
+            {
+                Vector3 horizontal = new Vector3(camForward.x, 0f, camForward.z).normalized;
+                camForward = (horizontal + Vector3.up * 0.5f).normalized;
+            }
+            else
+            {
+                camForward.Normalize();
+            }
+
+            Vector3 jumpForce = camForward * jumpStrength;
+
+            rb.linearVelocity = Vector3.zero;
+            rb.AddForce(jumpForce, ForceMode.Impulse);
 
             isGrounded = false;
             currentPlatform = null;
