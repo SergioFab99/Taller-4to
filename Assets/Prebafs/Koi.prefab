@@ -14,10 +14,10 @@ GameObject:
   - component: {fileID: 1621090780368714876}
   - component: {fileID: 5692759481854339288}
   - component: {fileID: 4544971334226401947}
-  - component: {fileID: 7519643995055926628}
+  - component: {fileID: 5877460637398145475}
   m_Layer: 0
   m_Name: Koi
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.971, y: 2.51, z: -2.776}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2298, y: 1.2298, z: 1.2298}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9196434849101873240}
@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerBar: {fileID: 0}
-  chargingClip: {fileID: 0}
+  chargingClip: {fileID: 8300000, guid: 105658dcbc2c81242a2782d253bb51da, type: 3}
   jumpClip: {fileID: 8300000, guid: 45e722be386f0b74d939779268543f9c, type: 3}
   minJumpForce: 10
   maxJumpForce: 100
@@ -135,9 +135,9 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!135 &7519643995055926628
-SphereCollider:
+  m_CollisionDetection: 2
+--- !u!65 &5877460637398145475
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -155,8 +155,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.46609485
-  m_Center: {x: -0.10171521, y: 0.08013928, z: 0}
+  m_Size: {x: 2.435191, y: 0.78547853, z: 0.55658144}
+  m_Center: {x: -0.24075401, y: 0.10726044, z: 0.007117188}
 --- !u!1 &4779967751842750603
 GameObject:
   m_ObjectHideFlags: 0
