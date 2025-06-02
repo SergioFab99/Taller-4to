@@ -13177,6 +13177,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1 &242045656 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2483968432365489198, guid: 44cc5daa4c54df044af94e0cb3d1b761, type: 3}
+  m_PrefabInstance: {fileID: 1227236778}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &242045658 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5807346114688814258, guid: 44cc5daa4c54df044af94e0cb3d1b761, type: 3}
+  m_PrefabInstance: {fileID: 1227236778}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242045656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &244156448
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64919,10 +64935,17 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 4645edc9aef3f0743a3ad1f56ea21c3e, type: 3}
+    - target: {fileID: 8168714799903301418, guid: 44cc5daa4c54df044af94e0cb3d1b761, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 102
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4463790513713405001, guid: 44cc5daa4c54df044af94e0cb3d1b761, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2134759397}
   m_SourcePrefab: {fileID: 100100000, guid: 44cc5daa4c54df044af94e0cb3d1b761, type: 3}
 --- !u!1001 &1232926368
 PrefabInstance:
@@ -101054,6 +101077,56 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1 &1837284522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1837284525}
+  - component: {fileID: 1837284523}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1837284523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837284522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3786f2582a811149934e76f50c9c2c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texts:
+  - Ah, the Koi fish
+  - A peculiar species to be sure
+  - like this one in particular seems very...
+  - Allergic to common sense
+  delay: 2
+--- !u!4 &1837284525
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837284522}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 512.9584, y: 48.455807, z: 961.7164}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1838598845
 GameObject:
   m_ObjectHideFlags: 0
@@ -117825,6 +117898,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
   m_PrefabInstance: {fileID: 2134592966}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2134759391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4463790513713405001, guid: 44cc5daa4c54df044af94e0cb3d1b761, type: 3}
+  m_PrefabInstance: {fileID: 1227236778}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2134759397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134759391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8616c7fddfa8044795af9285db3000e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  container: {fileID: 242045656}
+  messageText: {fileID: 242045658}
 --- !u!1 &2136204436
 GameObject:
   m_ObjectHideFlags: 0
@@ -118559,3 +118651,4 @@ SceneRoots:
   - {fileID: 1283560880}
   - {fileID: 1447165491}
   - {fileID: 1814599978}
+  - {fileID: 1837284525}
