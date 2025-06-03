@@ -108070,6 +108070,14 @@ MonoBehaviour:
   sensitivityY: 2
   minY: -30
   maxY: 60
+  minDistance: 2
+  maxDistance: 5
+  zoomSpeed: 5
+  obstructionCheckDistance: 10
+  obstructionLayers:
+    serializedVersion: 2
+    m_Bits: 6
+  targetHeightOffset: 1
 --- !u!114 &1941165572
 MonoBehaviour:
   m_ObjectHideFlags: 0
