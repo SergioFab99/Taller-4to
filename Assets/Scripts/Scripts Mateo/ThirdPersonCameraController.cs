@@ -7,10 +7,9 @@ public class ThirdPersonCameraController : MonoBehaviour
     public Vector3 offset = new Vector3(0f, 2f, -5f);
     public float sensitivityX = 3f;
     public float sensitivityY = 2f;
-    public float minY = -30f;
-    public float maxY = 89f; // ← Aumentado el ángulo hacia arriba
-    public float minDistance = 0.5f;
     public float maxDistance = 5f;
+    public float defaultDistance = 3f; // Distancia por defecto cómoda
+    public float minDistance = 0f; // Distancia mínima para acercarse
     public float zoomSpeed = 15f;
     public float obstructionCheckDistance = 10f;
     public LayerMask obstructionLayers;
@@ -26,7 +25,7 @@ public class ThirdPersonCameraController : MonoBehaviour
 
     void Start()
     {
-        currentDistance = offset.magnitude;
+        currentDistance = defaultDistance; // Usar distancia por defecto en lugar del offset.magnitude
 
         if (obstructionLayers.value == 0)
         {
@@ -53,15 +52,15 @@ public class ThirdPersonCameraController : MonoBehaviour
     {
         if (target == null) return;
 
+        // Control de rotación horizontal
         yaw += Input.GetAxis("Mouse X") * sensitivityX;
-        pitch -= Input.GetAxis("Mouse Y") * sensitivityY;
-        pitch = Mathf.Clamp(pitch, minY, maxY);
 
-        // Debug opcional para verificar el pitch
-        // Debug.Log("Pitch: " + pitch);
+        // Control de rotación vertical y ajuste de distancia
+        pitch -= Input.GetAxis("Mouse Y") * sensitivityY;
 
         Quaternion rotation = Quaternion.Euler(pitch, yaw, 0f);
 
+        // Ajuste de la distancia basado en la orientación vertical (pitch)
         AdjustCameraDistance(rotation);
 
         Vector3 lookPoint = target.position + Vector3.up * targetHeightOffset;
@@ -75,9 +74,21 @@ public class ThirdPersonCameraController : MonoBehaviour
 
     void AdjustCameraDistance(Quaternion rotation)
     {
-        float t = Mathf.InverseLerp(minY, maxY, pitch); // ← Corrección
-        float desiredDistance = Mathf.Lerp(minDistance, maxDistance, t); // ← Relación coherente
+        float desiredDistance;
 
+        // Invertir la lógica: si el pitch es mayor a 30 grados, acercarse al objetivo
+        if (pitch > 30f) // Cuando apunta hacia arriba
+        {
+            // Acercarse al objetivo mientras se mantiene la orientación
+            desiredDistance = Mathf.Min(maxDistance, currentDistance + (pitch - 30f) * 0.1f); // Acercarse con el aumento del pitch
+        }
+        else
+        {
+            // Para ángulos normales, alejarse
+            desiredDistance = Mathf.Lerp(minDistance, defaultDistance, Mathf.InverseLerp(-60f, 30f, pitch));
+        }
+
+        // Verificar obstrucciones
         Vector3 lookPoint = target.position + Vector3.up * targetHeightOffset;
         Vector3 desiredCameraPos = lookPoint + rotation * offset.normalized * desiredDistance;
 
@@ -89,18 +100,37 @@ public class ThirdPersonCameraController : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit, obstructionCheckDistance, obstructionLayers))
         {
-            float distanceToObstruction = hit.distance;
-            desiredDistance = Mathf.Min(desiredDistance, distanceToObstruction * 0.9f);
+            if (!IsPartOfTarget(hit.collider.gameObject))
+            {
+                float distanceToObstruction = hit.distance;
+                desiredDistance = Mathf.Min(desiredDistance, distanceToObstruction * 0.9f);
+            }
         }
 
         currentDistance = Mathf.Lerp(currentDistance, desiredDistance, Time.deltaTime * zoomSpeed);
+    }
+
+    bool IsPartOfTarget(GameObject obj)
+    {
+        if (target == null) return false;
+
+        // Verificar si el objeto es el target o un hijo del target
+        Transform checkTransform = obj.transform;
+        while (checkTransform != null)
+        {
+            if (checkTransform == target)
+                return true;
+            checkTransform = checkTransform.parent;
+        }
+        return false;
     }
 
     void AdjustTargetTransparency()
     {
         if (targetRenderers == null) return;
 
-        float alpha = currentDistance < transparencyThreshold ? 0f : 1f;
+        // Hacer transparente cuando la cámara está muy cerca
+        float alpha = currentDistance < transparencyThreshold ? 0.3f : 1f; // Transparencia parcial en lugar de 0
 
         foreach (Renderer renderer in targetRenderers)
         {
