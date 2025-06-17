@@ -6937,6 +6937,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fuente (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4407631430343801632, guid: 8ce68b79e266cad44b3468f3bf7a0b97, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: cee96bbe3bf48294baf4063ee372d037, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -13153,6 +13157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fuente
       objectReference: {fileID: 0}
+    - target: {fileID: 4407631430343801632, guid: 8ce68b79e266cad44b3468f3bf7a0b97, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: cee96bbe3bf48294baf4063ee372d037, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -15771,6 +15779,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4190140380807240660, guid: 2d419d38a59c57b45919fb54a16ce7a8, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f13f1177d6d83d54983f30671e3bebff, type: 2}
+    - target: {fileID: -2460369775084643788, guid: 2d419d38a59c57b45919fb54a16ce7a8, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f13f1177d6d83d54983f30671e3bebff, type: 2}
     - target: {fileID: 919132149155446097, guid: 2d419d38a59c57b45919fb54a16ce7a8, type: 3}
       propertyPath: m_Name
       value: Letrero1
@@ -20834,6 +20850,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fuente (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4407631430343801632, guid: 8ce68b79e266cad44b3468f3bf7a0b97, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: cee96bbe3bf48294baf4063ee372d037, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -31607,10 +31627,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3108253175190133444, guid: 2f0860dbe89cfb549913f1879dc1afac, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: cb34438754e71f24d92ec7b225dbd6e4, type: 2}
+    - target: {fileID: -1606292796025618955, guid: 2f0860dbe89cfb549913f1879dc1afac, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: cb34438754e71f24d92ec7b225dbd6e4, type: 2}
+    - target: {fileID: -1115819546162481599, guid: 2f0860dbe89cfb549913f1879dc1afac, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: cb34438754e71f24d92ec7b225dbd6e4, type: 2}
     - target: {fileID: 919132149155446097, guid: 2f0860dbe89cfb549913f1879dc1afac, type: 3}
       propertyPath: m_Name
       value: CajaCT (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8646943259464641520, guid: 2f0860dbe89cfb549913f1879dc1afac, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: cb34438754e71f24d92ec7b225dbd6e4, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -39144,6 +39180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fuente (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4407631430343801632, guid: 8ce68b79e266cad44b3468f3bf7a0b97, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: cee96bbe3bf48294baf4063ee372d037, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -43071,6 +43111,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4190140380807240660, guid: 2d419d38a59c57b45919fb54a16ce7a8, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f13f1177d6d83d54983f30671e3bebff, type: 2}
+    - target: {fileID: -2460369775084643788, guid: 2d419d38a59c57b45919fb54a16ce7a8, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f13f1177d6d83d54983f30671e3bebff, type: 2}
     - target: {fileID: 919132149155446097, guid: 2d419d38a59c57b45919fb54a16ce7a8, type: 3}
       propertyPath: m_Name
       value: Letrero1 (2)
@@ -72167,6 +72215,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fuente (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4407631430343801632, guid: 8ce68b79e266cad44b3468f3bf7a0b97, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: cee96bbe3bf48294baf4063ee372d037, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -95373,10 +95425,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4258142276252656123, guid: d188aa48b4b7ba344b4e3c762a0426d8, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 28363977a03e6b24bb5275dc82b59a95, type: 2}
     - target: {fileID: 919132149155446097, guid: d188aa48b4b7ba344b4e3c762a0426d8, type: 3}
       propertyPath: m_Name
       value: Letrero2
       objectReference: {fileID: 0}
+    - target: {fileID: 7837316466581531951, guid: d188aa48b4b7ba344b4e3c762a0426d8, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e03be37112d838b49842b2b5243e58d2, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -110603,6 +110663,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4190140380807240660, guid: 2d419d38a59c57b45919fb54a16ce7a8, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f13f1177d6d83d54983f30671e3bebff, type: 2}
+    - target: {fileID: -2460369775084643788, guid: 2d419d38a59c57b45919fb54a16ce7a8, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f13f1177d6d83d54983f30671e3bebff, type: 2}
     - target: {fileID: 919132149155446097, guid: 2d419d38a59c57b45919fb54a16ce7a8, type: 3}
       propertyPath: m_Name
       value: Letrero1 (1)
