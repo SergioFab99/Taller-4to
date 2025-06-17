@@ -7122,6 +7122,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BancaPiedra2 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8896565761324273884, guid: 0cc47c9c93a89274bb8bb4cb3992a3cb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cc261a85c983244eaa961d4bb891f68, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -20891,6 +20895,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 884898657214870598, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c3377d535646034b8756f52b86eb323, type: 2}
     - target: {fileID: 919132149155446097, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
       propertyPath: m_Name
       value: BancaMadera1
@@ -23499,6 +23507,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 884898657214870598, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c3377d535646034b8756f52b86eb323, type: 2}
     - target: {fileID: 919132149155446097, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
       propertyPath: m_Name
       value: BancaMadera1 (6)
@@ -34591,6 +34603,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BancaPiedra1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7906214105540147782, guid: b0810a3fafa6d0d4c9c737e7f26e9595, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 96132772c82629c449d9fc5ce17e2604, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -42812,6 +42828,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BancaPiedra1
       objectReference: {fileID: 0}
+    - target: {fileID: 7906214105540147782, guid: b0810a3fafa6d0d4c9c737e7f26e9595, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 96132772c82629c449d9fc5ce17e2604, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -44698,6 +44718,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -231.925
       objectReference: {fileID: 0}
+    - target: {fileID: 884898657214870598, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c3377d535646034b8756f52b86eb323, type: 2}
     - target: {fileID: 919132149155446097, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
       propertyPath: m_Name
       value: BancaMadera1 (9)
@@ -47086,6 +47110,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 884898657214870598, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c3377d535646034b8756f52b86eb323, type: 2}
     - target: {fileID: 919132149155446097, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
       propertyPath: m_Name
       value: BancaMadera1 (2)
@@ -47326,6 +47354,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 20.176
       objectReference: {fileID: 0}
+    - target: {fileID: 884898657214870598, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c3377d535646034b8756f52b86eb323, type: 2}
     - target: {fileID: 919132149155446097, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
       propertyPath: m_Name
       value: BancaMadera1 (8)
@@ -58574,6 +58606,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BancaPiedra2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8896565761324273884, guid: 0cc47c9c93a89274bb8bb4cb3992a3cb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cc261a85c983244eaa961d4bb891f68, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -63762,6 +63798,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 884898657214870598, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c3377d535646034b8756f52b86eb323, type: 2}
     - target: {fileID: 919132149155446097, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
       propertyPath: m_Name
       value: BancaMadera1 (3)
@@ -64424,6 +64464,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -339.516
       objectReference: {fileID: 0}
+    - target: {fileID: 884898657214870598, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c3377d535646034b8756f52b86eb323, type: 2}
     - target: {fileID: 919132149155446097, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
       propertyPath: m_Name
       value: BancaMadera1 (10)
@@ -64772,6 +64816,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 884898657214870598, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c3377d535646034b8756f52b86eb323, type: 2}
     - target: {fileID: 919132149155446097, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
       propertyPath: m_Name
       value: BancaMadera1 (5)
@@ -76357,6 +76405,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 12.333
       objectReference: {fileID: 0}
+    - target: {fileID: 884898657214870598, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c3377d535646034b8756f52b86eb323, type: 2}
     - target: {fileID: 919132149155446097, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
       propertyPath: m_Name
       value: BancaMadera1 (7)
@@ -78386,6 +78438,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BancaPiedra2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8896565761324273884, guid: 0cc47c9c93a89274bb8bb4cb3992a3cb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cc261a85c983244eaa961d4bb891f68, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -79281,6 +79337,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BancaPiedra2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8896565761324273884, guid: 0cc47c9c93a89274bb8bb4cb3992a3cb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cc261a85c983244eaa961d4bb891f68, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -100401,6 +100461,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 884898657214870598, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c3377d535646034b8756f52b86eb323, type: 2}
     - target: {fileID: 919132149155446097, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
       propertyPath: m_Name
       value: BancaMadera1 (1)
@@ -105747,6 +105811,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BancaPiedra1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7906214105540147782, guid: b0810a3fafa6d0d4c9c737e7f26e9595, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 96132772c82629c449d9fc5ce17e2604, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -114787,6 +114855,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BancaPiedra2 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8896565761324273884, guid: 0cc47c9c93a89274bb8bb4cb3992a3cb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cc261a85c983244eaa961d4bb891f68, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -118150,6 +118222,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BancaPiedra1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7906214105540147782, guid: b0810a3fafa6d0d4c9c737e7f26e9595, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 96132772c82629c449d9fc5ce17e2604, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -119717,6 +119793,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BancaPiedra2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8896565761324273884, guid: 0cc47c9c93a89274bb8bb4cb3992a3cb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cc261a85c983244eaa961d4bb891f68, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -120334,6 +120414,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 20.39
       objectReference: {fileID: 0}
+    - target: {fileID: 884898657214870598, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c3377d535646034b8756f52b86eb323, type: 2}
     - target: {fileID: 919132149155446097, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
       propertyPath: m_Name
       value: BancaMadera1 (4)
@@ -120890,6 +120974,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BancaPiedra1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7906214105540147782, guid: b0810a3fafa6d0d4c9c737e7f26e9595, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 96132772c82629c449d9fc5ce17e2604, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
