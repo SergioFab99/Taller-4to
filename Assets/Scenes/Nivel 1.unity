@@ -1861,6 +1861,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1090961438336510433, guid: 262950527565e0543a05341d77955813, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 57ffa39f4f96b3c40b48118a35756502, type: 2}
     - target: {fileID: 919132149155446097, guid: 262950527565e0543a05341d77955813, type: 3}
       propertyPath: m_Name
       value: Linterna1 (12)
@@ -2077,6 +2081,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6370804057017907674, guid: 92e33a3efa91f354a918b68a77135fec, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 628237f2b0b938144938fafd2b927aa6, type: 2}
     - target: {fileID: 919132149155446097, guid: 92e33a3efa91f354a918b68a77135fec, type: 3}
       propertyPath: m_Name
       value: LinternaPiedra (8)
@@ -4514,6 +4522,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1375326094634841844, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 705faea20f3fb9f4eb772f5993109e8a, type: 2}
     - target: {fileID: 919132149155446097, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
       propertyPath: m_Name
       value: LinternaconMarco (7)
@@ -6068,6 +6080,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CajadeArena (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7608959471548690802, guid: 644a05e26e4849046976f6f83250a7d3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a38ea6bb218d35d42910d2156a7ac2be, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -8723,6 +8739,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1090961438336510433, guid: 262950527565e0543a05341d77955813, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 57ffa39f4f96b3c40b48118a35756502, type: 2}
     - target: {fileID: 919132149155446097, guid: 262950527565e0543a05341d77955813, type: 3}
       propertyPath: m_Name
       value: Linterna1
@@ -9599,6 +9619,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 50.692
       objectReference: {fileID: 0}
+    - target: {fileID: -1375326094634841844, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 705faea20f3fb9f4eb772f5993109e8a, type: 2}
     - target: {fileID: 919132149155446097, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
       propertyPath: m_Name
       value: LinternaconMarco (10)
@@ -10324,6 +10348,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6370804057017907674, guid: 92e33a3efa91f354a918b68a77135fec, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 628237f2b0b938144938fafd2b927aa6, type: 2}
     - target: {fileID: 919132149155446097, guid: 92e33a3efa91f354a918b68a77135fec, type: 3}
       propertyPath: m_Name
       value: LinternaPiedra (1)
@@ -10525,6 +10553,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1375326094634841844, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 705faea20f3fb9f4eb772f5993109e8a, type: 2}
     - target: {fileID: 919132149155446097, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
       propertyPath: m_Name
       value: LinternaconMarco (11)
@@ -11628,6 +11660,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1375326094634841844, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 705faea20f3fb9f4eb772f5993109e8a, type: 2}
     - target: {fileID: 919132149155446097, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
       propertyPath: m_Name
       value: LinternaconMarco (9)
@@ -12974,6 +13010,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6370804057017907674, guid: 92e33a3efa91f354a918b68a77135fec, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 628237f2b0b938144938fafd2b927aa6, type: 2}
     - target: {fileID: 919132149155446097, guid: 92e33a3efa91f354a918b68a77135fec, type: 3}
       propertyPath: m_Name
       value: LinternaPiedra (5)
@@ -13600,6 +13640,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1090961438336510433, guid: 262950527565e0543a05341d77955813, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 57ffa39f4f96b3c40b48118a35756502, type: 2}
     - target: {fileID: 919132149155446097, guid: 262950527565e0543a05341d77955813, type: 3}
       propertyPath: m_Name
       value: Linterna1 (11)
@@ -16978,6 +17022,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6370804057017907674, guid: 92e33a3efa91f354a918b68a77135fec, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 628237f2b0b938144938fafd2b927aa6, type: 2}
     - target: {fileID: 919132149155446097, guid: 92e33a3efa91f354a918b68a77135fec, type: 3}
       propertyPath: m_Name
       value: LinternaPiedra (9)
@@ -20959,6 +21007,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1375326094634841844, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 705faea20f3fb9f4eb772f5993109e8a, type: 2}
     - target: {fileID: 919132149155446097, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
       propertyPath: m_Name
       value: LinternaconMarco (17)
@@ -25320,6 +25372,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CajadeArena (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7608959471548690802, guid: 644a05e26e4849046976f6f83250a7d3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a38ea6bb218d35d42910d2156a7ac2be, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -25640,6 +25696,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1090961438336510433, guid: 262950527565e0543a05341d77955813, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 57ffa39f4f96b3c40b48118a35756502, type: 2}
     - target: {fileID: 919132149155446097, guid: 262950527565e0543a05341d77955813, type: 3}
       propertyPath: m_Name
       value: Linterna1 (4)
@@ -27667,6 +27727,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.48
       objectReference: {fileID: 0}
+    - target: {fileID: -1375326094634841844, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 705faea20f3fb9f4eb772f5993109e8a, type: 2}
     - target: {fileID: 919132149155446097, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
       propertyPath: m_Name
       value: LinternaconMarco (3)
@@ -28469,6 +28533,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1090961438336510433, guid: 262950527565e0543a05341d77955813, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 57ffa39f4f96b3c40b48118a35756502, type: 2}
     - target: {fileID: 919132149155446097, guid: 262950527565e0543a05341d77955813, type: 3}
       propertyPath: m_Name
       value: Linterna1 (1)
@@ -30224,6 +30292,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6370804057017907674, guid: 92e33a3efa91f354a918b68a77135fec, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 628237f2b0b938144938fafd2b927aa6, type: 2}
     - target: {fileID: 919132149155446097, guid: 92e33a3efa91f354a918b68a77135fec, type: 3}
       propertyPath: m_Name
       value: LinternaPiedra (7)
@@ -31326,6 +31398,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1090961438336510433, guid: 262950527565e0543a05341d77955813, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 57ffa39f4f96b3c40b48118a35756502, type: 2}
     - target: {fileID: 919132149155446097, guid: 262950527565e0543a05341d77955813, type: 3}
       propertyPath: m_Name
       value: Linterna1 (7)
@@ -34829,6 +34905,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1375326094634841844, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 705faea20f3fb9f4eb772f5993109e8a, type: 2}
     - target: {fileID: 919132149155446097, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
       propertyPath: m_Name
       value: LinternaconMarco (6)
@@ -43057,6 +43137,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1375326094634841844, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 705faea20f3fb9f4eb772f5993109e8a, type: 2}
     - target: {fileID: 919132149155446097, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
       propertyPath: m_Name
       value: LinternaconMarco (16)
@@ -44517,6 +44601,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1375326094634841844, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 705faea20f3fb9f4eb772f5993109e8a, type: 2}
     - target: {fileID: 919132149155446097, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
       propertyPath: m_Name
       value: LinternaconMarco (20)
@@ -46083,6 +46171,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1090961438336510433, guid: 262950527565e0543a05341d77955813, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 57ffa39f4f96b3c40b48118a35756502, type: 2}
     - target: {fileID: 919132149155446097, guid: 262950527565e0543a05341d77955813, type: 3}
       propertyPath: m_Name
       value: Linterna1 (2)
@@ -48335,6 +48427,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6370804057017907674, guid: 92e33a3efa91f354a918b68a77135fec, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 628237f2b0b938144938fafd2b927aa6, type: 2}
     - target: {fileID: 919132149155446097, guid: 92e33a3efa91f354a918b68a77135fec, type: 3}
       propertyPath: m_Name
       value: LinternaPiedra (6)
@@ -51776,6 +51872,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1375326094634841844, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 705faea20f3fb9f4eb772f5993109e8a, type: 2}
     - target: {fileID: 919132149155446097, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
       propertyPath: m_Name
       value: LinternaconMarco (21)
@@ -55584,6 +55684,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6370804057017907674, guid: 92e33a3efa91f354a918b68a77135fec, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 628237f2b0b938144938fafd2b927aa6, type: 2}
     - target: {fileID: 919132149155446097, guid: 92e33a3efa91f354a918b68a77135fec, type: 3}
       propertyPath: m_Name
       value: LinternaPiedra (2)
@@ -56732,6 +56836,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1375326094634841844, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 705faea20f3fb9f4eb772f5993109e8a, type: 2}
     - target: {fileID: 919132149155446097, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
       propertyPath: m_Name
       value: LinternaconMarco (1)
@@ -61282,6 +61390,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1090961438336510433, guid: 262950527565e0543a05341d77955813, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 57ffa39f4f96b3c40b48118a35756502, type: 2}
     - target: {fileID: 919132149155446097, guid: 262950527565e0543a05341d77955813, type: 3}
       propertyPath: m_Name
       value: Linterna1 (6)
@@ -66173,6 +66285,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1375326094634841844, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 705faea20f3fb9f4eb772f5993109e8a, type: 2}
     - target: {fileID: 919132149155446097, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
       propertyPath: m_Name
       value: LinternaconMarco (8)
@@ -67276,6 +67392,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1375326094634841844, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 705faea20f3fb9f4eb772f5993109e8a, type: 2}
     - target: {fileID: 919132149155446097, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
       propertyPath: m_Name
       value: LinternaconMarco (12)
@@ -68105,6 +68225,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1090961438336510433, guid: 262950527565e0543a05341d77955813, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 57ffa39f4f96b3c40b48118a35756502, type: 2}
     - target: {fileID: 919132149155446097, guid: 262950527565e0543a05341d77955813, type: 3}
       propertyPath: m_Name
       value: Linterna1 (8)
@@ -69133,6 +69257,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1090961438336510433, guid: 262950527565e0543a05341d77955813, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 57ffa39f4f96b3c40b48118a35756502, type: 2}
     - target: {fileID: 919132149155446097, guid: 262950527565e0543a05341d77955813, type: 3}
       propertyPath: m_Name
       value: Linterna1 (9)
@@ -71383,6 +71511,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1375326094634841844, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 705faea20f3fb9f4eb772f5993109e8a, type: 2}
     - target: {fileID: 919132149155446097, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
       propertyPath: m_Name
       value: LinternaconMarco (19)
@@ -78872,6 +79004,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1375326094634841844, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 705faea20f3fb9f4eb772f5993109e8a, type: 2}
     - target: {fileID: 919132149155446097, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
       propertyPath: m_Name
       value: LinternaconMarco (13)
@@ -79003,6 +79139,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1090961438336510433, guid: 262950527565e0543a05341d77955813, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 57ffa39f4f96b3c40b48118a35756502, type: 2}
     - target: {fileID: 919132149155446097, guid: 262950527565e0543a05341d77955813, type: 3}
       propertyPath: m_Name
       value: Linterna1 (10)
@@ -79616,6 +79756,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1375326094634841844, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 705faea20f3fb9f4eb772f5993109e8a, type: 2}
     - target: {fileID: 919132149155446097, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
       propertyPath: m_Name
       value: LinternaconMarco (14)
@@ -81603,6 +81747,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6370804057017907674, guid: 92e33a3efa91f354a918b68a77135fec, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 628237f2b0b938144938fafd2b927aa6, type: 2}
     - target: {fileID: 919132149155446097, guid: 92e33a3efa91f354a918b68a77135fec, type: 3}
       propertyPath: m_Name
       value: LinternaPiedra (3)
@@ -83906,6 +84054,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1375326094634841844, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 705faea20f3fb9f4eb772f5993109e8a, type: 2}
     - target: {fileID: 919132149155446097, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
       propertyPath: m_Name
       value: LinternaconMarco (18)
@@ -84657,6 +84809,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CajadeArena (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7608959471548690802, guid: 644a05e26e4849046976f6f83250a7d3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a38ea6bb218d35d42910d2156a7ac2be, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -89171,6 +89327,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6370804057017907674, guid: 92e33a3efa91f354a918b68a77135fec, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 628237f2b0b938144938fafd2b927aa6, type: 2}
     - target: {fileID: 919132149155446097, guid: 92e33a3efa91f354a918b68a77135fec, type: 3}
       propertyPath: m_Name
       value: LinternaPiedra (10)
@@ -90781,6 +90941,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1375326094634841844, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 705faea20f3fb9f4eb772f5993109e8a, type: 2}
     - target: {fileID: 919132149155446097, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
       propertyPath: m_Name
       value: LinternaconMarco
@@ -91193,6 +91357,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LinternaDecorativa (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4230448275547799344, guid: 6efb9bae5c0e2f74ebabef3e5a8bf526, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2f383a2947ca9cf458d307ba2e43d57d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -93577,6 +93745,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1090961438336510433, guid: 262950527565e0543a05341d77955813, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 57ffa39f4f96b3c40b48118a35756502, type: 2}
     - target: {fileID: 919132149155446097, guid: 262950527565e0543a05341d77955813, type: 3}
       propertyPath: m_Name
       value: Linterna1 (3)
@@ -96109,10 +96281,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.48
       objectReference: {fileID: 0}
+    - target: {fileID: -1375326094634841844, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 705faea20f3fb9f4eb772f5993109e8a, type: 2}
     - target: {fileID: 919132149155446097, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
       propertyPath: m_Name
       value: LinternaconMarco (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8650323662702365586, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 705faea20f3fb9f4eb772f5993109e8a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -96789,6 +96969,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LinternaDecorativa (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4230448275547799344, guid: 6efb9bae5c0e2f74ebabef3e5a8bf526, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2f383a2947ca9cf458d307ba2e43d57d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -96862,6 +97046,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6370804057017907674, guid: 92e33a3efa91f354a918b68a77135fec, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 628237f2b0b938144938fafd2b927aa6, type: 2}
     - target: {fileID: 919132149155446097, guid: 92e33a3efa91f354a918b68a77135fec, type: 3}
       propertyPath: m_Name
       value: LinternaPiedra (4)
@@ -99874,6 +100062,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1090961438336510433, guid: 262950527565e0543a05341d77955813, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 57ffa39f4f96b3c40b48118a35756502, type: 2}
     - target: {fileID: 919132149155446097, guid: 262950527565e0543a05341d77955813, type: 3}
       propertyPath: m_Name
       value: Linterna1 (5)
@@ -100919,6 +101111,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1375326094634841844, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 705faea20f3fb9f4eb772f5993109e8a, type: 2}
     - target: {fileID: 919132149155446097, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
       propertyPath: m_Name
       value: LinternaconMarco (15)
@@ -105906,6 +106102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LinternaDecorativa
       objectReference: {fileID: 0}
+    - target: {fileID: 4230448275547799344, guid: 6efb9bae5c0e2f74ebabef3e5a8bf526, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2f383a2947ca9cf458d307ba2e43d57d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -107423,6 +107623,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LinternaDecorativa (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4230448275547799344, guid: 6efb9bae5c0e2f74ebabef3e5a8bf526, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2f383a2947ca9cf458d307ba2e43d57d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -108881,6 +109085,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1375326094634841844, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 705faea20f3fb9f4eb772f5993109e8a, type: 2}
     - target: {fileID: 919132149155446097, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
       propertyPath: m_Name
       value: LinternaconMarco (5)
@@ -116490,6 +116698,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -35.914
       objectReference: {fileID: 0}
+    - target: {fileID: -1375326094634841844, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 705faea20f3fb9f4eb772f5993109e8a, type: 2}
     - target: {fileID: 919132149155446097, guid: 89acce18cde78a34a9985fa7911f91a1, type: 3}
       propertyPath: m_Name
       value: LinternaconMarco (4)
@@ -123812,6 +124024,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CajadeArena (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7608959471548690802, guid: 644a05e26e4849046976f6f83250a7d3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a38ea6bb218d35d42910d2156a7ac2be, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
