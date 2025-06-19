@@ -592,6 +592,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.419
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (28)
@@ -1036,6 +1040,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (13)
@@ -3031,6 +3039,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (47)
@@ -3160,6 +3172,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (34)
@@ -5083,6 +5099,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (1)
@@ -6193,6 +6213,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (40)
@@ -6489,6 +6513,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (10)
@@ -9020,6 +9048,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (18)
@@ -10028,6 +10060,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1319822956568995197, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4dd6d9d8d55e054898744efa53ac3f0, type: 2}
     - target: {fileID: 919132149155446097, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
       propertyPath: m_Name
       value: Vasija (19)
@@ -10244,6 +10280,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1319822956568995197, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4dd6d9d8d55e054898744efa53ac3f0, type: 2}
     - target: {fileID: 919132149155446097, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
       propertyPath: m_Name
       value: Vasija (3)
@@ -10482,6 +10522,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (23)
@@ -11013,6 +11057,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (3)
@@ -11295,6 +11343,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (42)
@@ -12278,6 +12330,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (51)
@@ -12439,6 +12495,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.234
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (15)
@@ -12546,6 +12606,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (50)
@@ -13377,6 +13441,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (21)
@@ -13973,6 +14041,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1319822956568995197, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4dd6d9d8d55e054898744efa53ac3f0, type: 2}
     - target: {fileID: 919132149155446097, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
       propertyPath: m_Name
       value: Vasija (18)
@@ -14081,6 +14153,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (36)
@@ -14837,6 +14913,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (5)
@@ -15030,6 +15110,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (2)
@@ -15516,6 +15600,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (52)
@@ -16145,6 +16233,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (7)
@@ -16739,6 +16831,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (51)
@@ -16846,6 +16942,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (13)
@@ -17350,6 +17450,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (17)
@@ -17645,6 +17749,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (45)
@@ -17846,6 +17954,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (14)
@@ -19303,6 +19415,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (33)
@@ -19637,6 +19753,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1153954865}
     m_Modifications:
+    - target: {fileID: -8722137051441059699, guid: 7c4b0dd52dd640846bb67c18df4576b2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 89c4025e7e513a24c821aebd28051c0b, type: 2}
     - target: {fileID: -8679921383154817045, guid: 7c4b0dd52dd640846bb67c18df4576b2, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.859316
@@ -19766,6 +19886,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.419
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (4)
@@ -22131,6 +22255,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (27)
@@ -22401,6 +22529,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (29)
@@ -22975,6 +23107,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3260392959181300416, guid: f3fa885700693ed41b5643f5a7386877, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: be30c3183db950048a678b3df24229f3, type: 2}
     - target: {fileID: 919132149155446097, guid: f3fa885700693ed41b5643f5a7386877, type: 3}
       propertyPath: m_Name
       value: Plataforma 1 Nuevo (4)
@@ -23774,6 +23910,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (32)
@@ -23960,6 +24100,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (12)
@@ -24212,6 +24356,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (46)
@@ -24319,6 +24467,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (49)
@@ -24342,6 +24494,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1153954865}
     m_Modifications:
+    - target: {fileID: -8722137051441059699, guid: 7c4b0dd52dd640846bb67c18df4576b2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 89c4025e7e513a24c821aebd28051c0b, type: 2}
     - target: {fileID: -8679921383154817045, guid: 7c4b0dd52dd640846bb67c18df4576b2, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.78895
@@ -24471,6 +24627,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.234
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (6)
@@ -26163,6 +26323,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (16)
@@ -26895,6 +27059,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (14)
@@ -27056,6 +27224,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (2)
@@ -27316,6 +27488,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.419
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (55)
@@ -28787,6 +28963,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (12)
@@ -28894,6 +29074,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (48)
@@ -29299,6 +29483,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (45)
@@ -29758,6 +29946,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (19)
@@ -30917,6 +31109,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (14)
@@ -33116,6 +33312,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (34)
@@ -34533,6 +34733,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.419
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (55)
@@ -35362,6 +35566,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3260392959181300416, guid: f3fa885700693ed41b5643f5a7386877, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: be30c3183db950048a678b3df24229f3, type: 2}
     - target: {fileID: 919132149155446097, guid: f3fa885700693ed41b5643f5a7386877, type: 3}
       propertyPath: m_Name
       value: Plataforma 1 Nuevo (3)
@@ -35840,6 +36048,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.234
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (15)
@@ -36605,6 +36817,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.419
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (22)
@@ -37201,6 +37417,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (5)
@@ -37470,6 +37690,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1319822956568995197, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4dd6d9d8d55e054898744efa53ac3f0, type: 2}
     - target: {fileID: 919132149155446097, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
       propertyPath: m_Name
       value: Vasija
@@ -40273,6 +40497,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.419
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (56)
@@ -40632,6 +40860,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (21)
@@ -41129,6 +41361,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (50)
@@ -42232,6 +42468,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (33)
@@ -42339,6 +42579,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (26)
@@ -42713,6 +42957,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.419
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (55)
@@ -42953,6 +43201,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (9)
@@ -43421,6 +43673,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (26)
@@ -43496,6 +43752,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.419
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (4)
@@ -43864,6 +44124,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 9.108002
       objectReference: {fileID: 0}
+    - target: {fileID: -1319822956568995197, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4dd6d9d8d55e054898744efa53ac3f0, type: 2}
     - target: {fileID: 919132149155446097, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
       propertyPath: m_Name
       value: Vasija (16)
@@ -44100,6 +44364,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.234
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (39)
@@ -44886,6 +45154,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (42)
@@ -45309,6 +45581,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (10)
@@ -45791,6 +46067,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (43)
@@ -47866,6 +48146,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3260392959181300416, guid: f3fa885700693ed41b5643f5a7386877, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: be30c3183db950048a678b3df24229f3, type: 2}
     - target: {fileID: 919132149155446097, guid: f3fa885700693ed41b5643f5a7386877, type: 3}
       propertyPath: m_Name
       value: Plataforma 1 Nuevo
@@ -48956,6 +49240,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.234
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (38)
@@ -49488,6 +49776,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.234
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (15)
@@ -49782,6 +50074,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (7)
@@ -50632,6 +50928,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.234
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (39)
@@ -51299,6 +51599,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (23)
@@ -52248,6 +52552,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (24)
@@ -52590,6 +52898,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (17)
@@ -53395,6 +53707,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (20)
@@ -53660,6 +53976,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.234
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (37)
@@ -54175,6 +54495,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.234
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (39)
@@ -54544,6 +54868,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (27)
@@ -54651,6 +54979,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.419
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (54)
@@ -55426,6 +55758,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (7)
@@ -55919,6 +56255,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (29)
@@ -56229,6 +56569,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (48)
@@ -56336,6 +56680,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (1)
@@ -57031,6 +57379,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.234
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (25)
@@ -57341,6 +57693,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (35)
@@ -57416,6 +57772,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (30)
@@ -57523,6 +57883,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (46)
@@ -57827,6 +58191,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (30)
@@ -58239,6 +58607,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (51)
@@ -58314,6 +58686,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (24)
@@ -58421,6 +58797,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (44)
@@ -58875,6 +59255,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.234
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (25)
@@ -58982,6 +59366,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (5)
@@ -59807,6 +60195,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.234
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (15)
@@ -59963,6 +60355,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (24)
@@ -60151,6 +60547,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.234
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (37)
@@ -60226,6 +60626,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1319822956568995197, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4dd6d9d8d55e054898744efa53ac3f0, type: 2}
     - target: {fileID: 919132149155446097, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
       propertyPath: m_Name
       value: Vasija (4)
@@ -60464,6 +60868,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1319822956568995197, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4dd6d9d8d55e054898744efa53ac3f0, type: 2}
     - target: {fileID: 919132149155446097, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
       propertyPath: m_Name
       value: Vasija (5)
@@ -61097,6 +61505,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1319822956568995197, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4dd6d9d8d55e054898744efa53ac3f0, type: 2}
     - target: {fileID: 919132149155446097, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
       propertyPath: m_Name
       value: Vasija (9)
@@ -61534,6 +61946,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1319822956568995197, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4dd6d9d8d55e054898744efa53ac3f0, type: 2}
     - target: {fileID: 919132149155446097, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
       propertyPath: m_Name
       value: Vasija (2)
@@ -61912,6 +62328,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (47)
@@ -63547,6 +63967,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (9)
@@ -63654,6 +64078,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.419
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (54)
@@ -63815,6 +64243,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (33)
@@ -63944,6 +64376,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (10)
@@ -64330,6 +64766,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (17)
@@ -65059,6 +65499,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (46)
@@ -65848,6 +66292,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (36)
@@ -66246,6 +66694,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (19)
@@ -66525,6 +66977,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (11)
@@ -67159,6 +67615,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (44)
@@ -67568,6 +68028,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1153954865}
     m_Modifications:
+    - target: {fileID: -8722137051441059699, guid: 7c4b0dd52dd640846bb67c18df4576b2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 89c4025e7e513a24c821aebd28051c0b, type: 2}
     - target: {fileID: -8679921383154817045, guid: 7c4b0dd52dd640846bb67c18df4576b2, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.859316
@@ -67751,6 +68215,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (27)
@@ -68104,6 +68572,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (30)
@@ -68377,6 +68849,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (29)
@@ -69676,6 +70152,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (35)
@@ -69902,6 +70382,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.419
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (54)
@@ -70311,6 +70795,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.234
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (25)
@@ -70978,6 +71466,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (52)
@@ -72377,6 +72869,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (50)
@@ -73292,6 +73788,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.419
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (56)
@@ -73564,6 +74064,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (53)
@@ -74220,6 +74724,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.234
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (6)
@@ -75055,6 +75563,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.234
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (37)
@@ -76052,6 +76564,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (19)
@@ -76260,6 +76776,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1319822956568995197, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4dd6d9d8d55e054898744efa53ac3f0, type: 2}
     - target: {fileID: 919132149155446097, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
       propertyPath: m_Name
       value: Vasija (12)
@@ -77704,6 +78224,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (18)
@@ -78582,6 +79106,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1319822956568995197, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4dd6d9d8d55e054898744efa53ac3f0, type: 2}
     - target: {fileID: 919132149155446097, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
       propertyPath: m_Name
       value: Vasija (17)
@@ -78833,6 +79361,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (23)
@@ -81019,6 +81551,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3260392959181300416, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 89c4025e7e513a24c821aebd28051c0b, type: 2}
     - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
       propertyPath: m_Name
       value: Plataforma3 (10)
@@ -81096,6 +81632,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.419
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (56)
@@ -81432,6 +81972,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (41)
@@ -81507,6 +82051,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -2.878
       objectReference: {fileID: 0}
+    - target: {fileID: -1319822956568995197, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4dd6d9d8d55e054898744efa53ac3f0, type: 2}
     - target: {fileID: 919132149155446097, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
       propertyPath: m_Name
       value: Vasija (7)
@@ -82430,6 +82978,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (3)
@@ -82735,6 +83287,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (41)
@@ -82869,6 +83425,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (3)
@@ -83468,6 +84028,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.419
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (28)
@@ -83895,6 +84459,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (40)
@@ -84567,6 +85135,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (31)
@@ -85669,6 +86241,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3260392959181300416, guid: f3fa885700693ed41b5643f5a7386877, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: be30c3183db950048a678b3df24229f3, type: 2}
     - target: {fileID: 919132149155446097, guid: f3fa885700693ed41b5643f5a7386877, type: 3}
       propertyPath: m_Name
       value: Plataforma 1 Nuevo (1)
@@ -85908,6 +86484,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (43)
@@ -87511,6 +88091,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1319822956568995197, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4dd6d9d8d55e054898744efa53ac3f0, type: 2}
     - target: {fileID: 919132149155446097, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
       propertyPath: m_Name
       value: Vasija (14)
@@ -88567,6 +89151,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (20)
@@ -88674,6 +89262,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 12.183
       objectReference: {fileID: 0}
+    - target: {fileID: -1319822956568995197, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4dd6d9d8d55e054898744efa53ac3f0, type: 2}
     - target: {fileID: 919132149155446097, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
       propertyPath: m_Name
       value: Vasija (6)
@@ -90171,6 +90763,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (18)
@@ -90332,6 +90928,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 9.108002
       objectReference: {fileID: 0}
+    - target: {fileID: -1319822956568995197, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4dd6d9d8d55e054898744efa53ac3f0, type: 2}
     - target: {fileID: 919132149155446097, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
       propertyPath: m_Name
       value: Vasija (21)
@@ -91286,6 +91886,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3260392959181300416, guid: f3fa885700693ed41b5643f5a7386877, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: be30c3183db950048a678b3df24229f3, type: 2}
     - target: {fileID: 919132149155446097, guid: f3fa885700693ed41b5643f5a7386877, type: 3}
       propertyPath: m_Name
       value: Plataforma 1 Nuevo (2)
@@ -91862,6 +92466,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1319822956568995197, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4dd6d9d8d55e054898744efa53ac3f0, type: 2}
     - target: {fileID: 919132149155446097, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
       propertyPath: m_Name
       value: Vasija (15)
@@ -92272,6 +92880,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.419
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (4)
@@ -92753,6 +93365,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (34)
@@ -92828,6 +93444,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.419
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (22)
@@ -93066,6 +93686,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (53)
@@ -93227,6 +93851,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.419
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (28)
@@ -93420,6 +94048,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.419
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (22)
@@ -94389,6 +95021,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (42)
@@ -94582,6 +95218,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (32)
@@ -95301,6 +95941,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (47)
@@ -97663,6 +98307,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (32)
@@ -98665,6 +99313,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.234
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (6)
@@ -98849,6 +99501,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1319822956568995197, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4dd6d9d8d55e054898744efa53ac3f0, type: 2}
     - target: {fileID: 919132149155446097, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
       propertyPath: m_Name
       value: Vasija (20)
@@ -99212,6 +99868,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (20)
@@ -99781,6 +100441,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (11)
@@ -100311,6 +100975,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1319822956568995197, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4dd6d9d8d55e054898744efa53ac3f0, type: 2}
     - target: {fileID: 919132149155446097, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
       propertyPath: m_Name
       value: Vasija (8)
@@ -102008,6 +102676,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1319822956568995197, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4dd6d9d8d55e054898744efa53ac3f0, type: 2}
     - target: {fileID: 919132149155446097, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
       propertyPath: m_Name
       value: Vasija (1)
@@ -104130,6 +104802,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (35)
@@ -104237,6 +104913,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (8)
@@ -104683,6 +105363,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (41)
@@ -105482,6 +106166,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (49)
@@ -105589,6 +106277,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 9.108002
       objectReference: {fileID: 0}
+    - target: {fileID: -1319822956568995197, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4dd6d9d8d55e054898744efa53ac3f0, type: 2}
     - target: {fileID: 919132149155446097, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
       propertyPath: m_Name
       value: Vasija (10)
@@ -105895,6 +106587,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (11)
@@ -107012,6 +107708,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (13)
@@ -107178,6 +107878,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (36)
@@ -107396,6 +108100,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (43)
@@ -107525,6 +108233,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (45)
@@ -107772,6 +108484,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (52)
@@ -108340,6 +109056,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (1)
@@ -108469,6 +109189,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (12)
@@ -108576,6 +109300,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (9)
@@ -108867,6 +109595,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (31)
@@ -108974,6 +109706,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (8)
@@ -109395,6 +110131,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (21)
@@ -109524,6 +110264,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (40)
@@ -110314,6 +111058,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (53)
@@ -110389,6 +111137,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3260392959181300416, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: be30c3183db950048a678b3df24229f3, type: 2}
     - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
       propertyPath: m_Name
       value: Plataforma3 (27)
@@ -111264,6 +112016,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.234
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (38)
@@ -112935,6 +113691,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (16)
@@ -113560,6 +114320,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.233
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (16)
@@ -114227,6 +114991,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 9.108994
       objectReference: {fileID: 0}
+    - target: {fileID: -1319822956568995197, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4dd6d9d8d55e054898744efa53ac3f0, type: 2}
     - target: {fileID: 919132149155446097, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
       propertyPath: m_Name
       value: Vasija (13)
@@ -114537,6 +115305,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (49)
@@ -118662,6 +119434,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (26)
@@ -118769,6 +119545,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3260392959181300416, guid: f3fa885700693ed41b5643f5a7386877, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: be30c3183db950048a678b3df24229f3, type: 2}
     - target: {fileID: 919132149155446097, guid: f3fa885700693ed41b5643f5a7386877, type: 3}
       propertyPath: m_Name
       value: Plataforma 1 Nuevo (5)
@@ -119862,6 +120642,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (48)
@@ -119969,6 +120753,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (2)
@@ -121084,6 +121872,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1319822956568995197, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4dd6d9d8d55e054898744efa53ac3f0, type: 2}
     - target: {fileID: 919132149155446097, guid: c75edcc71bda1434abfa17c391faf478, type: 3}
       propertyPath: m_Name
       value: Vasija (11)
@@ -122273,6 +123065,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (44)
@@ -122651,6 +123447,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (31)
@@ -123537,6 +124337,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (8)
@@ -123929,6 +124733,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.234
       objectReference: {fileID: 0}
+    - target: {fileID: -749411442727442906, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5f56da720e7cf440a33b9cd85f87c52, type: 2}
     - target: {fileID: 919132149155446097, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
       propertyPath: m_Name
       value: Bambu2 (38)
