@@ -1,20 +1,18 @@
 using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
-using System.Collections.Generic;
-using System.Collections;
 using UnityEngine.SceneManagement;
-using System;
 
 public class MenuSystem : MonoBehaviour
 {
+    [SerializeField] private string nombreEscenaJuego = "Nivel 1"; // Cambia esto por el nombre real de tu escena
+
     public void Jugar()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(nombreEscenaJuego);
     }
+
     public void Salir()
     {
-        Console.WriteLine("Saliendo del juego...");
+        Debug.Log("Saliendo del juego...");
         Application.Quit();
     }
 }

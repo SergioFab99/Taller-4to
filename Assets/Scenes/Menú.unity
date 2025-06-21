@@ -213,6 +213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f0a1de7cec2dd248aa1428f3dc984ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nombreEscenaJuego: Tutorial
 --- !u!328 &1586262
 VideoPlayer:
   m_ObjectHideFlags: 0
