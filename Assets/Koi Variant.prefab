@@ -163,7 +163,7 @@ PrefabInstance:
       addedObject: {fileID: 7911516893549134849}
     - targetCorrespondingSourceObject: {fileID: 3408294681061788871, guid: 0481337676de41745bfcc95a304256d8, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2237491131456964307}
+      addedObject: {fileID: 2466567310505431436}
   m_SourcePrefab: {fileID: 100100000, guid: 0481337676de41745bfcc95a304256d8, type: 3}
 --- !u!4 &1295124858140679618 stripped
 Transform:
@@ -319,8 +319,8 @@ MonoBehaviour:
   maxJumpForce: 70
   chargeTime: 2
   cameraTransform: {fileID: 0}
---- !u!65 &2237491131456964307
-BoxCollider:
+--- !u!135 &2466567310505431436
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -338,5 +338,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.85821706, y: 0.9999999, z: 2.7823827}
-  m_Center: {x: -0.023872018, y: 0, z: 0.124981105}
+  m_Radius: 0.3886944
+  m_Center: {x: -0.11594328, y: 0.07265812, z: 1.2870327e-16}
