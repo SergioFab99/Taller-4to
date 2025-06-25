@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: "Assets/Scenes/Men\xFA.unity"
     guid: 48fbcf7f670d98c479359c1494654bea
   - enabled: 1
-    path: Assets/Scenes/Registro de usuario.unity
+    path: Assets/Scripts/Registro/Registro de usuario.unity
     guid: fc93f4efa9de32943840ab1393a5ac55
   - enabled: 1
     path: Assets/Scenes/Tutorial.unity
