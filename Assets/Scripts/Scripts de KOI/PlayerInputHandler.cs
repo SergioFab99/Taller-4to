@@ -1,4 +1,3 @@
-// System.Collections, etc. van aquí
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -52,10 +51,19 @@ public class PlayerInputHandler : MonoBehaviour
         // Mantener la carga
         if (isCharging && Input.GetMouseButton(0))
         {
-            holdTime += Time.deltaTime * 2f;
+            holdTime += Time.deltaTime;
+            
+            // Calcular el porcentaje ANTES de hacer el clamp
+            float chargePercentage = Mathf.Clamp01(holdTime / chargeTime);
+            
+            // Ahora sí aplicamos el clamp al holdTime
             holdTime = Mathf.Clamp(holdTime, 0f, chargeTime);
-            float chargePercentage = holdTime / chargeTime;
+            
+            // Enviar el feedback con el porcentaje correcto
             feedbackManager.UpdateChargeFeedback(chargePercentage);
+            
+            // Debug para verificar los valores
+            Debug.Log($"HoldTime: {holdTime:F2}, ChargeTime: {chargeTime:F2}, Percentage: {chargePercentage:F2}");
         }
 
         // Soltar y saltar

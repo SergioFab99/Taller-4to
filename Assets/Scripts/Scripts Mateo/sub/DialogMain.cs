@@ -6,9 +6,17 @@ public class DialogMain : MonoBehaviour
 {
     [SerializeField] protected List<string> texts;
     [SerializeField] protected float delay;
+    
     protected void Execute()
     {
-        TextManager.Instance.SetUp(texts, delay);
+        // Verificar si TextManager existe y está inicializado
+        if (TextManager.Instance != null)
+        {
+            TextManager.Instance.SetUp(texts, delay);
+        }
+        else
+        {
+            Debug.LogWarning("TextManager.Instance no encontrado. Asegúrate de que TextManager esté en la escena.");
+        }
     }
-
 }
