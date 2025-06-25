@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 public class bar : MonoBehaviour
 {
     public Image oxygenImage;
-    public GameObject cat;
     public float maxOxygen = 100f;
     public float drainRate = 5f; 
 
@@ -15,7 +14,6 @@ public class bar : MonoBehaviour
     {
         currentOxygen = maxOxygen;
         UpdateBar();
-        cat.SetActive(false);
     }
 
     void Update()
@@ -26,9 +24,8 @@ public class bar : MonoBehaviour
 
         if(currentOxygen <= 0)
         {
-            cat.SetActive(true);
+            SceneManager.LoadScene("GameOver");
         }
-
     }
 
     public void RefillOxygen(float amount)
