@@ -420,6 +420,10 @@ PrefabInstance:
       value: Koi Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7911516893549134849, guid: e7c78f3db82c8164eb94de4666fdc711, type: 3}
+      propertyPath: chargeTime
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7911516893549134849, guid: e7c78f3db82c8164eb94de4666fdc711, type: 3}
       propertyPath: cameraTransform
       value: 
       objectReference: {fileID: 289002673}
