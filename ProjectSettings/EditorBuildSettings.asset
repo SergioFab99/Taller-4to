@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scripts/Registro/Registro de usuario.unity
     guid: fc93f4efa9de32943840ab1393a5ac55
   - enabled: 1
-    path: Assets/Scenes/Tutorial.unity
-    guid: 02a5ce3b926ec5f41846896df57c6728
-  - enabled: 1
     path: Assets/Scenes/Tutorial Definitivo.unity
     guid: 339319ccb5551d849a00e782c4329fe7
   - enabled: 1

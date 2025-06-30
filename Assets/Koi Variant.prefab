@@ -84,27 +84,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7975759075894055126, guid: 0481337676de41745bfcc95a304256d8, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2298
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7975759075894055126, guid: 0481337676de41745bfcc95a304256d8, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.2298
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7975759075894055126, guid: 0481337676de41745bfcc95a304256d8, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.2298
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7975759075894055126, guid: 0481337676de41745bfcc95a304256d8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 513.2
+      value: 3.735
       objectReference: {fileID: 0}
     - target: {fileID: 7975759075894055126, guid: 0481337676de41745bfcc95a304256d8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 33.63
+      value: 0.997
       objectReference: {fileID: 0}
     - target: {fileID: 7975759075894055126, guid: 0481337676de41745bfcc95a304256d8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1024.24
+      value: -0.313
       objectReference: {fileID: 0}
     - target: {fileID: 7975759075894055126, guid: 0481337676de41745bfcc95a304256d8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -315,9 +315,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f29bddfa67610c43a27867814d42a95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minJumpForce: 10
+  minJumpForce: 5
   maxJumpForce: 70
-  chargeTime: 2
+  chargeTime: 1
   cameraTransform: {fileID: 0}
 --- !u!135 &2466567310505431436
 SphereCollider:
@@ -326,7 +326,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4689874503050187101}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 0c3dd7103c190e4418f89005f3bdc245, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
