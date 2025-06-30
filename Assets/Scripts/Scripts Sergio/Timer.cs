@@ -1,8 +1,11 @@
 using UnityEngine;
-using TMPro;  // Necesario para TextMeshPro
+using TMPro;
+using UnityEngine.UIElements;  // Necesario para TextMeshPro
 
 public class Timer : MonoBehaviour
 {
+    public static float Timevalue;
+
     // Referencia al TextMeshPro para mostrar el tiempo
     public TMP_Text timerText;
 
@@ -47,9 +50,10 @@ public class Timer : MonoBehaviour
         if (isTiming)
         {
             // Aumenta el tiempo por el tiempo transcurrido desde el último frame
-            timeElapsed += Time.deltaTime;  
+            timeElapsed += Time.deltaTime;
             // Muestra el tiempo con 2 decimales
-            timerText.text = timeElapsed.ToString("F2");  
+            timerText.text = timeElapsed.ToString("F2");
         }
+        Timevalue = timeElapsed;  // Actualiza la variable estática Timevalue
     }
 }

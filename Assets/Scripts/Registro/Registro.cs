@@ -18,6 +18,7 @@ public class Registro : MonoBehaviour
         string lastname = inputLastname.text;
         string email = inputEmail.text;
         string password = inputPassword.text;
+        string time = Timer.Timevalue.ToString("F2"); // Obtener el tiempo del temporizador
 
         // URL de tu archivo PHP en el servidor local
         string url = "http://localhost/Koi/RegistroUsuario.php";
@@ -28,6 +29,7 @@ public class Registro : MonoBehaviour
         form.AddField("lastname", lastname);
         form.AddField("email", email);
         form.AddField("password", password);
+        form.AddField("time", time);
 
         // Iniciar la solicitud POST
         StartCoroutine(EnviarSolicitud(url, form));
