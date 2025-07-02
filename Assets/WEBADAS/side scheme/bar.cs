@@ -24,7 +24,7 @@ public class bar : MonoBehaviour
 
         if(currentOxygen <= 0)
         {
-            SceneManager.LoadScene("GameOver");
+            SceneManager.LoadScene("ShowTime");
         }
     }
 

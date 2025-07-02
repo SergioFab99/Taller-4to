@@ -5,8 +5,6 @@ using UnityEngine.UIElements;  // Necesario para TextMeshPro
 public class Timer : MonoBehaviour
 {
     public static float Timevalue;
-
-    // Referencia al TextMeshPro para mostrar el tiempo
     public TMP_Text timerText;
 
     // Variables del temporizador
@@ -40,7 +38,7 @@ public class Timer : MonoBehaviour
     {
         // Resetea el tiempo
         timeElapsed = 0f;  
-         // Muestra el tiempo reseteado
+        // Muestra el tiempo reseteado
         timerText.text = "0.00"; 
     }
 
