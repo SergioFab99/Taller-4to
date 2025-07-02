@@ -111384,7 +111384,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minJumpForce: 5
-  maxJumpForce: 75
+  maxJumpForce: 70
   chargeTime: 1
   cameraTransform: {fileID: 1941165569}
 --- !u!114 &1613037169
