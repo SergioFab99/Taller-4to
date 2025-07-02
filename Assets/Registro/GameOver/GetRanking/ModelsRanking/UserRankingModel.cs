@@ -1,9 +1,9 @@
 using System;
 
 [Serializable]
-public class UserScoreModel
+public class UserRankingModel
 {
-    public string NAME;
+    public string NOMBRE_USUARIO;
     public string NOMBRE_NIVEL;
     public float TIEMPO_SEGUNDOS;
 }

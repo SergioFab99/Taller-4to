@@ -11,9 +11,10 @@ public class GetScoreView : MonoBehaviour
 
     private void Awake()
     {
-        newScoreText.text = $"New Score: {GameData.score}";
+        newScoreText.text = $"New Score: {GameData.tiempo}";
         playerNameText.text = $"Player Name: {GameData.username}";
         oldScoreText.text = $"Old Score: Loading...";
+        controller = GetComponent<GetScoreController>();
     }
 
     private void Start()
@@ -29,7 +30,7 @@ public class GetScoreView : MonoBehaviour
         }
         else
         {
-            Debug.Log("Error");
+            oldScoreText.text = $"Doesn't exist score";
         }
     }
 }
