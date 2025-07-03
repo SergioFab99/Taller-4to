@@ -5920,7 +5920,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5692759481854339288, guid: 0481337676de41745bfcc95a304256d8, type: 3}
       propertyPath: delay
-      value: 5
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5692759481854339288, guid: 0481337676de41745bfcc95a304256d8, type: 3}
       propertyPath: minFallThreshold
@@ -6054,6 +6054,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3408294681061788871, guid: 0481337676de41745bfcc95a304256d8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1613037182}
+    - targetCorrespondingSourceObject: {fileID: 3408294681061788871, guid: 0481337676de41745bfcc95a304256d8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1613037183}
   m_SourcePrefab: {fileID: 100100000, guid: 0481337676de41745bfcc95a304256d8, type: 3}
 --- !u!4 &84608764 stripped
 Transform:
@@ -58566,6 +58569,8 @@ GameObject:
   - component: {fileID: 850239071}
   - component: {fileID: 850239070}
   - component: {fileID: 850239068}
+  - component: {fileID: 850239073}
+  - component: {fileID: 850239072}
   m_Layer: 0
   m_Name: Narrator
   m_TagString: Untagged
@@ -58589,7 +58594,7 @@ MonoBehaviour:
   - "There is a legend of a powerful magic, resting on top of a mountain, said to
     be able to grant any wish. Ridiculous, isn\u2019t it? But there is one who sought
     to reach that power. Must be a great adventurer, right? Well\u2026 not quite."
-  delay: 10
+  delay: 30
 --- !u!114 &850239070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58619,6 +58624,39 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2063257089}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &850239072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850239067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 248be581da42b85488bac04621675344, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: ca25c270f250e524bb91f476b7568534, type: 3}
+  - {fileID: 8300000, guid: c178b04d25434d34f8774d13308a44d5, type: 3}
+  - {fileID: 8300000, guid: f0d432fbdf8883c48af924e2041852eb, type: 3}
+  volume: 1
+  interval: 100
+--- !u!114 &850239073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850239067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c50830413ad37446b5dc93334b769b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: a329104ed0fb63d468f07bfe336f9ca2, type: 3}
+  volume: 1
 --- !u!1 &850535422
 GameObject:
   m_ObjectHideFlags: 0
@@ -64658,6 +64696,7 @@ GameObject:
   - component: {fileID: 940202963}
   - component: {fileID: 940202962}
   - component: {fileID: 940202961}
+  - component: {fileID: 940202964}
   m_Layer: 0
   m_Name: Intro2
   m_TagString: Untagged
@@ -64681,7 +64720,7 @@ MonoBehaviour:
   - This feeble little specimen is known as The Koi. It seems to believe itself capable
     of reaching the top of the mountain, to wish for the ability to breathe out of
     the water. How foolish.
-  delay: 10
+  delay: 15
 --- !u!65 &940202962
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64718,6 +64757,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2063257089}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &940202964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940202960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8490222b5d6a264db53d2087a3e89eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: d1ba23759299b284e8ddb33395b31003, type: 3}
+  volume: 1
 --- !u!1 &942355548 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4705988099187936237, guid: 0a4f8eb28b6d9bc4486cf79a4bbef19c, type: 3}
@@ -111808,6 +111862,26 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1613037183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840255019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374ead8c9ec30c640a5d579899ecb6a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 542cde0a41e5dfc459de0bfd32d2499c, type: 3}
+  - {fileID: 8300000, guid: 4ab98f2e39f430942999b72b116afcd1, type: 3}
+  - {fileID: 8300000, guid: 0d05e3d6dcf10ec47936dc5f177f10c0, type: 3}
+  volume: 1
+  minAscentThreshold: 40
+  minFallThreshold: 40
+  cooldownDuration: 5
 --- !u!1001 &1614325815
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -149067,6 +149141,7 @@ GameObject:
   - component: {fileID: 2131651626}
   - component: {fileID: 2131651625}
   - component: {fileID: 2131651624}
+  - component: {fileID: 2131651627}
   m_Layer: 0
   m_Name: FrogsIntro
   m_TagString: Untagged
@@ -149089,7 +149164,7 @@ MonoBehaviour:
   texts:
   - Much more capable animals than The Koi live in the mountain, drawn by the very
     same magic. How will the feeble fish ever contend?
-  delay: 10
+  delay: 15
 --- !u!65 &2131651625
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -149126,6 +149201,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2063257089}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2131651627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131651623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8490222b5d6a264db53d2087a3e89eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 8e44b6d2f97b7b4449fb05674f1f7e3e, type: 3}
+  volume: 1
 --- !u!1 &2134143610
 GameObject:
   m_ObjectHideFlags: 0
@@ -150094,7 +150184,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1535195083030289984, guid: 61a49aa77347226459e5b87473003f71, type: 3}
   m_PrefabInstance: {fileID: 8562113058885943526}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 8562113058885943527}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c31212467899d414faf5012cd3112044, type: 3}
@@ -150221,8 +150311,129 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4383269922008023497, guid: 61a49aa77347226459e5b87473003f71, type: 3}
       insertIndex: -1
       addedObject: {fileID: 317610546}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4547805498254472799, guid: 61a49aa77347226459e5b87473003f71, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8562113058885943529}
+    - targetCorrespondingSourceObject: {fileID: 4547805498254472799, guid: 61a49aa77347226459e5b87473003f71, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8562113058885943528}
   m_SourcePrefab: {fileID: 100100000, guid: 61a49aa77347226459e5b87473003f71, type: 3}
+--- !u!1 &8562113058885943527 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4547805498254472799, guid: 61a49aa77347226459e5b87473003f71, type: 3}
+  m_PrefabInstance: {fileID: 8562113058885943526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &8562113058885943528
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8562113058885943527}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &8562113058885943529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8562113058885943527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c8ebda0f701ad34d92b9b1120b6c87b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sfxSource: {fileID: 8562113058885943528}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
