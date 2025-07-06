@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7975759075894055126}
-  - component: {fileID: 1065816731020739329}
   - component: {fileID: 1306508941537710471}
   - component: {fileID: 1621090780368714876}
   - component: {fileID: 5692759481854339288}
@@ -38,29 +37,6 @@ Transform:
   - {fileID: 9196434849101873240}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1065816731020739329
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3408294681061788871}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e7b67d0289a6ee49af449b6ffec36b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  powerBar: {fileID: 0}
-  chargingClip: {fileID: 8300000, guid: 105658dcbc2c81242a2782d253bb51da, type: 3}
-  jumpClip: {fileID: 8300000, guid: 45e722be386f0b74d939779268543f9c, type: 3}
-  minJumpForce: 10
-  maxJumpForce: 100
-  chargeTime: 2
-  fallMultiplier: 2
-  raycastDistance: 1
-  groundTag: Ground
-  cameraTransform: {fileID: 0}
-  body: {fileID: 9196434849101873240}
 --- !u!114 &1306508941537710471
 MonoBehaviour:
   m_ObjectHideFlags: 0
