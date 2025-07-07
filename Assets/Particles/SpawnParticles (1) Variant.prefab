@@ -17,6 +17,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 704770618526864048, guid: aa06f1dbeb014bb47a631a13939e3010, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 316751638958801876, guid: c7381ea83b7c7cc46a65854df5f235ce, type: 3}
+    - target: {fileID: 704770618526864048, guid: aa06f1dbeb014bb47a631a13939e3010, type: 3}
       propertyPath: LightsModule.range
       value: 1
       objectReference: {fileID: 0}
