@@ -217,7 +217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreEscenaJuego: Tutorial Definitivo
   nombreEscenaJuego1: Creditos
-  nombreEscenaJuego2: RankingUser
+  nombreEscenaJuego2: RegisterScore
 --- !u!328 &1586262
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1378,7 +1378,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1185123215}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1586261}
+        m_TargetAssemblyTypeName: MenuSystem, Assembly-CSharp
+        m_MethodName: Ranking
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1185123215
 MonoBehaviour:
   m_ObjectHideFlags: 0
