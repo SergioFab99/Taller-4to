@@ -922,7 +922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a243d82ca073e37459d0d5e53e202a2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombreEscenaJuego: Nivel 1
+  nombreEscenaJuego: Login
 --- !u!1 &729410415
 GameObject:
   m_ObjectHideFlags: 0
