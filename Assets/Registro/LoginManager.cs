@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
-using TMPro; // Importa TextMeshPro
+using TMPro; // Importar TextMeshPro
 
 [System.Serializable]
 public class LoginResponse
@@ -23,8 +23,8 @@ public class LoginManager : MonoBehaviour
     public Button loginButton;         // Botón para iniciar sesión
 
     [Header("Settings")]
-    public string loginURL = "http://localhost/koi/loginkoi.php"; // Cambia por tu URL
-    public string gameSceneName = "Menu"; // Nombre de la escena del juego
+    private string loginURL = "http://localhost/koi/loginkoi.php"; // Cambia por tu URL
+    private string gameSceneName = "Menu"; // Nombre de la escena del juego
 
     private void Start()
     {
@@ -108,9 +108,8 @@ public class LoginManager : MonoBehaviour
             }
             else
             {
-                // Login fallido
-                string mensaje = response != null ? response.mensaje : "Error desconocido";
-                Debug.LogError(mensaje);
+                // Login fallido: usuario y contraseña incorrectos
+                Debug.LogError("USUARIO Y CONTRASEÑA INVÁLIDOS");
             }
         }
         else

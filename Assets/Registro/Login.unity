@@ -381,8 +381,6 @@ MonoBehaviour:
   emailInput: {fileID: 1872956562}
   passwordInput: {fileID: 231772214}
   loginButton: {fileID: 2056957222}
-  loginURL: http://localhost/tu_proyecto/loginkoi.php
-  gameSceneName: GameScene
 --- !u!4 &626679444
 Transform:
   m_ObjectHideFlags: 0
@@ -1976,7 +1974,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2056957223}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 626679442}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2056957223
 MonoBehaviour:
   m_ObjectHideFlags: 0
