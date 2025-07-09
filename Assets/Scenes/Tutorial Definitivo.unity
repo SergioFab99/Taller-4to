@@ -125022,6 +125022,10 @@ PrefabInstance:
       propertyPath: powerBar
       value: 
       objectReference: {fileID: 1366805571}
+    - target: {fileID: 7328103330431752498, guid: 457285a5faa32b642a6b7043d0e9fc93, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 99a43eb3caef9d841bd9f7c61a9544bb, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
