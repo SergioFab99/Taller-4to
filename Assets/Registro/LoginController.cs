@@ -14,7 +14,7 @@ public class LoginController : MonoBehaviour
     [Header("Botón Jugar")]
     public Button jugarButton;
 
-    private string escenaDeJuego = "Nivel 1";
+    private string escenaDeJuego = "Menu";
 
     private void Start()
     {
