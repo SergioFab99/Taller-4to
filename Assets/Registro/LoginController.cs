@@ -14,7 +14,7 @@ public class LoginController : MonoBehaviour
     [Header("Botón Jugar")]
     public Button jugarButton;
 
-    private string escenaDeJuego = "Nivel 1"; // Nombre de la escena de gameplay
+    private string escenaDeJuego = "Nivel 1";
 
     private void Start()
     {
@@ -42,8 +42,7 @@ public class LoginController : MonoBehaviour
     {
         WWWForm form = new WWWForm();
         form.AddField("email", email);
-        form.AddField("password", password); // El campo correcto es "password" y no "contraseña" en el PHP
-
+        form.AddField("password", password);
         using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/koi/loginkoi.php", form))  // Cambié la URL aquí
         {
             yield return www.SendWebRequest();
@@ -57,7 +56,6 @@ public class LoginController : MonoBehaviour
                 string respuesta = www.downloadHandler.text;
                 Debug.Log("Respuesta del servidor: " + respuesta);
 
-                // Asegúrate de que la respuesta contiene un campo success
                 if (respuesta.Contains("\"success\":true"))
                 {
                     Debug.Log("Login exitoso, cargando la escena: " + escenaDeJuego);
