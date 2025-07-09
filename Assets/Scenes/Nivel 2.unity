@@ -2916,6 +2916,104 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3c5412087b1526d43b4987e160db6b92, type: 3}
   m_PrefabInstance: {fileID: 132716403}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &134579851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 134579856}
+  - component: {fileID: 134579855}
+  - component: {fileID: 134579854}
+  - component: {fileID: 134579853}
+  - component: {fileID: 134579852}
+  m_Layer: 0
+  m_Name: Narrator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &134579852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134579851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 248be581da42b85488bac04621675344, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 89b4090c93258df49872901ef112c19f, type: 3}
+  - {fileID: 8300000, guid: 73a612817d9359943b712ba819998595, type: 3}
+  - {fileID: 8300000, guid: 4379a9e186b57244182528a563bdde1b, type: 3}
+  volume: 1
+  interval: 100
+--- !u!114 &134579853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134579851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c50830413ad37446b5dc93334b769b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: f095fc87050498e45824c0df845afba8, type: 3}
+  volume: 1
+--- !u!114 &134579854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134579851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3786f2582a811149934e76f50c9c2c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texts:
+  - "Now standing before the magnificent mountain, the fish\u2019s true adventure
+    begins. Fated to fail, certainly. "
+  delay: 15
+--- !u!114 &134579855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134579851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b569bc0f20a4a949affdf7a2a05e2e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texts: []
+  delay: 0
+--- !u!4 &134579856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134579851}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &135367374
 GameObject:
   m_ObjectHideFlags: 0
@@ -16153,7 +16251,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5692759481854339288, guid: 0481337676de41745bfcc95a304256d8, type: 3}
       propertyPath: delay
-      value: 5
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5692759481854339288, guid: 0481337676de41745bfcc95a304256d8, type: 3}
+      propertyPath: cooldownDuration
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5692759481854339288, guid: 0481337676de41745bfcc95a304256d8, type: 3}
       propertyPath: minFallThreshold
@@ -16169,17 +16271,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5692759481854339288, guid: 0481337676de41745bfcc95a304256d8, type: 3}
       propertyPath: 'texts.Array.data[0]'
-      value: "Predictably, the choking little fish stumbles and falls. The fact that
-        it\u2019s even attempting this proves its stupidity. "
+      value: 'The Koi truly is hard headed. It must be, to survive such impacts. '
       objectReference: {fileID: 0}
     - target: {fileID: 5692759481854339288, guid: 0481337676de41745bfcc95a304256d8, type: 3}
       propertyPath: 'texts.Array.data[1]'
-      value: And The Koi loses any modicum of progress it may have made, obviously.
+      value: Is it worth it? The falls, the pain? It must be.
       objectReference: {fileID: 0}
     - target: {fileID: 5692759481854339288, guid: 0481337676de41745bfcc95a304256d8, type: 3}
       propertyPath: 'texts.Array.data[2]'
-      value: One has to wonder whether it realizes its pathetic body is not made
-        for this challenge.
+      value: "For such a frail specimen, it\u2019s surprisingly tenacious."
       objectReference: {fileID: 0}
     - target: {fileID: 5827116463533317540, guid: 0481337676de41745bfcc95a304256d8, type: 3}
       propertyPath: m_Layer
@@ -16287,12 +16387,35 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3408294681061788871, guid: 0481337676de41745bfcc95a304256d8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 758471431}
+    - targetCorrespondingSourceObject: {fileID: 3408294681061788871, guid: 0481337676de41745bfcc95a304256d8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 774672839}
   m_SourcePrefab: {fileID: 100100000, guid: 0481337676de41745bfcc95a304256d8, type: 3}
 --- !u!4 &774672838 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7975759075894055126, guid: 0481337676de41745bfcc95a304256d8, type: 3}
   m_PrefabInstance: {fileID: 774672837}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &774672839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758471429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374ead8c9ec30c640a5d579899ecb6a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: de36cc480f1c07641a2a5a8c8e0761ac, type: 3}
+  - {fileID: 8300000, guid: d47932e9803f74a4a8003bd07b1ffcbf, type: 3}
+  - {fileID: 8300000, guid: 7b970074ec72aad4a8abf8c602dedffd, type: 3}
+  volume: 1
+  minAscentThreshold: 40
+  minFallThreshold: 40
+  cooldownDuration: 10
 --- !u!1 &775147412
 GameObject:
   m_ObjectHideFlags: 0
@@ -39779,6 +39902,106 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fe072a39a7e083d4dab156c5eda7e2da, type: 3}
   m_PrefabInstance: {fileID: 1850889834}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1852415148
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1852415153}
+  - component: {fileID: 1852415152}
+  - component: {fileID: 1852415151}
+  - component: {fileID: 1852415150}
+  - component: {fileID: 1852415149}
+  m_Layer: 0
+  m_Name: Grullas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1852415149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852415148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b478173fd948b0409ae26576d746670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texts:
+  - "Ah, the majestic crane. Most elegant\u2026 most unlike our hero."
+  delay: 10
+--- !u!114 &1852415150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852415148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8490222b5d6a264db53d2087a3e89eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: c00f050b4d320f445ae9833e4ca36fa9, type: 3}
+  volume: 1
+--- !u!65 &1852415151
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852415148}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1852415152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852415148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b569bc0f20a4a949affdf7a2a05e2e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texts: []
+  delay: 0
+--- !u!4 &1852415153
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852415148}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 173.9, y: 169.7, z: 547.8}
+  m_LocalScale: {x: 126.68, y: 117.26, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1853236143 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fe072a39a7e083d4dab156c5eda7e2da, type: 3}
@@ -46543,6 +46766,8 @@ SceneRoots:
   - {fileID: 752920484}
   - {fileID: 325168282}
   - {fileID: 710825924}
+  - {fileID: 134579856}
+  - {fileID: 1852415153}
   - {fileID: 2135021463}
   - {fileID: 117085917}
   - {fileID: 920011918}

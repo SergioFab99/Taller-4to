@@ -48289,7 +48289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clips:
-  - {fileID: 8300000, guid: a329104ed0fb63d468f07bfe336f9ca2, type: 3}
+  - {fileID: 8300000, guid: dbff7b43729c8904db722a9cedf3084f, type: 3}
   volume: 1
 --- !u!114 &687935449
 MonoBehaviour:
@@ -48306,7 +48306,7 @@ MonoBehaviour:
   texts:
   - "Now standing before the magnificent mountain, the fish\u2019s true adventure
     begins. Fated to fail, certainly. "
-  delay: 30
+  delay: 10
 --- !u!114 &687935450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152200,6 +152200,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2063257089}
     m_Modifications:
+    - target: {fileID: 331916869387367135, guid: 457285a5faa32b642a6b7043d0e9fc93, type: 3}
+      propertyPath: cooldownDuration
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 951428239835092202, guid: 457285a5faa32b642a6b7043d0e9fc93, type: 3}
       propertyPath: cameraTransform
       value: 
@@ -152264,6 +152268,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 13400000, guid: 99a43eb3caef9d841bd9f7c61a9544bb, type: 2}
+    - target: {fileID: 7946842400833108906, guid: 457285a5faa32b642a6b7043d0e9fc93, type: 3}
+      propertyPath: cooldownDuration
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
