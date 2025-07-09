@@ -618,6 +618,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeText: {fileID: 962278464}
   userText: {fileID: 1888960669}
+  sendScoreButton: {fileID: 685772417}
 --- !u!1 &1316481726
 GameObject:
   m_ObjectHideFlags: 0
