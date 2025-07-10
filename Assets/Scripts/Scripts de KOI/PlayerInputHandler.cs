@@ -11,8 +11,8 @@ public class PlayerInputHandler : MonoBehaviour
 
     [Header("Referencias")]
     [SerializeField] private Transform cameraTransform;
+    [SerializeField] private Animator animator; // Referencia al Animator
 
-    // Referencias a otros componentes
     private PlayerMovementController movementController;
     private PlayerFeedbackManager feedbackManager;
 
@@ -21,7 +21,6 @@ public class PlayerInputHandler : MonoBehaviour
 
     void Awake()
     {
-        // Obtenemos las referencias una sola vez
         movementController = GetComponent<PlayerMovementController>();
         feedbackManager = GetComponent<PlayerFeedbackManager>();
     }
@@ -40,41 +39,42 @@ public class PlayerInputHandler : MonoBehaviour
 
     private void HandleJumpInput()
     {
-        // Iniciar carga si estamos en el suelo o en el agua
         if ((movementController.IsGrounded || movementController.IsWater) && Input.GetMouseButtonDown(0))
         {
             isCharging = true;
             holdTime = 0f;
             feedbackManager.StartChargeFeedback();
+
+            // Animación de anticipación
+            animator.ResetTrigger("Salto");
+            animator.SetTrigger("AnticipacionDeSalto");
         }
 
-        // Mantener la carga
         if (isCharging && Input.GetMouseButton(0))
         {
             holdTime += Time.deltaTime;
-            
-            // Calcular el porcentaje ANTES de hacer el clamp
+
             float chargePercentage = Mathf.Clamp01(holdTime / chargeTime);
-            
-            // Ahora sí aplicamos el clamp al holdTime
             holdTime = Mathf.Clamp(holdTime, 0f, chargeTime);
-            
-            // Enviar el feedback con el porcentaje correcto
+
             feedbackManager.UpdateChargeFeedback(chargePercentage);
-            
-            // Debug para verificar los valores
+
             Debug.Log($"HoldTime: {holdTime:F2}, ChargeTime: {chargeTime:F2}, Percentage: {chargePercentage:F2}");
         }
 
-        // Soltar y saltar
         if (isCharging && Input.GetMouseButtonUp(0))
         {
             isCharging = false;
+
             float jumpStrength = Mathf.Lerp(minJumpForce, maxJumpForce, holdTime / chargeTime);
             Vector3 jumpDirection = CalculateJumpDirection();
 
             movementController.PerformJump(jumpStrength, jumpDirection);
             feedbackManager.ReleaseChargeFeedback();
+
+            // Animación de salto
+            animator.ResetTrigger("AnticipacionDeSalto");
+            animator.SetTrigger("Salto");
         }
     }
 
@@ -83,7 +83,6 @@ public class PlayerInputHandler : MonoBehaviour
         Vector3 camForward = cameraTransform.forward;
         float minVerticalComponent = 0.5f;
 
-        // Si la componente vertical es muy baja, la ajustamos para que no haya saltos planos
         if (camForward.y < minVerticalComponent)
         {
             camForward.y = minVerticalComponent;
