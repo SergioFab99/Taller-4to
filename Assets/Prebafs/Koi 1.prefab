@@ -120,7 +120,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3098021175022442426}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.74306834, z: -0, w: 0.6692156}
+  m_LocalRotation: {x: 0, y: -0.7430688, z: 0, w: 0.669215}
   m_LocalPosition: {x: -793, y: -726.9, z: 1024.05}
   m_LocalScale: {x: 1.2298, y: 1.2298, z: 1.2298}
   m_ConstrainProportionsScale: 0
@@ -179,7 +179,7 @@ MonoBehaviour:
   delay: 9
   minAscentThreshold: 40
   minFallThreshold: 40
-  cooldownDuration: 5
+  cooldownDuration: 10
 --- !u!54 &3720458944552773865
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -358,7 +358,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3098021175022442426}
-  m_Material: {fileID: 13400000, guid: 0c3dd7103c190e4418f89005f3bdc245, type: 2}
+  m_Material: {fileID: 13400000, guid: 99a43eb3caef9d841bd9f7c61a9544bb, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -391,7 +391,7 @@ MonoBehaviour:
   volume: 1
   minAscentThreshold: 40
   minFallThreshold: 40
-  cooldownDuration: 5
+  cooldownDuration: 10
 --- !u!1 &4886521486839729254
 GameObject:
   m_ObjectHideFlags: 0
