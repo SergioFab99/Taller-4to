@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CameraAlignedRotation: MonoBehaviour
+public class camcam2: MonoBehaviour
 {
     public Transform cameraTransform;
     public float rotationSpeed = 5f;
@@ -12,7 +12,7 @@ public class CameraAlignedRotation: MonoBehaviour
 
         if (lookDirection.sqrMagnitude > 0.01f)
         {
-            Quaternion targetRotation = Quaternion.LookRotation(lookDirection);
+            Quaternion targetRotation = Quaternion.LookRotation(-lookDirection);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * rotationSpeed);
         }
     }

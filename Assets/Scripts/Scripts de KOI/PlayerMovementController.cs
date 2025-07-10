@@ -25,35 +25,39 @@ public class PlayerMovementController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
-        // Busca la barra de oxígeno si no está asignada
+
         if (oxygenBar == null)
             oxygenBar = FindFirstObjectByType<bar>();
     }
 
     void FixedUpdate()
     {
-        // Gravedad extra para un salto más pesado
-        rb.AddForce(Vector3.down * 100f);
+        // Gravedad extra solo si está cayendo y no está en agua
+        if (rb.linearVelocity.y < 0f && !IsWater)
+        {
+            rb.linearVelocity += Vector3.up * Physics.gravity.y * (fallMultiplier - 1f) * Time.fixedDeltaTime;
+        }
 
-        // Movimiento solidario con plataformas móviles
+        // Movimiento solidario con plataformas móviles, solo si el delta es significativo
         if (IsGrounded && currentPlatform != null)
         {
             platformDelta = currentPlatform.position - lastPlatformPosition;
-            rb.MovePosition(rb.position + platformDelta);
+
+            if (platformDelta.sqrMagnitude > 0.000001f) // umbral mínimo para evitar micro saltos
+            {
+                rb.MovePosition(rb.position + platformDelta);
+            }
+
             lastPlatformPosition = currentPlatform.position;
         }
 
-        // Aceleración de caída personalizada
-        if (rb.linearVelocity.y < 0f)
-        {
-            float gravityMultiplier = IsWater ? 0.01f : fallMultiplier;
-            rb.linearVelocity += Vector3.up * Physics.gravity.y * (gravityMultiplier - 1f) * Time.fixedDeltaTime;
-        }
+        // Gravedad constante (en agua es mínima)
+        rb.AddForce(Vector3.down * (IsWater ? 10f : 100f));
     }
 
     void Update()
     {
-        // Rotación del modelo según la dirección del movimiento
+        // Rotación del modelo visual hacia la dirección del movimiento
         if (rb.linearVelocity.magnitude > 0.1f)
             body.forward = rb.linearVelocity.normalized;
         else
@@ -68,7 +72,6 @@ public class PlayerMovementController : MonoBehaviour
             rb.linearVelocity = Vector3.zero;
             rb.AddForce(direction * force, ForceMode.Impulse);
 
-            // Al saltar, ya no estamos en el suelo
             IsGrounded = false;
             currentPlatform = null;
         }
@@ -82,7 +85,7 @@ public class PlayerMovementController : MonoBehaviour
             {
                 if (Vector3.Dot(contact.normal, Vector3.up) > 0.5f)
                 {
-                    if (!IsGrounded)
+                    if (!IsGrounded || currentPlatform != collision.transform)
                     {
                         IsGrounded = true;
                         currentPlatform = collision.transform;
@@ -111,7 +114,6 @@ public class PlayerMovementController : MonoBehaviour
             rb.linearDamping = 4f;
             rb.angularDamping = 2f;
 
-            // Reabastecer oxígeno al entrar al agua
             if (oxygenBar != null)
                 oxygenBar.RefillOxygen(100);
         }
