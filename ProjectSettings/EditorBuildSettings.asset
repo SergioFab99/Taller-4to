@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Nivel 2.unity
     guid: b1153c646f2b6e047972b79e5c7108aa
   - enabled: 1
+    path: Assets/Scenes/Nivel 3.unity
+    guid: 1c7724de9963343408bd156fefe6bcd6
+  - enabled: 1
     path: Assets/Scenes/ShowTime.unity
     guid: 85ff30f914bb13040ba956476e9469a1
   - enabled: 1
