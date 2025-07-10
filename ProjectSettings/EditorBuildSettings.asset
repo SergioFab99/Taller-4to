@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scripts/Registro/Registro de usuario.unity
-    guid: fc93f4efa9de32943840ab1393a5ac55
+    path: Assets/Registro/RegisterUser.unity
+    guid: 8f61439e79457014da07ab1558577925
   - enabled: 1
     path: Assets/Registro/Login.unity
     guid: 2d1d9eac897efa441b79c76bdb918d43
