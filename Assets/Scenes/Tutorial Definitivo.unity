@@ -32216,6 +32216,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1135409725998308036, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
+--- !u!4 &471324374 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1693099976627682571, guid: 457285a5faa32b642a6b7043d0e9fc93, type: 3}
+  m_PrefabInstance: {fileID: 1911951218}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &471333289
 GameObject:
   m_ObjectHideFlags: 0
@@ -49060,7 +49065,7 @@ MonoBehaviour:
   m_StreamingVersion: 20241001
   m_LegacyPriority: 0
   Target:
-    TrackingTarget: {fileID: 1049478024}
+    TrackingTarget: {fileID: 471324374}
     LookAtTarget: {fileID: 0}
     CustomLookAtTarget: 0
   Lens:
@@ -66415,7 +66420,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -69346,11 +69351,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 9011377177929499060, guid: 4c56e2711ae11c846bc6e662cf0c8b39, type: 3}
   m_PrefabInstance: {fileID: 1048311083}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1049478024 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3088765134068459356, guid: 457285a5faa32b642a6b7043d0e9fc93, type: 3}
-  m_PrefabInstance: {fileID: 1911951218}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1051347502
 GameObject:
@@ -126911,9 +126911,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "El Koi saltar\xE1 de acuerdo a la posici\xF3n donde est\xE1 apuntando
-    la c\xE1mara ,para mantener la potencia ,solo debes mantener el click izquierdo
-    del mouse presionado "
+  m_text: ' '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
