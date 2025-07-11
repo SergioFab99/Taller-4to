@@ -26453,10 +26453,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2063257089}
     m_Modifications:
-    - target: {fileID: 103608195270857187, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 528216620280958488, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
       propertyPath: cameraTransform
       value: 
@@ -26470,41 +26466,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1941165569}
     - target: {fileID: 5899028450737365983, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: jumpClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 45e722be386f0b74d939779268543f9c, type: 3}
-    - target: {fileID: 5899028450737365983, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
       propertyPath: powerBar
       value: 
       objectReference: {fileID: 5768519483034261429}
-    - target: {fileID: 5899028450737365983, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: chargingClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 105658dcbc2c81242a2782d253bb51da, type: 3}
-    - target: {fileID: 7133380918724387695, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: clips.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7133380918724387695, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: minFallThreshold
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 7133380918724387695, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: minAscentThreshold
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 7133380918724387695, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: 'clips.Array.data[0]'
-      value: 
-      objectReference: {fileID: 8300000, guid: 542cde0a41e5dfc459de0bfd32d2499c, type: 3}
-    - target: {fileID: 7133380918724387695, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: 'clips.Array.data[1]'
-      value: 
-      objectReference: {fileID: 8300000, guid: 4ab98f2e39f430942999b72b116afcd1, type: 3}
-    - target: {fileID: 7133380918724387695, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: 'clips.Array.data[2]'
-      value: 
-      objectReference: {fileID: 8300000, guid: 0d05e3d6dcf10ec47936dc5f177f10c0, type: 3}
     - target: {fileID: 8105706950942779873, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
       propertyPath: m_LocalPosition.x
       value: -793.52
@@ -26548,14 +26512,6 @@ PrefabInstance:
     - target: {fileID: 8878443325836473179, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
       propertyPath: m_Name
       value: base_koi (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8956339679047217944, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: minFallThreshold
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 8956339679047217944, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: minAscentThreshold
-      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

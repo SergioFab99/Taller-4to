@@ -22,15 +22,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8b9caaabd4070e548ba773f1d114ecf8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.1
+      value: -793.52
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8b9caaabd4070e548ba773f1d114ecf8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.47
+      value: -726.82
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8b9caaabd4070e548ba773f1d114ecf8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.32
+      value: 1023.57
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8b9caaabd4070e548ba773f1d114ecf8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -155,7 +155,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!114 &772526509038713792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -282,8 +282,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerBar: {fileID: 0}
-  chargingClip: {fileID: 0}
-  jumpClip: {fileID: 0}
+  chargingClip: {fileID: 8300000, guid: 105658dcbc2c81242a2782d253bb51da, type: 3}
+  jumpClip: {fileID: 8300000, guid: 45e722be386f0b74d939779268543f9c, type: 3}
 --- !u!114 &1762537883744015023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -348,10 +348,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 381ecd27b1c988644b12d2a802b21a52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texts: []
-  delay: 0
-  minAscentThreshold: 10
-  minFallThreshold: 5
+  texts:
+  - "Predictably, the choking little fish stumbles and falls. The fact that it\u2019s
+    even attempting this proves its stupidity. "
+  - And The Koi loses any modicum of progress it may have made, obviously.
+  - One has to wonder whether it realizes its pathetic body is not made for this
+    challenge.
+  delay: 10
+  minAscentThreshold: 40
+  minFallThreshold: 40
   cooldownDuration: 5
 --- !u!114 &7133380918724387695
 MonoBehaviour:
@@ -365,10 +370,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374ead8c9ec30c640a5d579899ecb6a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clips: []
+  clips:
+  - {fileID: 8300000, guid: 542cde0a41e5dfc459de0bfd32d2499c, type: 3}
+  - {fileID: 8300000, guid: 4ab98f2e39f430942999b72b116afcd1, type: 3}
+  - {fileID: 8300000, guid: 0d05e3d6dcf10ec47936dc5f177f10c0, type: 3}
   volume: 1
-  minAscentThreshold: 10
-  minFallThreshold: 5
+  minAscentThreshold: 40
+  minFallThreshold: 40
   cooldownDuration: 5
 --- !u!95 &1876711588464495573
 Animator:
