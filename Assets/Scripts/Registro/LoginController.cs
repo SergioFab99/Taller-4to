@@ -43,7 +43,7 @@ public class LoginController : MonoBehaviour
         WWWForm form = new WWWForm();
         form.AddField("email", email);
         form.AddField("password", password);
-        using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/koi/loginkoi.php", form))  // Cambié la URL aquí
+        using (UnityWebRequest www = UnityWebRequest.Post("https://progra251jp.samidareno.com/loginkoi.php", form))  // Cambié la URL aquí
         {
             yield return www.SendWebRequest();
 
