@@ -1,4 +1,5 @@
 // System.Collections, etc. van aquí
+
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
@@ -59,7 +60,9 @@ public class PlayerMovementController : MonoBehaviour
     {
         // Rotación del modelo visual hacia la dirección del movimiento
         if (rb.linearVelocity.magnitude > 0.1f)
+        {
             body.forward = rb.linearVelocity.normalized;
+        }
         else
             body.forward = transform.forward;
     }
