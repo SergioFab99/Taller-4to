@@ -57,11 +57,13 @@ public class PlayerMovementController : MonoBehaviour
 
     void Update()
     {
-        // Rotación del modelo visual hacia la dirección del movimiento
-        if (rb.linearVelocity.magnitude > 0.1f)
-            body.forward = rb.linearVelocity.normalized;
-        else
-            body.forward = transform.forward;
+        // Mantener la orientación fija en el eje Y (hacia adelante)
+        Vector3 forward = transform.forward;
+        forward.y = 0; // Eliminar componente vertical
+        if (forward.magnitude > 0.1f)
+        {
+            body.forward = forward.normalized;
+        }
     }
 
     // Método público para ser llamado por el Input Handler
