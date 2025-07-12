@@ -126814,6 +126814,10 @@ PrefabInstance:
       propertyPath: powerBar
       value: 
       objectReference: {fileID: 1294353810}
+    - target: {fileID: 5899028450737365983, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
+      propertyPath: chargingClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b4d6edb85e5c1154a889d7af03b6c08b, type: 3}
     - target: {fileID: 8105706950942779873, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.47

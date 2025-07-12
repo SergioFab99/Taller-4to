@@ -11,6 +11,7 @@ public class PlayerFeedbackManager : MonoBehaviour
     [Header("Sonido")]
     public AudioClip chargingClip;
     public AudioClip jumpClip;
+    public float soundVolume = 1f;
 
     private AudioSource audioSource;
 
