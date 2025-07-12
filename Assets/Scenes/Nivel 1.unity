@@ -153980,6 +153980,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4547805498254472799, guid: 61a49aa77347226459e5b87473003f71, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8562113058885943534}
+    - targetCorrespondingSourceObject: {fileID: 4547805498254472799, guid: 61a49aa77347226459e5b87473003f71, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8562113058885943535}
   m_SourcePrefab: {fileID: 100100000, guid: 61a49aa77347226459e5b87473003f71, type: 3}
 --- !u!1 &8562113058885943527 stripped
 GameObject:
@@ -154112,6 +154115,21 @@ MonoBehaviour:
   theMove: {fileID: 623487067}
   startPos: {fileID: 1270101750}
   idk: {fileID: 813874286}
+--- !u!114 &8562113058885943535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8562113058885943527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a02b96f86ff26d45bea90f744a2921c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  messageText: {fileID: 0}
+  container: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
