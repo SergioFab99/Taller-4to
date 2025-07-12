@@ -25196,6 +25196,14 @@ PrefabInstance:
       propertyPath: cameraTransform
       value: 
       objectReference: {fileID: 1182165711}
+    - target: {fileID: 1762537883744015023, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1067589555}
+    - target: {fileID: 1762537883744015023, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
+      propertyPath: cameraTransform
+      value: 
+      objectReference: {fileID: 2125554651}
     - target: {fileID: 7133380918724387695, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
       propertyPath: 'clips.Array.data[0]'
       value: 
@@ -25252,6 +25260,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: base_koi
       objectReference: {fileID: 0}
+    - target: {fileID: 8878443325836473179, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 8956339679047217944, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
       propertyPath: delay
       value: 15
@@ -25273,6 +25285,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
+--- !u!114 &1067589555 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 528216620280958488, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
+  m_PrefabInstance: {fileID: 1067589554}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f29bddfa67610c43a27867814d42a95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1068736723
 GameObject:
   m_ObjectHideFlags: 0
