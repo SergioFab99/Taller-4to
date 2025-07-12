@@ -22,7 +22,7 @@ public class RegisterUser1 : MonoBehaviour
         email = inputEmail.text;
         password = inputPassword.text;
 
-        string url = "http://localhost/koi/insertkoi.php";
+        string url = "https://progra251jp.samidareno.com/insertkoi.php";
 
         WWWForm form = new WWWForm();
         form.AddField("username", username);

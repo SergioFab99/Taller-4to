@@ -21,7 +21,7 @@ public class Registro : MonoBehaviour
         string time = Timer.Timevalue.ToString("F2"); // Obtener el tiempo del temporizador
 
         // URL de tu archivo PHP en el servidor local
-        string url = "http://localhost/Koi/RegistroUsuario.php";
+        string url = "https://progra251jp.samidareno.com/RegistroUsuario.php";
 
         // Construcción de los datos para enviar
         WWWForm form = new WWWForm();
