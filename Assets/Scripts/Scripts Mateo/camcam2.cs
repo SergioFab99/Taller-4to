@@ -5,10 +5,10 @@ public class camcam2: MonoBehaviour
     public Transform cameraTransform;
     public float rotationSpeed = 5f;
 
-    public PlayerInputHandler fuckYouSergio;
+    public PlayerInputHandler player;
     void Update()
     {
-      if(fuckYouSergio.isFuckingDead == false)
+      if(player.isFuckingDead == false)
         {
             Vector3 lookDirection = cameraTransform.forward;
             lookDirection.y = 0f;

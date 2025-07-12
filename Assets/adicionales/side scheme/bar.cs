@@ -48,8 +48,6 @@ public class bar : MonoBehaviour
         UpdateBar();
     }
 
-
-
     public void SetDrowningState(bool state)
     {
         drowning = state;
