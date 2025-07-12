@@ -5,7 +5,8 @@ public class MenuSystem : MonoBehaviour
 {
     [SerializeField] private string nombreEscenaJuego = "Nivel 1"; // Cambia esto por el nombre real de tu escena
     [SerializeField] private string nombreEscenaJuego1 = "Creditos";
-     [SerializeField] private string nombreEscenaJuego2;
+    [SerializeField] private string nombreEscenaJuego2;
+    [SerializeField] private string EscenaMenu;
 
     public void Jugar()
     {
@@ -20,6 +21,11 @@ public class MenuSystem : MonoBehaviour
     public void Ranking()
     {
         SceneManager.LoadScene(nombreEscenaJuego2);
+    }
+
+     public void Menu()
+    {
+        SceneManager.LoadScene(EscenaMenu);
     }
 
     public void Salir()
