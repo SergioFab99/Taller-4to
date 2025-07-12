@@ -1,4 +1,4 @@
-// System.Collections, etc. van aquí
+// System.Collections, etc. van aquí YEAH I GFUCLKING KNOW
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
@@ -13,7 +13,7 @@ public class PlayerMovementController : MonoBehaviour
     [SerializeField] private bar oxygenBar; // Referencia a la barra de oxígeno
 
     // Propiedades públicas para que otros scripts lean el estado
-    public bool IsGrounded { get; private set; }
+    [SerializeField] public bool IsGrounded { get; private set; }
     public bool IsWater { get; private set; }
 
     private Rigidbody rb;
@@ -79,7 +79,7 @@ public class PlayerMovementController : MonoBehaviour
 
     private void OnCollisionStay(Collision collision)
     {
-        if (collision.transform.CompareTag(groundTag))
+        if (collision.transform.CompareTag(groundTag) || collision.transform.CompareTag("WATAAAAAAA"))
         {
             foreach (ContactPoint contact in collision.contacts)
             {
@@ -90,6 +90,8 @@ public class PlayerMovementController : MonoBehaviour
                         IsGrounded = true;
                         currentPlatform = collision.transform;
                         lastPlatformPosition = currentPlatform.position;
+
+                        oxygenBar.SetDrowningState(!collision.transform.CompareTag("WATAAAAAAA"));
                     }
                     return;
                 }
@@ -103,12 +105,15 @@ public class PlayerMovementController : MonoBehaviour
         {
             IsGrounded = false;
             currentPlatform = null;
+
+            oxygenBar.SetDrowningState(true);
         }
     }
 
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Water"))
+        if (other.CompareTag("bubl"))
         {
             IsWater = true;
             rb.linearDamping = 4f;
@@ -121,7 +126,7 @@ public class PlayerMovementController : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Water"))
+        if (other.CompareTag("bubl"))
         {
             IsWater = false;
             rb.linearDamping = 0f;

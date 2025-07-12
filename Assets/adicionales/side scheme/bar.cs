@@ -1,12 +1,14 @@
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class bar : MonoBehaviour
 {
     public Image oxygenImage;
     public float maxOxygen = 100f;
-    public float drainRate = 5f; 
+    public float drainRate = 5f;
+
+    public MiBombo2 death;
+    public bool drowning = true;
 
     private float currentOxygen;
 
@@ -18,13 +20,25 @@ public class bar : MonoBehaviour
 
     void Update()
     {
-        currentOxygen -= drainRate * Time.deltaTime;
-        currentOxygen = Mathf.Clamp(currentOxygen, 0f, maxOxygen);
-        UpdateBar();
+        if(drowning)
+        {
+            currentOxygen -= drainRate * Time.deltaTime;
+            currentOxygen = Mathf.Clamp(currentOxygen, 0f, maxOxygen);
+            UpdateBar();
+            Debug.Log("aaaa help");
+        }
+
+        else if(!drowning)
+        {
+            currentOxygen += (drainRate * 5f) * Time.deltaTime;
+            currentOxygen = Mathf.Clamp(currentOxygen, 0f, maxOxygen);
+            UpdateBar();
+            Debug.Log("yey");
+        }
 
         if(currentOxygen <= 0)
         {
-            SceneManager.LoadScene("ShowTime");
+            death.FuckingDie();
         }
     }
 
@@ -32,6 +46,13 @@ public class bar : MonoBehaviour
     {
         currentOxygen = Mathf.Clamp(currentOxygen + amount, 0f, maxOxygen);
         UpdateBar();
+    }
+
+
+
+    public void SetDrowningState(bool state)
+    {
+        drowning = state;
     }
 
     void UpdateBar()

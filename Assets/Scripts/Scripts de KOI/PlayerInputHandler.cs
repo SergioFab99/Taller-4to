@@ -18,6 +18,7 @@ public class PlayerInputHandler : MonoBehaviour
 
     private bool isCharging = false;
     private float holdTime = 0f;
+    public bool isFuckingDead = false;
 
     void Awake()
     {
@@ -33,8 +34,11 @@ public class PlayerInputHandler : MonoBehaviour
 
     void Update()
     {
-        HandleJumpInput();
-        HandleRestartInput();
+        if(!isFuckingDead)
+        {
+            HandleJumpInput();
+            HandleRestartInput();
+        }
     }
 
     private void HandleJumpInput()
