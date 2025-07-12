@@ -111,29 +111,29 @@ public class PlayerMovementController : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("bubl"))
-        {
-            // Las esferas de oxígeno solo recargan oxígeno, no activan estado de agua
-            if (oxygenBar != null)
-                oxygenBar.RefillOxygen(100);
-        }
-        else if (other.CompareTag("Water")) // Para el agua real usa un tag diferente
-        {
-            IsWater = true;
-            rb.linearDamping = 0f;
-            rb.angularDamping = 0.05f;
-        }
-    }
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if (other.CompareTag("bubl"))
+    //    {
+    //        // Las esferas de oxígeno solo recargan oxígeno, no activan estado de agua
+    //        if (oxygenBar != null)
+    //            oxygenBar.RefillOxygen(100);
+    //    }
+    //    else if (other.CompareTag("Water")) // Para el agua real usa un tag diferente
+    //    {
+    //        IsWater = true;
+    //        rb.linearDamping = 0f;
+    //        rb.angularDamping = 0.05f;
+    //    }
+    //}
 
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Water")) // Solo para el agua real
-        {
-            IsWater = false;
-            rb.linearDamping = 0f;
-            rb.angularDamping = 0.05f;
-        }
-    }
+    //private void OnTriggerExit(Collider other)
+    //{
+    //    if (other.CompareTag("Water")) // Solo para el agua real
+    //    {
+    //        IsWater = false;
+    //        rb.linearDamping = 0f;
+    //        rb.angularDamping = 0.05f;
+    //    }
+    //}
 }
