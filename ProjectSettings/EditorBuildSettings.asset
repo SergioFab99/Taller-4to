@@ -33,7 +33,7 @@ EditorBuildSettings:
     path: Assets/Scenes/RankingUser.unity
     guid: a5df1722b1589e74b8a2a65c4920f8e5
   - enabled: 1
-    path: Assets/Scenes/Creditos.unity
+    path: Assets/Scenes/Creditos1.unity
     guid: dc29eee83d9dd714699e5c500a1a6bdb
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
