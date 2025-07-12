@@ -38,6 +38,12 @@ public class PlayerInputHandler : MonoBehaviour
         {
             HandleJumpInput();
             HandleRestartInput();
+            AnimationShit();
+        }
+
+        else if(isFuckingDead)
+        {
+            animator.SetBool("rip", true);
         }
     }
 
@@ -48,10 +54,6 @@ public class PlayerInputHandler : MonoBehaviour
             isCharging = true;
             holdTime = 0f;
             feedbackManager.StartChargeFeedback();
-
-            // Animación de anticipación
-            animator.ResetTrigger("Salto");
-            animator.SetTrigger("AnticipacionDeSalto");
         }
 
         if (isCharging && Input.GetMouseButton(0))
@@ -75,10 +77,6 @@ public class PlayerInputHandler : MonoBehaviour
 
             movementController.PerformJump(jumpStrength, jumpDirection);
             feedbackManager.ReleaseChargeFeedback();
-
-            // Animación de salto
-            animator.ResetTrigger("AnticipacionDeSalto");
-            animator.SetTrigger("Salto");
         }
     }
 
@@ -101,5 +99,12 @@ public class PlayerInputHandler : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
+    }
+
+    public void AnimationShit()
+    {
+        animator.SetBool("holdMouse", isCharging);
+        animator.SetBool("isTouchingGrass", movementController.IsGrounded);
+        animator.SetBool("isInTheAir", !movementController.IsGrounded);
     }
 }
