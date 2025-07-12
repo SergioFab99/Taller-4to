@@ -26645,6 +26645,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 509226998441603792}
     - target: {fileID: 1762537883744015023, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 623487067}
+    - target: {fileID: 1762537883744015023, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
       propertyPath: fuckYouSergio
       value: 
       objectReference: {fileID: 623487067}

@@ -116,8 +116,8 @@ public class PlayerMovementController : MonoBehaviour
         if (other.CompareTag("bubl"))
         {
             IsWater = true;
-            rb.linearDamping = 4f;
-            rb.angularDamping = 2f;
+            rb.linearDamping = 0f;
+            rb.angularDamping = 0.05f;
 
             if (oxygenBar != null)
                 oxygenBar.RefillOxygen(100);
