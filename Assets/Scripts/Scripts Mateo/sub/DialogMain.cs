@@ -9,7 +9,6 @@ public class DialogMain : MonoBehaviour
     
     protected void Execute()
     {
-        // Verificar si TextManager existe y está inicializado
         if (TextManager.Instance != null)
         {
             TextManager.Instance.SetUp(texts, delay);
