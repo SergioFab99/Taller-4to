@@ -22,6 +22,7 @@ public class ThirdPersonCameraController : MonoBehaviour
     private float currentDistance;
     private Renderer[] targetRenderers;
     private Dictionary<Material, float> originalAlphas = new Dictionary<Material, float>();
+    public PlayerInputHandler playerrer;
 
     void Start()
     {
@@ -50,26 +51,29 @@ public class ThirdPersonCameraController : MonoBehaviour
 
     void LateUpdate()
     {
-        if (target == null) return;
+        if(!playerrer.isFuckingDead)
+        {
+            if (target == null) return;
 
-        // Control de rotación horizontal
-        yaw += Input.GetAxis("Mouse X") * sensitivityX;
+            // Control de rotación horizontal
+            yaw += Input.GetAxis("Mouse X") * sensitivityX;
 
-        // Control de rotación vertical y ajuste de distancia
-        pitch -= Input.GetAxis("Mouse Y") * sensitivityY;
+            // Control de rotación vertical y ajuste de distancia
+            pitch -= Input.GetAxis("Mouse Y") * sensitivityY;
 
-        Quaternion rotation = Quaternion.Euler(pitch, yaw, 0f);
+            Quaternion rotation = Quaternion.Euler(pitch, yaw, 0f);
 
-        // Ajuste de la distancia basado en la orientación vertical (pitch)
-        AdjustCameraDistance(rotation);
+            // Ajuste de la distancia basado en la orientación vertical (pitch)
+            AdjustCameraDistance(rotation);
 
-        Vector3 lookPoint = target.position + Vector3.up * targetHeightOffset;
-        Vector3 desiredPosition = lookPoint + rotation * offset.normalized * currentDistance;
+            Vector3 lookPoint = target.position + Vector3.up * targetHeightOffset;
+            Vector3 desiredPosition = lookPoint + rotation * offset.normalized * currentDistance;
 
-        transform.position = Vector3.Lerp(transform.position, desiredPosition, Time.deltaTime * zoomSpeed);
-        transform.LookAt(lookPoint);
+            transform.position = Vector3.Lerp(transform.position, desiredPosition, Time.deltaTime * zoomSpeed);
+            transform.LookAt(lookPoint);
 
-        AdjustTargetTransparency();
+            AdjustTargetTransparency();
+        }
     }
 
     void AdjustCameraDistance(Quaternion rotation)
