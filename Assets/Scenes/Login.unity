@@ -739,9 +739,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 626679445}
-        m_TargetAssemblyTypeName: LoginController, Assembly-CSharp
-        m_MethodName: Jugar
+      - m_Target: {fileID: 287464674}
+        m_TargetAssemblyTypeName: CambiarEscena, Assembly-CSharp
+        m_MethodName: CargarEscena
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
