@@ -13111,6 +13111,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas modificado
       objectReference: {fileID: 0}
+    - target: {fileID: 4612071139163802868, guid: 61a49aa77347226459e5b87473003f71, type: 3}
+      propertyPath: playerInputHandler
+      value: 
+      objectReference: {fileID: 1067589555}
     - target: {fileID: 6861602420668969128, guid: 61a49aa77347226459e5b87473003f71, type: 3}
       propertyPath: theMove
       value: 
