@@ -7,7 +7,22 @@ public class MenuRegister : MonoBehaviour
 
     public void Jugar()
     {
+        // Validar que los campos de registro estén llenos
+        if (string.IsNullOrWhiteSpace(RegisterUser1.username) ||
+            string.IsNullOrWhiteSpace(RegisterUser1.lastname) ||
+            string.IsNullOrWhiteSpace(RegisterUser1.email) ||
+            string.IsNullOrWhiteSpace(RegisterUser1.password))
+        {
+            Debug.LogWarning("Por favor, completa todos los campos de registro antes de continuar.");
+            return;
+        }
         SceneManager.LoadScene(nombreEscenaJuego);
+    }
+
+    public void CargarLogin()
+    {
+        // El botón de login no debe validar campos, solo cambiar de escena
+        SceneManager.LoadScene("Login");
     }
 
     public void Salir()
