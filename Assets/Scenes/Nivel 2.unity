@@ -11565,6 +11565,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: db280b3ceb1392f45ae96dc2febd717a, type: 3}
   m_PrefabInstance: {fileID: 484787200}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &484998271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 484998272}
+  m_Layer: 0
+  m_Name: referencia grulla 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &484998272
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484998271}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 165.6, y: 106.83933, z: 899.7882}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &485067567
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13934,11 +13965,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4634778045911173654, guid: b54c53b36780f4d42945c5162ab5760b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 63.365
+      value: 63.855003
       objectReference: {fileID: 0}
     - target: {fileID: 4634778045911173654, guid: b54c53b36780f4d42945c5162ab5760b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1458.7125
+      value: 1458.6075
       objectReference: {fileID: 0}
     - target: {fileID: 4634778045911173654, guid: b54c53b36780f4d42945c5162ab5760b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -14193,6 +14224,14 @@ PrefabInstance:
     - target: {fileID: 6670693418967643209, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8695576596937458287, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.023
+      objectReference: {fileID: 0}
+    - target: {fileID: 8695576596937458287, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.063
       objectReference: {fileID: 0}
     - target: {fileID: 9021799445995355767, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
       propertyPath: powerBar
@@ -37720,6 +37759,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7878626895493265169, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+--- !u!1 &1545070017
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1545070018}
+  m_Layer: 0
+  m_Name: referencia grulla 1 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1545070018
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545070017}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 281.1, y: 106.83933, z: 1148.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1549086551
 GameObject:
   m_ObjectHideFlags: 0
@@ -49439,6 +49509,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: db280b3ceb1392f45ae96dc2febd717a, type: 3}
   m_PrefabInstance: {fileID: 2015991470}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2025338485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2025338486}
+  m_Layer: 0
+  m_Name: referencia grulla 1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2025338486
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025338485}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 165.6, y: 106.83933, z: 998}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2026573559
 GameObject:
   m_ObjectHideFlags: 0
@@ -51625,6 +51726,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2815966651356430348, guid: fe072a39a7e083d4dab156c5eda7e2da, type: 3}
+--- !u!1 &2107164096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2107164097}
+  m_Layer: 0
+  m_Name: referencia grulla 1 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2107164097
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107164096}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 242.3, y: 106.83933, z: 1054.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2113948291
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51923,7 +52055,7 @@ Transform:
   m_GameObject: {fileID: 2125554648}
   serializedVersion: 2
   m_LocalRotation: {x: 0.04878366, y: 0.000000022335815, z: -0.0000000010909214, w: 0.9988094}
-  m_LocalPosition: {x: 482.54706, y: 63.365, z: 1458.7125}
+  m_LocalPosition: {x: 482.54706, y: 63.855003, z: 1458.6075}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -52658,7 +52790,7 @@ Transform:
   m_GameObject: {fileID: 2950287253410527828}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 177.456, y: 292.2745, z: 529.1315}
+  m_LocalPosition: {x: 213.5, y: 292.2745, z: 529.1315}
   m_LocalScale: {x: 1197.7384, y: 1197.7386, z: 1197.7386}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -52680,7 +52812,7 @@ GameObject:
   - component: {fileID: 9081286572739577486}
   m_Layer: 0
   m_Name: Grulla (5)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52743,15 +52875,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadVuelo: 100
-  velocidadDescenso: 100
   rangoVueloHorizontal: 100
-  tiempoMinimoCaza: 5
-  tiempoMaximoCaza: 8
-  radioCaptura: 100
-  jugador: {fileID: 1590902952}
-  sonidoDescenso: {fileID: 0}
-  volumenSonido: 1
-  distanciaAudible: 20
+  rangoVueloVertical: 100
+  tiempoVueloCircular: 5
+  tiempoEntreCaza: 5
+  radioDeteccion: 10
+  plataformasObjetivo:
+  - {fileID: 2025338486}
+  - {fileID: 2107164097}
+  - {fileID: 1545070018}
 --- !u!95 &8456206319331326612
 Animator:
   serializedVersion: 7
@@ -52892,3 +53024,7 @@ SceneRoots:
   - {fileID: 580814962}
   - {fileID: 272620180}
   - {fileID: 2574464749594337518}
+  - {fileID: 484998272}
+  - {fileID: 2025338486}
+  - {fileID: 2107164097}
+  - {fileID: 1545070018}
