@@ -127,7 +127,7 @@ AnimatorStateTransition:
     m_ConditionEvent: isTouchingGrass
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: isTouchingGrass
+    m_ConditionEvent: isInTheAir
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: rip
@@ -138,9 +138,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.25
+  m_TransitionDuration: 0
   m_TransitionOffset: 0
-  m_ExitTime: 0.8770492
+  m_ExitTime: 0.87704915
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -157,16 +157,16 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 953202146159216514}
-    m_Position: {x: 80, y: 240, z: 0}
+    m_Position: {x: 80, y: 210, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2549789589197477461}
-    m_Position: {x: 570, y: 240, z: 0}
+    m_Position: {x: 580, y: 200, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2715496452176284548}
     m_Position: {x: 330, y: 530, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6370013981672740497}
-    m_Position: {x: 330, y: 360, z: 0}
+    m_Position: {x: 330, y: 310, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
