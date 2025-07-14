@@ -7,7 +7,7 @@ public class PlayerMovementController : MonoBehaviour
     public Transform body;
     [SerializeField] private string groundTag = "Ground";
     [SerializeField] private bar oxygenBar;
-    [SerializeField] public bool IsGrounded { get; private set; }
+    [SerializeField] public bool IsGrounded { get; private set; } = true;
     public bool IsWater { get; private set; }
 
     Rigidbody rb;
@@ -31,7 +31,7 @@ public class PlayerMovementController : MonoBehaviour
         {
             Vector3 platformDelta = currentPlatform.position - lastPlatformPosition;
             if (platformDelta.sqrMagnitude > 0.000001f)
-                rb.MovePosition(rb.position + platformDelta);
+            rb.MovePosition(rb.position + platformDelta);
             lastPlatformPosition = currentPlatform.position;
         }
 
@@ -50,6 +50,7 @@ public class PlayerMovementController : MonoBehaviour
     {
         if (IsGrounded || IsWater)
         {
+            //print("Performing jump with force: " + force);
             rb.linearVelocity = Vector3.zero;
             rb.AddForce(direction * force, ForceMode.Impulse);
             IsGrounded = false;

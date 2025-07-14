@@ -1379,6 +1379,10 @@ PrefabInstance:
       value: Wall5 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 95b76f5a6e7b1064fba2f3b65619cdc2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 95b76f5a6e7b1064fba2f3b65619cdc2, type: 3}
       propertyPath: m_TagString
       value: Ground
       objectReference: {fileID: 0}
@@ -5239,6 +5243,10 @@ PrefabInstance:
       value: Wall5 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 95b76f5a6e7b1064fba2f3b65619cdc2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 95b76f5a6e7b1064fba2f3b65619cdc2, type: 3}
       propertyPath: m_TagString
       value: Ground
       objectReference: {fileID: 0}
@@ -8445,6 +8453,10 @@ PrefabInstance:
       value: Oxigen (17)
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
       value: bubl
       objectReference: {fileID: 0}
@@ -8866,6 +8878,10 @@ PrefabInstance:
     - target: {fileID: 5083204847046300792, guid: aa06f1dbeb014bb47a631a13939e3010, type: 3}
       propertyPath: m_Name
       value: SpawnParticles (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083204847046300792, guid: aa06f1dbeb014bb47a631a13939e3010, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11910,6 +11926,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma3 (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -12867,6 +12887,10 @@ PrefabInstance:
       value: Oxigen (14)
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
       value: bubl
       objectReference: {fileID: 0}
@@ -13477,6 +13501,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma3 (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -13951,15 +13979,15 @@ MonoBehaviour:
     Enabled: 1
     DistanceLimit: 0
     MinimumOcclusionTime: 0
-    CameraRadius: 1
+    CameraRadius: 0.1
     UseFollowTarget:
       Enabled: 1
       YOffset: 0
     Strategy: 1
     MaximumEffort: 4
-    SmoothingTime: 0
-    Damping: 0.4
-    DampingWhenOccluded: 0.2
+    SmoothingTime: 0.5
+    Damping: 1
+    DampingWhenOccluded: 1
   ShotQualityEvaluation:
     Enabled: 0
     OptimalDistance: 10
@@ -14027,7 +14055,7 @@ MonoBehaviour:
       Radius: 1
       Height: 0
     SplineCurvature: 0.5
-  RecenteringTarget: 3
+  RecenteringTarget: 0
   HorizontalAxis:
     Value: 0
     Center: 0
@@ -15007,6 +15035,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma3 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -15240,6 +15272,10 @@ PrefabInstance:
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_Name
       value: Oxigen (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
@@ -16435,6 +16471,10 @@ PrefabInstance:
       value: Oxigen (22)
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
       value: bubl
       objectReference: {fileID: 0}
@@ -17596,6 +17636,10 @@ PrefabInstance:
       value: Oxigen (27)
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
       value: bubl
       objectReference: {fileID: 0}
@@ -18650,6 +18694,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma3 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -18804,7 +18852,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 52451118}
-  - {fileID: 350418969}
+  - {fileID: 360755885}
   - {fileID: 1801714547}
   - {fileID: 1160538749}
   - {fileID: 952743040}
@@ -19854,6 +19902,10 @@ PrefabInstance:
       value: Oxigen (11)
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
       value: bubl
       objectReference: {fileID: 0}
@@ -20472,6 +20524,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 117af0a566fea9b4ca173ecfdc2bd685, type: 3}
       propertyPath: m_Name
       value: Plataforma2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 117af0a566fea9b4ca173ecfdc2bd685, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21382,6 +21438,10 @@ PrefabInstance:
       value: Oxigen (5)
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
       value: bubl
       objectReference: {fileID: 0}
@@ -21607,33 +21667,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fc156dd6333a6b448bcd7fc328ed45ee, type: 3}
   m_PrefabInstance: {fileID: 308008384}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &309833348 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4421998485035199288, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
-  m_PrefabInstance: {fileID: 350418968}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &309833352
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 309833348}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5183812891432497742, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
 --- !u!1001 &309912651
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22361,6 +22394,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
       propertyPath: m_Name
       value: Plataforma3 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24099,6 +24136,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma3 (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -24220,106 +24261,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1916237462587635426, guid: e3949e1ad02a24443afb483c6f0c9d67, type: 3}
---- !u!1001 &350418968
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 262432425}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5.1690335
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 3.6056318
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3.8940825
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 15.9
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -6.2
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 112.7
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3260392959181300416, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 784dfe69b932fd944890a4cfe37a0144, type: 2}
-    - target: {fileID: 919132149155446097, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
-      propertyPath: m_Name
-      value: Plataforma1 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
-      propertyPath: m_Layer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: 4421998485035199288, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
-      propertyPath: m_Layer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8186520487686516001, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
-      propertyPath: m_Layer
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1203912450}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4421998485035199288, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 309833352}
-  m_SourcePrefab: {fileID: 100100000, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
---- !u!4 &350418969 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
-  m_PrefabInstance: {fileID: 350418968}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &351224289 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
@@ -24454,6 +24395,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 95b76f5a6e7b1064fba2f3b65619cdc2, type: 3}
       propertyPath: m_Name
       value: Wall5 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 95b76f5a6e7b1064fba2f3b65619cdc2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 95b76f5a6e7b1064fba2f3b65619cdc2, type: 3}
       propertyPath: m_TagString
@@ -24744,6 +24689,87 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1289555176248129665, guid: 2f0860dbe89cfb549913f1879dc1afac, type: 3}
+--- !u!1001 &360755884
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 262432425}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.1690335
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.6056318
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.8940825
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 112.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3260392959181300416, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 784dfe69b932fd944890a4cfe37a0144, type: 2}
+    - target: {fileID: 919132149155446097, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
+      propertyPath: m_Name
+      value: Plataforma1 (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1914389684}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
+--- !u!4 &360755885 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
+  m_PrefabInstance: {fileID: 360755884}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &363738967 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a77b27bbae2c3654bb407f712e630762, type: 3}
@@ -25762,6 +25788,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnParticles (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5083204847046300792, guid: aa06f1dbeb014bb47a631a13939e3010, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26306,6 +26336,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma2 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 117af0a566fea9b4ca173ecfdc2bd685, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -26525,190 +26559,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2063257089}
     m_Modifications:
-    - target: {fileID: 48598225871188702, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 223882383258114145, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 273700204907251370, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 391189708985609901, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 528216620280958488, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: maxJumpForce
-      value: 90
-      objectReference: {fileID: 0}
     - target: {fileID: 528216620280958488, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
       propertyPath: cameraTransform
       value: 
       objectReference: {fileID: 1941165569}
-    - target: {fileID: 530539555070013863, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 772526509038713792, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
       propertyPath: oxygenBar
       value: 
       objectReference: {fileID: 509226998441603792}
-    - target: {fileID: 1302235395993826736, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1395016969078862307, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1762537883744015023, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 623487067}
-    - target: {fileID: 1762537883744015023, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: fuckYouSergio
-      value: 
-      objectReference: {fileID: 623487067}
-    - target: {fileID: 1762537883744015023, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: cameraTransform
-      value: 
-      objectReference: {fileID: 1941165569}
-    - target: {fileID: 1777016643327790342, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2576399775280520528, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598373424039524021, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2715237113161974724, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3146542140181702644, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3778564972537977984, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3805577400716706013, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821684960505294340, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4022074909557169366, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4673568410827439985, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5114605732304459867, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5467959503446728672, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5873948016040352181, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 5899028450737365983, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
       propertyPath: powerBar
       value: 
       objectReference: {fileID: 5768519483034261429}
-    - target: {fileID: 5899028450737365983, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: chargingClip
+    - target: {fileID: 5925170415294911285, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
+      propertyPath: cameraTransform
       value: 
-      objectReference: {fileID: 8300000, guid: b4d6edb85e5c1154a889d7af03b6c08b, type: 3}
-    - target: {fileID: 5918817534357904880, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Radius
-      value: 0.12564033
-      objectReference: {fileID: 0}
-    - target: {fileID: 5918817534357904880, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Center.x
-      value: 0.0014038086
-      objectReference: {fileID: 0}
-    - target: {fileID: 5918817534357904880, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Center.y
-      value: -0.010630572
-      objectReference: {fileID: 0}
-    - target: {fileID: 5918817534357904880, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 99a43eb3caef9d841bd9f7c61a9544bb, type: 2}
-    - target: {fileID: 6032654665730365385, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6267265992459048819, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6382098397954550574, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6473498622916484415, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6545223668318204223, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6563068562985709868, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6655045100654110165, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6966754482680228277, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7146522432346404493, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7189653394106700264, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7482297945080400753, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7774862474051193177, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7808628735814109828, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7996473622116360239, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1941165569}
     - target: {fileID: 8105706950942779873, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
       propertyPath: m_LocalPosition.x
       value: -793.52
@@ -26749,52 +26615,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8275934087931725832, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8587511937418019720, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8699160136941349019, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8826013213924651212, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 8878443325836473179, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
       propertyPath: m_Name
       value: base_koi (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 8878443325836473179, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8878443325836473179, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 8930192395771143466, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 9020545143186798272, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 9045868637607274162, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 8105706950942779873, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1475727679}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
 --- !u!4 &385701690 stripped
@@ -29304,6 +29131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma3 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -29624,6 +29455,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
       propertyPath: m_Name
       value: Plataforma3 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30583,6 +30418,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 117af0a566fea9b4ca173ecfdc2bd685, type: 3}
       propertyPath: m_Name
       value: Plataforma2 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 117af0a566fea9b4ca173ecfdc2bd685, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31870,6 +31709,10 @@ PrefabInstance:
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_Name
       value: Oxigen (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
@@ -35455,6 +35298,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 117af0a566fea9b4ca173ecfdc2bd685, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -37416,6 +37263,10 @@ PrefabInstance:
       value: Oxigen (30)
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
       value: bubl
       objectReference: {fileID: 0}
@@ -37894,6 +37745,10 @@ PrefabInstance:
       value: Oxigen (25)
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
       value: bubl
       objectReference: {fileID: 0}
@@ -38024,6 +37879,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
       propertyPath: m_Name
       value: Plataforma3 (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -38509,6 +38368,10 @@ PrefabInstance:
       value: Oxigen (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
       value: bubl
       objectReference: {fileID: 0}
@@ -38990,6 +38853,10 @@ PrefabInstance:
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_Name
       value: Oxigen (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
@@ -40829,6 +40696,10 @@ PrefabInstance:
       value: Oxigen (15)
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
       value: bubl
       objectReference: {fileID: 0}
@@ -41400,6 +41271,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
       propertyPath: m_Name
       value: Plataforma3 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -42695,6 +42570,10 @@ PrefabInstance:
       value: Oxigen (3)
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
       value: bubl
       objectReference: {fileID: 0}
@@ -43427,6 +43306,10 @@ PrefabInstance:
     - target: {fileID: 5083204847046300792, guid: aa06f1dbeb014bb47a631a13939e3010, type: 3}
       propertyPath: m_Name
       value: SpawnParticles
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083204847046300792, guid: aa06f1dbeb014bb47a631a13939e3010, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -47638,6 +47521,10 @@ PrefabInstance:
       value: Oxigen (23)
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
       value: bubl
       objectReference: {fileID: 0}
@@ -48987,6 +48874,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma3 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -49771,6 +49662,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
       propertyPath: m_Name
       value: Plataforma3 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -53038,6 +52933,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma3 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -53897,6 +53796,10 @@ PrefabInstance:
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_Name
       value: Oxigen (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
@@ -54881,6 +54784,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma3 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -55016,6 +54923,10 @@ PrefabInstance:
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_Name
       value: Oxigen (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
@@ -56852,6 +56763,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 117af0a566fea9b4ca173ecfdc2bd685, type: 3}
       propertyPath: m_Name
       value: Plataforma2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 117af0a566fea9b4ca173ecfdc2bd685, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -58812,6 +58727,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma2 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 117af0a566fea9b4ca173ecfdc2bd685, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -60415,6 +60334,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma2 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 117af0a566fea9b4ca173ecfdc2bd685, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -61256,6 +61179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ReglasLetrero
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1fb1f774c0b1c04f872e50f9e2c88e3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6381434970857845955, guid: f1fb1f774c0b1c04f872e50f9e2c88e3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -61528,6 +61455,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
       propertyPath: m_Name
       value: Plataforma3 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -65015,6 +64946,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma2 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 117af0a566fea9b4ca173ecfdc2bd685, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -66236,6 +66171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma3 (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -67452,6 +67391,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
       propertyPath: m_Name
       value: Plataforma3 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -70480,6 +70423,10 @@ PrefabInstance:
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_Name
       value: Oxigen (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
@@ -77762,6 +77709,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma3 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -78032,6 +77983,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
       propertyPath: m_Name
       value: Plataforma3 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -80629,6 +80584,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma3 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -81219,6 +81178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 117af0a566fea9b4ca173ecfdc2bd685, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -81353,6 +81316,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 117af0a566fea9b4ca173ecfdc2bd685, type: 3}
       propertyPath: m_Name
       value: Plataforma2 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 117af0a566fea9b4ca173ecfdc2bd685, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -81900,6 +81867,10 @@ PrefabInstance:
       value: Oxigen (13)
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
       value: bubl
       objectReference: {fileID: 0}
@@ -82355,6 +82326,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
       propertyPath: m_Name
       value: Plataforma3 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -84253,60 +84228,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!1 &1203912449
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1203912450}
-  - component: {fileID: 1203912451}
-  m_Layer: 1
-  m_Name: ColliderP
-  m_TagString: Ground
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1203912450
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1203912449}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.22363, y: 1.48, z: -0.096771}
-  m_LocalScale: {x: 8.940752, y: 5.7956324, z: 11.861795}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 350418969}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &1203912451
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1203912449}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7878626895493265169, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
 --- !u!1001 &1206265494
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -84370,6 +84291,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5a0684abd23ae124c968f0bf2c720994, type: 3}
       propertyPath: m_Name
       value: BaseSecundariaFuente (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5a0684abd23ae124c968f0bf2c720994, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5a0684abd23ae124c968f0bf2c720994, type: 3}
       propertyPath: m_TagString
@@ -86314,6 +86239,10 @@ PrefabInstance:
       value: Wall5 (4)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 95b76f5a6e7b1064fba2f3b65619cdc2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 95b76f5a6e7b1064fba2f3b65619cdc2, type: 3}
       propertyPath: m_TagString
       value: Ground
       objectReference: {fileID: 0}
@@ -87571,6 +87500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma3 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -87807,6 +87740,10 @@ PrefabInstance:
     - target: {fileID: 7089931740683255680, guid: 97f0f797d3598dc44a8f0496fb16b825, type: 3}
       propertyPath: m_Name
       value: Musica
+      objectReference: {fileID: 0}
+    - target: {fileID: 7089931740683255680, guid: 97f0f797d3598dc44a8f0496fb16b825, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -88648,6 +88585,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 117af0a566fea9b4ca173ecfdc2bd685, type: 3}
       propertyPath: m_Name
       value: Plataforma2 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 117af0a566fea9b4ca173ecfdc2bd685, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -91767,6 +91708,10 @@ PrefabInstance:
       value: Oxigen (28)
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
       value: bubl
       objectReference: {fileID: 0}
@@ -93270,6 +93215,10 @@ PrefabInstance:
       value: Oxigen (9)
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
       value: bubl
       objectReference: {fileID: 0}
@@ -94015,6 +93964,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 95b76f5a6e7b1064fba2f3b65619cdc2, type: 3}
       propertyPath: m_Name
       value: Wall5 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 95b76f5a6e7b1064fba2f3b65619cdc2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 95b76f5a6e7b1064fba2f3b65619cdc2, type: 3}
       propertyPath: m_TagString
@@ -95727,6 +95680,10 @@ PrefabInstance:
       value: Oxigen
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
       value: bubl
       objectReference: {fileID: 0}
@@ -96135,6 +96092,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
       propertyPath: m_Name
       value: Plataforma3 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -100765,6 +100726,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma3 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -100845,6 +100810,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 95b76f5a6e7b1064fba2f3b65619cdc2, type: 3}
       propertyPath: m_Name
       value: Wall5 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 95b76f5a6e7b1064fba2f3b65619cdc2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 95b76f5a6e7b1064fba2f3b65619cdc2, type: 3}
       propertyPath: m_TagString
@@ -103124,6 +103093,10 @@ PrefabInstance:
       value: Oxigen (1)
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
       value: bubl
       objectReference: {fileID: 0}
@@ -103753,37 +103726,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1135409725998308036, guid: 357d114b06cd9c949aa86a234126501c, type: 3}
---- !u!1 &1475727678
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1475727679}
-  m_Layer: 3
-  m_Name: camera target
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1475727679
+--- !u!4 &1475727679 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 6071614314868481991, guid: ec3e36107eefd2f4a8804c4f57aef027, type: 3}
+  m_PrefabInstance: {fileID: 385701689}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1475727678}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.075, z: -0.042}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 385701690}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1477087430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -105267,6 +105214,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
       propertyPath: m_Name
       value: Plataforma1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2728657495004199835, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -107323,6 +107274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma2 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 117af0a566fea9b4ca173ecfdc2bd685, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -107754,6 +107709,10 @@ PrefabInstance:
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_Name
       value: Oxigen (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
@@ -109024,6 +108983,10 @@ PrefabInstance:
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_Name
       value: Oxigen (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
@@ -111890,6 +111853,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma3 (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -113039,6 +113006,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma3 (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -113230,6 +113201,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 117af0a566fea9b4ca173ecfdc2bd685, type: 3}
       propertyPath: m_Name
       value: Plataforma2 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 117af0a566fea9b4ca173ecfdc2bd685, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -118821,6 +118796,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma3 (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -119117,6 +119096,10 @@ PrefabInstance:
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_Name
       value: Oxigen (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
@@ -121370,6 +121353,10 @@ PrefabInstance:
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_Name
       value: Oxigen (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
@@ -124178,6 +124165,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma3 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -124911,6 +124902,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnParticles (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5083204847046300792, guid: aa06f1dbeb014bb47a631a13939e3010, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -125352,6 +125347,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7e70225b30324c14993ec06453d1bd01, type: 3}
       propertyPath: m_Name
       value: PuertaMyM
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7e70225b30324c14993ec06453d1bd01, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -126270,6 +126269,10 @@ PrefabInstance:
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_Name
       value: Oxigen (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
@@ -128294,6 +128297,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 117af0a566fea9b4ca173ecfdc2bd685, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -129595,6 +129602,10 @@ PrefabInstance:
       value: Oxigen (16)
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
       value: bubl
       objectReference: {fileID: 0}
@@ -130439,6 +130450,10 @@ PrefabInstance:
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_Name
       value: Oxigen (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
@@ -135486,6 +135501,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma2 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 117af0a566fea9b4ca173ecfdc2bd685, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -136482,6 +136501,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma3 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -136595,6 +136618,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 117af0a566fea9b4ca173ecfdc2bd685, type: 3}
       propertyPath: m_Name
       value: Plataforma2 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 117af0a566fea9b4ca173ecfdc2bd685, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -137147,6 +137174,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma3 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -137575,6 +137606,60 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6126166136529573986, guid: ec9f152bd7adc424f8512feea7980b2f, type: 3}
+--- !u!1 &1914389683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1914389684}
+  - component: {fileID: 1914389685}
+  m_Layer: 0
+  m_Name: ColliderP
+  m_TagString: Ground
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1914389684
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914389683}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.22363, y: 1.48, z: -0.096771}
+  m_LocalScale: {x: 8.940752, y: 5.7956324, z: 11.861795}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 360755885}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &1914389685
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914389683}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7878626895493265169, guid: 37cb0f332c3a8cb4abec218a5f91e1c6, type: 3}
 --- !u!1001 &1914584902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -137642,6 +137727,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
       propertyPath: m_Name
       value: Plataforma3 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -138873,6 +138962,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
       propertyPath: m_Name
       value: Plataforma3 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -141655,6 +141748,10 @@ PrefabInstance:
       value: BaseSecundariaFuente (2)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5a0684abd23ae124c968f0bf2c720994, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5a0684abd23ae124c968f0bf2c720994, type: 3}
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
@@ -142506,6 +142603,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
       propertyPath: m_Name
       value: Plataforma3 (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -145447,6 +145548,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma3 (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -147163,6 +147268,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PuertaMyM (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7e70225b30324c14993ec06453d1bd01, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 955274587992045523, guid: 7e70225b30324c14993ec06453d1bd01, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -148635,6 +148744,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
       propertyPath: m_Name
       value: Plataforma3 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -152511,6 +152624,10 @@ PrefabInstance:
       value: Oxigen (10)
       objectReference: {fileID: 0}
     - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030104771564097652, guid: a2f364f59d1a41343b119f7d69cbc8d0, type: 3}
       propertyPath: m_TagString
       value: bubl
       objectReference: {fileID: 0}
@@ -152803,6 +152920,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
       propertyPath: m_Name
       value: Plataforma3 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba443e591c4ae554fb8e395eba4469c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -153283,6 +153404,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnParticles
       objectReference: {fileID: 0}
+    - target: {fileID: 5083204847046300792, guid: aa06f1dbeb014bb47a631a13939e3010, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -153357,6 +153482,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2063257089}
     m_Modifications:
+    - target: {fileID: 1535195083030289984, guid: 61a49aa77347226459e5b87473003f71, type: 3}
+      propertyPath: drainRate
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1535195083030289984, guid: 61a49aa77347226459e5b87473003f71, type: 3}
       propertyPath: maxOxygen
       value: 300
@@ -153449,6 +153578,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4547805498254472799, guid: 61a49aa77347226459e5b87473003f71, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4612071139163802868, guid: 61a49aa77347226459e5b87473003f71, type: 3}
       propertyPath: playerInputHandler
       value: 
@@ -153490,11 +153623,11 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 210264076}
   - {fileID: 1941165569}
   - {fileID: 32382059}
   - {fileID: 2063257089}
   - {fileID: 662081725}
-  - {fileID: 210264076}
   - {fileID: 347261972651559844}
   - {fileID: 352383099}
   - {fileID: 14075974}

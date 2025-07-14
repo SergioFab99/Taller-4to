@@ -11,7 +11,7 @@ public class PlayerInputHandler : MonoBehaviour
 
     [Header("Referencias")]
     [SerializeField] private Transform cameraTransform;
-    [SerializeField] private Animator animator; // Referencia al Animator
+    [SerializeField] private Animator animator;
 
     private PlayerMovementController movementController;
     private PlayerFeedbackManager feedbackManager;
@@ -65,7 +65,6 @@ public class PlayerInputHandler : MonoBehaviour
 
             feedbackManager.UpdateChargeFeedback(chargePercentage);
 
-            Debug.Log($"HoldTime: {holdTime:F2}, ChargeTime: {chargeTime:F2}, Percentage: {chargePercentage:F2}");
         }
 
         if (isCharging && Input.GetMouseButtonUp(0))
@@ -89,7 +88,7 @@ public class PlayerInputHandler : MonoBehaviour
         {
             camForward.y = minVerticalComponent;
         }
-
+        print("CamForward: " + camForward.normalized);
         return camForward.normalized;
     }
 
