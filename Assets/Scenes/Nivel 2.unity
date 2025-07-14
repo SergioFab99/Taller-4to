@@ -52884,6 +52884,16 @@ MonoBehaviour:
   - {fileID: 2025338486}
   - {fileID: 2107164097}
   - {fileID: 1545070018}
+  velocidadVuelo: 80
+  velocidadDescenso: 100
+  rangoVueloHorizontal: 70
+  tiempoMinimoCaza: 5
+  tiempoMaximoCaza: 8
+  radioCaptura: 6.11
+  jugador: {fileID: 1590902952}
+  sonidoDescenso: {fileID: 0}
+  volumenSonido: 1
+  distanciaAudible: 20
 --- !u!95 &8456206319331326612
 Animator:
   serializedVersion: 7
