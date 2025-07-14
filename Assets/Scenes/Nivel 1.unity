@@ -5572,6 +5572,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: d649380d40c47ce41982a0dc918be9b4, type: 2}
+    - target: {fileID: -4235290804199250550, guid: 8ce68b79e266cad44b3468f3bf7a0b97, type: 3}
+      propertyPath: m_TagString
+      value: WATAAAAAAA
+      objectReference: {fileID: 0}
     - target: {fileID: -3570834692083655471, guid: 8ce68b79e266cad44b3468f3bf7a0b97, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -42654,7 +42658,7 @@ GameObject:
   - component: {fileID: 605158153}
   m_Layer: 0
   m_Name: Collider
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42668,8 +42672,8 @@ Transform:
   m_GameObject: {fileID: 605158151}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.22, y: 0.24, z: -0.41}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.22772, y: 0.24917, z: -0.41967}
+  m_LocalScale: {x: 1.0283, y: 1.0283, z: 1.0283}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1218075702}
@@ -42695,7 +42699,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: -5447794945808381723, guid: 7c4b0dd52dd640846bb67c18df4576b2, type: 3}
+  m_Mesh: {fileID: -1276714661826170702, guid: 7c4b0dd52dd640846bb67c18df4576b2, type: 3}
 --- !u!1001 &606005482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72973,7 +72977,7 @@ GameObject:
   - component: {fileID: 1029935857}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74146,7 +74150,7 @@ GameObject:
   - component: {fileID: 1047552778}
   m_Layer: 0
   m_Name: Collider
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74160,8 +74164,8 @@ Transform:
   m_GameObject: {fileID: 1047552776}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.22, y: 0.24, z: -0.41}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.22386, y: 0.24458, z: -0.41484}
+  m_LocalScale: {x: 1.0141, y: 1.0141, z: 1.0141}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 374300726}
@@ -74187,7 +74191,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: -5447794945808381723, guid: 7c4b0dd52dd640846bb67c18df4576b2, type: 3}
+  m_Mesh: {fileID: -1276714661826170702, guid: 7c4b0dd52dd640846bb67c18df4576b2, type: 3}
 --- !u!1001 &1047603660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -87079,6 +87083,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: d649380d40c47ce41982a0dc918be9b4, type: 2}
+    - target: {fileID: -4235290804199250550, guid: 8ce68b79e266cad44b3468f3bf7a0b97, type: 3}
+      propertyPath: m_TagString
+      value: WATAAAAAAA
+      objectReference: {fileID: 0}
     - target: {fileID: -3570834692083655471, guid: 8ce68b79e266cad44b3468f3bf7a0b97, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -98523,7 +98531,7 @@ GameObject:
   - component: {fileID: 1406398353}
   m_Layer: 0
   m_Name: Collider
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98537,8 +98545,8 @@ Transform:
   m_GameObject: {fileID: 1406398351}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3, y: 0.26, z: -0.31129}
-  m_LocalScale: {x: 0.97761, y: 1, z: 1.0039}
+  m_LocalPosition: {x: -0.3, y: 0.3, z: -0.32}
+  m_LocalScale: {x: 0.9913942, y: 1.0141, z: 1.018055}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 438726665}
@@ -98564,7 +98572,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: -5447794945808381723, guid: 7c4b0dd52dd640846bb67c18df4576b2, type: 3}
+  m_Mesh: {fileID: -1276714661826170702, guid: 7c4b0dd52dd640846bb67c18df4576b2, type: 3}
 --- !u!1001 &1406582863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -117142,7 +117150,7 @@ GameObject:
   - component: {fileID: 1657955222}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
