@@ -43,16 +43,11 @@ public class ControladorAve : MonoBehaviour
     void VolarEnPatronCircular()
     {
         // Movimiento circular dentro del área delimitada
-        float tiempo = Time.time / tiempoVueloCircular;  // Usamos el tiempo para hacer que el ave vuele de forma circular
-
-        // Calcular las posiciones X, Z y Y utilizando funciones seno y coseno
+        float tiempo = Time.time / tiempoVueloCircular;
         float x = centroVuelo.x + Mathf.Sin(tiempo * Mathf.PI * 2) * rangoVueloHorizontal;
         float z = centroVuelo.z + Mathf.Cos(tiempo * Mathf.PI * 2) * rangoVueloHorizontal;
-        float y = alturaVuelo + Mathf.Sin(tiempo * Mathf.PI) * rangoVueloVertical; // Oscilación vertical
-
+        float y = alturaVuelo + Mathf.Sin(tiempo * Mathf.PI) * rangoVueloVertical;
         puntoVueloObjetivo = new Vector3(x, y, z);
-
-        // Mover hacia el nuevo punto objetivo
         transform.position = Vector3.MoveTowards(transform.position, puntoVueloObjetivo, velocidadVuelo * Time.deltaTime);
     }
 
@@ -125,24 +120,20 @@ public class ControladorAve : MonoBehaviour
 
     IEnumerator RegresarAlturaVuelo()
     {
-        // Regresar el ave a su altura original
         Vector3 objetivoRegreso = new Vector3(transform.position.x, alturaVuelo, transform.position.z);
-
         while (Vector3.Distance(transform.position, objetivoRegreso) > 0.1f)
         {
             transform.position = Vector3.MoveTowards(transform.position, objetivoRegreso, velocidadVuelo * Time.deltaTime);
             yield return null;
         }
-
-        // Después de regresar a la altura de vuelo, generar un nuevo centro aleatorio para seguir el patrón circular
         GenerarNuevoCentroVuelo();
     }
 
     void GenerarNuevoCentroVuelo()
     {
         // Generar un nuevo centro de vuelo aleatorio dentro del área de vuelo
-        float x = Random.Range(centroVuelo.x - rangoVueloHorizontal, centroVuelo.x + rangoVueloHorizontal);
-        float z = Random.Range(centroVuelo.z - rangoVueloHorizontal, centroVuelo.z + rangoVueloHorizontal);
+        float x = Random.Range(transform.position.x - rangoVueloHorizontal, transform.position.x + rangoVueloHorizontal);
+        float z = Random.Range(transform.position.z - rangoVueloHorizontal, transform.position.z + rangoVueloHorizontal);
         centroVuelo = new Vector3(x, alturaVuelo, z);
     }
 
