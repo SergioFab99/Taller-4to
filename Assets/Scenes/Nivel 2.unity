@@ -13023,6 +13023,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2100081859670391591, guid: 61a49aa77347226459e5b87473003f71, type: 3}
+      propertyPath: m_fontSize
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2100081859670391591, guid: 61a49aa77347226459e5b87473003f71, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 168cac8bb11e7534396a328727a4af78, type: 2}
+    - target: {fileID: 2100081859670391591, guid: 61a49aa77347226459e5b87473003f71, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2100081859670391591, guid: 61a49aa77347226459e5b87473003f71, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8992046742333321351, guid: 168cac8bb11e7534396a328727a4af78, type: 2}
+    - target: {fileID: 2100081859670391591, guid: 61a49aa77347226459e5b87473003f71, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3975549965017209798, guid: 61a49aa77347226459e5b87473003f71, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
