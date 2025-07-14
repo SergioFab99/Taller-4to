@@ -52742,12 +52742,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 931b3e9425158b44bae5538ed7379d7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadVuelo: 100
+  velocidadVuelo: 80
   velocidadDescenso: 100
-  rangoVueloHorizontal: 100
+  rangoVueloHorizontal: 70
   tiempoMinimoCaza: 5
   tiempoMaximoCaza: 8
-  radioCaptura: 100
+  radioCaptura: 6.11
   jugador: {fileID: 1590902952}
   sonidoDescenso: {fileID: 0}
   volumenSonido: 1

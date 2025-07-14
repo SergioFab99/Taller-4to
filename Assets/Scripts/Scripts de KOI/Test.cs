@@ -8,11 +8,11 @@ public class Test : MonoBehaviour
     void Start()
     {
         // Verificar si Koi está asignado
-        if (Koi == null)
-        {
-            Debug.LogError("El objeto Koi no está asignado.");
-            return; // Detener ejecución si Koi no está asignado
-        }
+        //if (Koi == null)
+       // {
+        //    Debug.LogError("El objeto Koi no está asignado.");
+        //    return; // Detener ejecución si Koi no está asignado
+       // }
     }
 
     // Update is called once per frame
