@@ -19898,7 +19898,7 @@ GameObject:
   - component: {fileID: 850239070}
   - component: {fileID: 850239068}
   - component: {fileID: 850239073}
-  - component: {fileID: 850239072}
+  - component: {fileID: 850239074}
   m_Layer: 0
   m_Name: Narrator
   m_TagString: Untagged
@@ -19919,10 +19919,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texts:
-  - "There is a legend of a powerful magic, resting on top of a mountain, said to
-    be able to grant any wish. Ridiculous, isn\u2019t it? But there is one who sought
-    to reach that power. Must be a great adventurer, right? Well\u2026 not quite."
-  delay: 30
+  - "At last, the Koi\u2019s journey is nearly at an end. It will soon find out if
+    all the struggle was worth it. "
+  delay: 10
 --- !u!114 &850239070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19952,24 +19951,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2063257089}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &850239072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 850239067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 248be581da42b85488bac04621675344, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clips:
-  - {fileID: 8300000, guid: ca25c270f250e524bb91f476b7568534, type: 3}
-  - {fileID: 8300000, guid: c178b04d25434d34f8774d13308a44d5, type: 3}
-  - {fileID: 8300000, guid: f0d432fbdf8883c48af924e2041852eb, type: 3}
-  volume: 1
-  interval: 100
 --- !u!114 &850239073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19983,8 +19964,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clips:
-  - {fileID: 8300000, guid: a329104ed0fb63d468f07bfe336f9ca2, type: 3}
+  - {fileID: 8300000, guid: cef709bc230db4044ade2c4f6fdb35be, type: 3}
   volume: 1
+--- !u!114 &850239074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850239067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71aebd8aa7b20aa4a8fdcf8d3799eab5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  narrations:
+  - audioClip: {fileID: 8300000, guid: 2042ed8dde47f3f4f9ce0ff4555019a7, type: 3}
+    text: 'One can almost sense its desperation, rushing forward, so close to the
+      end. '
+    volume: 1
+  - audioClip: {fileID: 8300000, guid: 1fd4ce6cfa7252747b20ef3ecb21f9cc, type: 3}
+    text: The fish best make haste. Especially in such harsh conditions, its oxygen
+      will not last long.
+    volume: 1
+  - audioClip: {fileID: 8300000, guid: 31d6f70a0e39a5f4dbc768bb3cee37ab, type: 3}
+    text: It would be a shame to see it die so close to the end.
+    volume: 1
+  delayBetweenNarrations: 9
+  player: {fileID: 879080029}
+  interval: 100
 --- !u!1001 &855317441
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20913,7 +20921,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3151055066241962928, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
   m_PrefabInstance: {fileID: 2144717070}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 2144717072}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0f29bddfa67610c43a27867814d42a95, type: 3}
@@ -52408,16 +52416,55 @@ PrefabInstance:
       propertyPath: cameraTransform
       value: 
       objectReference: {fileID: 1941165569}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5625152006438796999, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
+    - {fileID: 5811084604082859696, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6330021476672630515, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2144717073}
   m_SourcePrefab: {fileID: 100100000, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
 --- !u!4 &2144717071 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8695576596937458287, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
   m_PrefabInstance: {fileID: 2144717070}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2144717072 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6330021476672630515, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
+  m_PrefabInstance: {fileID: 2144717070}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2144717073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144717072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8df075b24e3b664db40e12d1e31bf39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  narrations:
+  - audioClip: {fileID: 8300000, guid: aeea81f93ed5cfa41b86e95fa14302da, type: 3}
+    text: "By now, it\u2019s well expected that the Koi will fall. It\u2019s also
+      to be expected that it will rise again. "
+    volume: 1
+  - audioClip: {fileID: 8300000, guid: 464a72c2f571f4c4cbad456b9f4bc687, type: 3}
+    text: "That looked like it hurt. But the fish doesn\u2019t care. It will not
+      relent."
+    volume: 1
+  - audioClip: {fileID: 8300000, guid: edb80d92f2dda404a8dc379352e6d307, type: 3}
+    text: It was never the most capable animal on this mountain. But it may be the
+      most impressive.
+    volume: 1
+  delayBetweenNarrations: 9
+  minAscentThreshold: 40
+  minFallThreshold: 40
+  cooldownDuration: 5
 --- !u!1 &2146835059
 GameObject:
   m_ObjectHideFlags: 0
