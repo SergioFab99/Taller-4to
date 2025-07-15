@@ -852,7 +852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6e8f7018bdd51c489603a8bf0b66b4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pulseSpeed: 2
+  pulseSpeed: 1
   pulseAmount: 1
   hoverSound: {fileID: 0}
 --- !u!224 &392259783

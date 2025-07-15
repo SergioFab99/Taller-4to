@@ -5,7 +5,7 @@ public class Credits : MonoBehaviour
 {
     void Start()
     {
-        Invoke("WaitToEnd", 29);
+        Invoke("WaitToEnd", 40);
     }
 
     void Update()

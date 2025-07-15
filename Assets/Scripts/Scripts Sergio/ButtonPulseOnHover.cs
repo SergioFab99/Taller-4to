@@ -5,8 +5,8 @@ using UnityEngine.EventSystems;
 public class ButtonPulseOnHover: MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     [Header("Pulso")]
-    public float pulseSpeed = 2f;
-    public float pulseAmount = 0.1f;
+    public float pulseSpeed = 1f;
+    public float pulseAmount = 1f;
 
     [Header("Sonido (opcional)")]
     public AudioClip hoverSound;
@@ -35,7 +35,7 @@ public class ButtonPulseOnHover: MonoBehaviour, IPointerEnterHandler, IPointerEx
         if (isHovering)
         {
             timer += Time.deltaTime * pulseSpeed;
-            float scale = 1f + Mathf.Sin(timer) * pulseAmount;
+            float scale = 0.6f + Mathf.Sin(timer) * pulseAmount;
             rect.localScale = originalScale * scale;
         }
     }
