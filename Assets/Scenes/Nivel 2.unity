@@ -43594,6 +43594,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5212985855201236220, guid: 81bb9746a700a3b429e05567f44752fc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fc7498e8be20dce44ab64c8a47bd52eb, type: 2}
+    - target: {fileID: -4545275685253769207, guid: 81bb9746a700a3b429e05567f44752fc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2e843abc09b00d240bd62d107ca9814f, type: 2}
+    - target: {fileID: -1615687011725769839, guid: 81bb9746a700a3b429e05567f44752fc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fc7498e8be20dce44ab64c8a47bd52eb, type: 2}
     - target: {fileID: 919132149155446097, guid: 81bb9746a700a3b429e05567f44752fc, type: 3}
       propertyPath: m_Name
       value: base_grulla (1)
@@ -43602,6 +43614,18 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2733484354374274357, guid: 81bb9746a700a3b429e05567f44752fc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fc7498e8be20dce44ab64c8a47bd52eb, type: 2}
+    - target: {fileID: 5593228898525317301, guid: 81bb9746a700a3b429e05567f44752fc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fc7498e8be20dce44ab64c8a47bd52eb, type: 2}
+    - target: {fileID: 5793158710586385330, guid: 81bb9746a700a3b429e05567f44752fc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e7481cba03f53fe45942852d4e52b267, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -44475,6 +44499,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5212985855201236220, guid: 81bb9746a700a3b429e05567f44752fc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fc7498e8be20dce44ab64c8a47bd52eb, type: 2}
+    - target: {fileID: -4545275685253769207, guid: 81bb9746a700a3b429e05567f44752fc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2e843abc09b00d240bd62d107ca9814f, type: 2}
+    - target: {fileID: -1615687011725769839, guid: 81bb9746a700a3b429e05567f44752fc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fc7498e8be20dce44ab64c8a47bd52eb, type: 2}
     - target: {fileID: 919132149155446097, guid: 81bb9746a700a3b429e05567f44752fc, type: 3}
       propertyPath: m_Name
       value: base_grulla
@@ -44483,6 +44519,18 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2733484354374274357, guid: 81bb9746a700a3b429e05567f44752fc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fc7498e8be20dce44ab64c8a47bd52eb, type: 2}
+    - target: {fileID: 5593228898525317301, guid: 81bb9746a700a3b429e05567f44752fc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fc7498e8be20dce44ab64c8a47bd52eb, type: 2}
+    - target: {fileID: 5793158710586385330, guid: 81bb9746a700a3b429e05567f44752fc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e7481cba03f53fe45942852d4e52b267, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
