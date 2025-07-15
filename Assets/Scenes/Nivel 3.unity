@@ -2991,6 +2991,78 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c42162970d9c6614aae0f187782bc3f0, type: 3}
   m_PrefabInstance: {fileID: 1893720564}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &99774912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 99774913}
+  - component: {fileID: 99774914}
+  - component: {fileID: 99774915}
+  m_Layer: 0
+  m_Name: Progreso1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &99774913
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99774912}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.17270972, z: -0, w: 0.9849728}
+  m_LocalPosition: {x: -737.3, y: -387.7, z: 653.8}
+  m_LocalScale: {x: 1, y: 55.856, z: 83.64543}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2063257089}
+  m_LocalEulerAnglesHint: {x: 0, y: -19.891, z: 0}
+--- !u!65 &99774914
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99774912}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &99774915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99774912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b4815c6bd38975469e742ad67548143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  narrations:
+  - audioClip: {fileID: 8300000, guid: e3c1333bb8b2bc443ae03cd3b705440d, type: 3}
+    text: Surely no one can doubt the Koi by now. Be it through skill, stubbornness,
+      or luck, its goal is in sight.
+    volume: 1
+  delayBetweenNarrations: 10
 --- !u!1001 &102641784
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22672,6 +22744,78 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7878626895493265169, guid: f3fa885700693ed41b5643f5a7386877, type: 3}
+--- !u!1 &947041516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 947041517}
+  - component: {fileID: 947041519}
+  - component: {fileID: 947041518}
+  m_Layer: 0
+  m_Name: Progreso3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &947041517
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947041516}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.9999829, z: -0, w: 0.005851387}
+  m_LocalPosition: {x: -728, y: -314.4, z: 433.3}
+  m_LocalScale: {x: 1, y: 55.856, z: 83.64543}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2063257089}
+  m_LocalEulerAnglesHint: {x: 0, y: -179.329, z: 0}
+--- !u!114 &947041518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947041516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b4815c6bd38975469e742ad67548143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  narrations:
+  - audioClip: {fileID: 8300000, guid: ef41afb24eb80904c8f2eb92e49d533e, type: 3}
+    text: Was the universe truly on its side? Was it against it? That never seemed
+      to matter to the Koi.
+    volume: 1
+  delayBetweenNarrations: 9
+--- !u!65 &947041519
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947041516}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &948479444
 GameObject:
   m_ObjectHideFlags: 0
@@ -33690,6 +33834,78 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c42162970d9c6614aae0f187782bc3f0, type: 3}
+--- !u!1 &1393286735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1393286736}
+  - component: {fileID: 1393286738}
+  - component: {fileID: 1393286737}
+  m_Layer: 0
+  m_Name: Progreso2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1393286736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393286735}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.58561856, z: -0, w: 0.81058675}
+  m_LocalPosition: {x: -892, y: -357.1, z: 542.5}
+  m_LocalScale: {x: 1, y: 55.856, z: 83.64543}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2063257089}
+  m_LocalEulerAnglesHint: {x: 0, y: -71.693, z: 0}
+--- !u!114 &1393286737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393286735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b4815c6bd38975469e742ad67548143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  narrations:
+  - audioClip: {fileID: 8300000, guid: 68b8e651dccdff346a589b2315b690c7, type: 3}
+    text: 'We could all stand to learn something from this fish. Frail, weak, with
+      no chance at all. Yet, it''s nearly made it. '
+    volume: 1
+  delayBetweenNarrations: 11
+--- !u!65 &1393286738
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393286735}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1393795410 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c42162970d9c6614aae0f187782bc3f0, type: 3}
@@ -50197,6 +50413,9 @@ Transform:
   - {fileID: 1283560880}
   - {fileID: 280265536}
   - {fileID: 1153954865}
+  - {fileID: 99774913}
+  - {fileID: 1393286736}
+  - {fileID: 947041517}
   - {fileID: 850239071}
   - {fileID: 1206265495}
   - {fileID: 1967417987}
