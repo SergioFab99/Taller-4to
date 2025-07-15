@@ -1186,9 +1186,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "PROJECT MANAGER\n\n\nPROJECT CO - MANAGER\n\n\n \nDESIGN LEADER\n\nDESIGN
-    TEAM\n\n\n\nART LEADER\n\nART TEAM\n\n\n\nPROGRAMMING LEADER\n\nPROGRAMMING TEAM\n\n\nSOUND
-    & MUSIC \n\n\n\n\n\n\n\n\n\n\nTHANKS FOR PLAYING!"
+  m_text: "PROJECT MANAGER\n\n\nPROJECT CO - MANAGER\n\n\n \nLEAD DESIGNER\n\nDESIGNER\n\n\n\nART
+    LEAD\n\nARTISTS\n\n\n\nPROGRAMMING LEAD\n\nPROGRAMMER\n\n\nSOUND & MUSIC \n\n\n\n\n\n\n\n\n\n\nTHANKS
+    FOR PLAYING!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 168cac8bb11e7534396a328727a4af78, type: 2}
   m_sharedMaterial: {fileID: 8992046742333321351, guid: 168cac8bb11e7534396a328727a4af78, type: 2}
