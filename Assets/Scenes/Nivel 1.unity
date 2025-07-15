@@ -48410,7 +48410,7 @@ MonoBehaviour:
     text: It continues to climb and fall, to flop and fail, as it slowly and predictably
       perishes.
     volume: 1
-  delayBetweenNarrations: 100
+  delayBetweenNarrations: 10
   player: {fileID: 623487067}
   interval: 100
 --- !u!64 &688586145

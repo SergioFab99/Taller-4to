@@ -3446,6 +3446,7 @@ GameObject:
   - component: {fileID: 134579854}
   - component: {fileID: 134579853}
   - component: {fileID: 134579852}
+  - component: {fileID: 134579857}
   m_Layer: 0
   m_Name: Narrator
   m_TagString: Untagged
@@ -3532,6 +3533,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &134579857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134579851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71aebd8aa7b20aa4a8fdcf8d3799eab5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  narrations:
+  - audioClip: {fileID: 8300000, guid: 89b4090c93258df49872901ef112c19f, type: 3}
+    text: 'To be fair to the little fish, this is a most strange environment for
+      it. That may explain its incompetence. '
+    volume: 1
+  - audioClip: {fileID: 8300000, guid: 73a612817d9359943b712ba819998595, type: 3}
+    text: Why, do you believe, does the fish continue to try? What drives its stubbornness?
+      Perhaps it is adequately explained by stupidity.
+    volume: 1
+  - audioClip: {fileID: 8300000, guid: 4379a9e186b57244182528a563bdde1b, type: 3}
+    text: The Koi takes its time, ignoring its draining oxygen. Perhaps it wishes
+      to be sure it will get to the wish. Or perhaps it's just rather dense.
+    volume: 1
+  delayBetweenNarrations: 12
+  player: {fileID: 1590902953}
+  interval: 100
 --- !u!1 &135367374
 GameObject:
   m_ObjectHideFlags: 0
@@ -14105,14 +14134,24 @@ PrefabInstance:
       propertyPath: cameraTransform
       value: 
       objectReference: {fileID: 2125554651}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5811084604082859696, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
+    - {fileID: 5625152006438796999, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6330021476672630515, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1590902954}
   m_SourcePrefab: {fileID: 100100000, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
 --- !u!4 &580814963 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8695576596937458287, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
+  m_PrefabInstance: {fileID: 580814962}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &580814964 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6330021476672630515, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
   m_PrefabInstance: {fileID: 580814962}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &581085275
@@ -39056,12 +39095,38 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3151055066241962928, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
   m_PrefabInstance: {fileID: 580814962}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 580814964}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0f29bddfa67610c43a27867814d42a95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1590902954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580814964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8df075b24e3b664db40e12d1e31bf39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  narrations:
+  - audioClip: {fileID: 8300000, guid: de36cc480f1c07641a2a5a8c8e0761ac, type: 3}
+    text: 'The Koi truly is hard headed. It must be, to survive such impacts. '
+    volume: 1
+  - audioClip: {fileID: 8300000, guid: d47932e9803f74a4a8003bd07b1ffcbf, type: 3}
+    text: Is it worth it? The falls, the pain? It must be.
+    volume: 1
+  - audioClip: {fileID: 8300000, guid: 7b970074ec72aad4a8abf8c602dedffd, type: 3}
+    text: "For such a frail specimen, it\u2019s surprisingly tenacious."
+    volume: 1
+  delayBetweenNarrations: 10
+  minAscentThreshold: 40
+  minFallThreshold: 40
+  cooldownDuration: 5
 --- !u!1 &1593580263
 GameObject:
   m_ObjectHideFlags: 0

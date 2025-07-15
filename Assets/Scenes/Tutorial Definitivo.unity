@@ -17906,6 +17906,17 @@ MonoBehaviour:
   minAscentThreshold: 40
   minFallThreshold: 40
   cooldownDuration: 5
+--- !u!114 &253086581 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3151055066241962928, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
+  m_PrefabInstance: {fileID: 253086577}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253086579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f29bddfa67610c43a27867814d42a95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &255095862
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -109437,8 +109448,8 @@ MonoBehaviour:
     text: It continues to climb and fall, to flop and fail, as it slowly and predictably
       perishes.
     volume: 1
-  delayBetweenNarrations: 100
-  player: {fileID: 0}
+  delayBetweenNarrations: 10
+  player: {fileID: 253086581}
   interval: 100
 --- !u!1 &1654589922
 GameObject:
