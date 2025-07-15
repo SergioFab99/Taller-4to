@@ -27,11 +27,13 @@ public class BonecaAmbalabu : MonoBehaviour
 
     public AudioClip attackSound;
     public float attackVolume = 1f;
-    public float distanciaAudible = 12f; // Nueva distancia para escuchar el sonido
+    public float distanciaAudible = 12f; 
 
     private AudioSource audioSource;
     public float fireRate = 0.5f;
     private float nextFireTime = 0f;
+
+    public Animator anim;
 
     private void Start()
     {
@@ -58,14 +60,19 @@ public class BonecaAmbalabu : MonoBehaviour
             if (distanceToPlayer <= range && Time.time > nextFireTime)
             {
                 nextFireTime = Time.time + fireRate;
+                anim.SetBool("isIdle", false);
                 FireTongue();
             }
+        }
+
+        else
+        {
+            anim.SetBool("isIdle", true);
         }
     }
 
     private void FireTongue()
     {
-        // Solo reproduce sonido si el jugador está cerca
         if (attackSound != null && Vector3.Distance(player.position, transform.position) <= distanciaAudible)
         {
             audioSource.PlayOneShot(attackSound);

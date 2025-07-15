@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 51d0fdee935c6e7459663b733cd6c849
+guid: 690539755f8f3344ea38c4b6b1890d82
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -31,10 +31,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: iddle
-      takeName: iddle
-      internalID: -7319330166523434250
-      firstFrame: 60
+      name: stil
+      takeName: stil
+      internalID: 835624307311989802
+      firstFrame: 61
       lastFrame: 90
       wrapMode: 0
       orientationOffsetY: 0
@@ -58,11 +58,11 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 60
+      additiveReferencePoseFrame: 61
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 100
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -117,7 +117,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 100
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
