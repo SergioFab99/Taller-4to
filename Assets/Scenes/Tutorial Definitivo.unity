@@ -17858,16 +17858,54 @@ PrefabInstance:
       propertyPath: cameraTransform
       value: 
       objectReference: {fileID: 289002673}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5625152006438796999, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
+    - {fileID: 5811084604082859696, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6330021476672630515, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 253086580}
   m_SourcePrefab: {fileID: 100100000, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
 --- !u!4 &253086578 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8695576596937458287, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
   m_PrefabInstance: {fileID: 253086577}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &253086579 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6330021476672630515, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
+  m_PrefabInstance: {fileID: 253086577}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &253086580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253086579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8df075b24e3b664db40e12d1e31bf39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  narrations:
+  - audioClip: {fileID: 8300000, guid: 542cde0a41e5dfc459de0bfd32d2499c, type: 3}
+    text: "Predictably, the choking little fish stumbles and falls. The fact that
+      it\u2019s even attempting this proves its stupidity. "
+    volume: 1
+  - audioClip: {fileID: 8300000, guid: 4ab98f2e39f430942999b72b116afcd1, type: 3}
+    text: And The Koi loses any modicum of progress it may have made, obviously.
+    volume: 1
+  - audioClip: {fileID: 8300000, guid: 0d05e3d6dcf10ec47936dc5f177f10c0, type: 3}
+    text: One has to wonder whether it realizes its pathetic body is not made for
+      this challenge.
+    volume: 1
+  delayBetweenNarrations: 10
+  minAscentThreshold: 40
+  minFallThreshold: 40
+  cooldownDuration: 5
 --- !u!1001 &255095862
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -109305,7 +109343,7 @@ GameObject:
   - component: {fileID: 1654567117}
   - component: {fileID: 1654567116}
   - component: {fileID: 1654567115}
-  - component: {fileID: 1654567114}
+  - component: {fileID: 1654567119}
   m_Layer: 0
   m_Name: Narrator
   m_TagString: Untagged
@@ -109313,24 +109351,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1654567114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1654567113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 248be581da42b85488bac04621675344, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clips:
-  - {fileID: 8300000, guid: ca25c270f250e524bb91f476b7568534, type: 3}
-  - {fileID: 8300000, guid: c178b04d25434d34f8774d13308a44d5, type: 3}
-  - {fileID: 8300000, guid: f0d432fbdf8883c48af924e2041852eb, type: 3}
-  volume: 1
-  interval: 100
 --- !u!114 &1654567115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109392,6 +109412,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1654567119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654567113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71aebd8aa7b20aa4a8fdcf8d3799eab5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  narrations:
+  - audioClip: {fileID: 8300000, guid: ca25c270f250e524bb91f476b7568534, type: 3}
+    text: "The Koi is slow in every sense of the word, it\u2019s oxygen quickly running
+      out, while it still delays. "
+    volume: 1
+  - audioClip: {fileID: 8300000, guid: c178b04d25434d34f8774d13308a44d5, type: 3}
+    text: 'The fish seems either too stubborn or too stupid to understand it''s impossible
+      for it to achieve his objective. '
+    volume: 1
+  - audioClip: {fileID: 8300000, guid: f0d432fbdf8883c48af924e2041852eb, type: 3}
+    text: It continues to climb and fall, to flop and fail, as it slowly and predictably
+      perishes.
+    volume: 1
+  delayBetweenNarrations: 100
+  player: {fileID: 0}
+  interval: 100
 --- !u!1 &1654589922
 GameObject:
   m_ObjectHideFlags: 0
