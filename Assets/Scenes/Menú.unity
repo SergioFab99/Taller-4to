@@ -479,7 +479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pulseSpeed: 5
-  pulseAmount: 1
+  pulseAmount: 0.5
   hoverSound: {fileID: 8300000, guid: 1f705d82fa065fb40837be362452ea33, type: 3}
 --- !u!1 &266141577
 GameObject:
@@ -700,7 +700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pulseSpeed: 5
-  pulseAmount: 1
+  pulseAmount: 0.5
   hoverSound: {fileID: 8300000, guid: 1f705d82fa065fb40837be362452ea33, type: 3}
 --- !u!1 &342142621
 GameObject:
@@ -1064,7 +1064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pulseSpeed: 5
-  pulseAmount: 1
+  pulseAmount: 0.5
   hoverSound: {fileID: 8300000, guid: 1f705d82fa065fb40837be362452ea33, type: 3}
 --- !u!114 &544378983
 MonoBehaviour:
@@ -1443,7 +1443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pulseSpeed: 5
-  pulseAmount: 1
+  pulseAmount: 0.5
   hoverSound: {fileID: 8300000, guid: 1f705d82fa065fb40837be362452ea33, type: 3}
 --- !u!1 &1187930038
 GameObject:
