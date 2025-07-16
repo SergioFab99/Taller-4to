@@ -33,7 +33,7 @@ public class BonecaAmbalabu : MonoBehaviour
     public float fireRate = 0.5f;
     private float nextFireTime = 0f;
 
-    public Animator anim;
+    //public Animator anim;
 
     private void Start()
     {
@@ -60,15 +60,15 @@ public class BonecaAmbalabu : MonoBehaviour
             if (distanceToPlayer <= range && Time.time > nextFireTime)
             {
                 nextFireTime = Time.time + fireRate;
-                anim.SetBool("isIdle", false);
+                //anim.SetBool("isIdle", false);
                 FireTongue();
             }
         }
 
-        else
-        {
-            anim.SetBool("isIdle", true);
-        }
+        //else
+        //{
+        //    anim.SetBool("isIdle", true);
+        //}
     }
 
     private void FireTongue()

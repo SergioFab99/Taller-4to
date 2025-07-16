@@ -4,13 +4,13 @@ public class DeadZoneTrigger : MonoBehaviour
 {
     // Etiqueta del jugador
     [SerializeField] private string playerTag = "Player";
-    public PlayerInputHandler dead;
+    public MiBombo2 dead;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag(playerTag))
         {
-            dead.isFuckingDead = false;
+            dead.FuckingDie();
             Debug.Log("dead");
         }
     }
