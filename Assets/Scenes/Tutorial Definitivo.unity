@@ -20986,7 +20986,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 289002670}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.04878366, y: 0.000000022335815, z: -0.0000000010909214, w: 0.9988094}
+  m_LocalRotation: {x: 0.048783485, y: 0.000000009189684, z: -4.4883922e-10, w: 0.9988094}
   m_LocalPosition: {x: 1.6949999, y: 4.8310003, z: -4.227}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -26208,6 +26208,80 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5965290697223777872, guid: 3b4da75501446a247a88b3f4d5a7d5d6, type: 3}
+--- !u!1 &364010969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 364010970}
+  - component: {fileID: 364010972}
+  - component: {fileID: 364010971}
+  m_Layer: 0
+  m_Name: NarratorTrue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &364010970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364010969}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -574.87494, y: 68.11374, z: -710.3124}
+  m_LocalScale: {x: 11.12659, y: 4.8456035, z: 9.958565}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 744107649}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &364010971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364010969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b4815c6bd38975469e742ad67548143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  narrations:
+  - audioClip: {fileID: 8300000, guid: a329104ed0fb63d468f07bfe336f9ca2, type: 3}
+    text: "There is a legend of a powerful magic, resting on top of a mountain, said
+      to be able to grant any wish. Ridiculous, isn\u2019t it? But there is one who
+      sought to reach that power. Must be a great adventurer, right? Well\u2026 not
+      quite."
+    volume: 1
+  delayBetweenNarrations: 30
+--- !u!65 &364010972
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364010969}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &365178151
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50240,6 +50314,7 @@ Transform:
   - {fileID: 1707710853}
   - {fileID: 207626693}
   - {fileID: 2034819906}
+  - {fileID: 364010970}
   - {fileID: 545010821}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -133191,15 +133266,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4634778045911173654, guid: b54c53b36780f4d42945c5162ab5760b, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.04878366
+      value: 0.048783485
       objectReference: {fileID: 0}
     - target: {fileID: 4634778045911173654, guid: b54c53b36780f4d42945c5162ab5760b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000022335815
+      value: 0.000000009189685
       objectReference: {fileID: 0}
     - target: {fileID: 4634778045911173654, guid: b54c53b36780f4d42945c5162ab5760b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000010909214
+      value: -4.4883927e-10
       objectReference: {fileID: 0}
     - target: {fileID: 4634778045911173654, guid: b54c53b36780f4d42945c5162ab5760b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -139354,7 +139429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 5163898869393322740}
-  playerInputHandler: {fileID: 0}
+  playerInputHandler: {fileID: 253086581}
 --- !u!224 &700289628739492477
 RectTransform:
   m_ObjectHideFlags: 0
@@ -139487,7 +139562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathScreen: {fileID: 236626603680388138}
-  theMove: {fileID: 0}
+  theMove: {fileID: 253086581}
   startPos: {fileID: 6889065208790192139}
   idk: {fileID: 1777982734852747270}
 --- !u!224 &1777982734852747270
@@ -140974,9 +141049,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a02b96f86ff26d45bea90f744a2921c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
-  messageText: {fileID: 0}
-  container: {fileID: 0}
+  audioSource: {fileID: 7196144228312519701}
+  messageText: {fileID: 6132106908058272163}
+  container: {fileID: 1083303839069089197}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
