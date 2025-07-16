@@ -18,24 +18,20 @@ public class MusicManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
         escenaInicial = SceneManager.GetActiveScene().name;
 
-        // Comienza la música si no estaba ya sonando
         AudioSource audio = GetComponent<AudioSource>();
         if (audio != null && !audio.isPlaying)
             audio.Play();
 
-        // Suscribirse al cambio de escena
         SceneManager.activeSceneChanged += OnSceneChanged;
     }
 
     private void OnDestroy()
     {
-        // Desuscribirse del evento si este objeto se destruye
         SceneManager.activeSceneChanged -= OnSceneChanged;
     }
 
     private void OnSceneChanged(Scene escenaAnterior, Scene escenaNueva)
     {
-        // Si la escena nueva NO es la misma donde se creó la música, se destruye
         if (escenaNueva.name != escenaInicial)
         {
             Destroy(gameObject);

@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class DeadZoneTrigger : MonoBehaviour
 {
-    // Etiqueta del jugador
     [SerializeField] private string playerTag = "Player";
     public MiBombo2 dead;
 
@@ -14,13 +13,4 @@ public class DeadZoneTrigger : MonoBehaviour
             Debug.Log("dead");
         }
     }
-
-    //private void PressRKey()
-    //{
-    //    // Si tienes lógica atada a Input.GetKeyDown(KeyCode.R), puedes moverla aquí.
-    //    // Por ejemplo, recargar la escena actual:
-    //    UnityEngine.SceneManagement.SceneManager.LoadScene(
-    //        UnityEngine.SceneManagement.SceneManager.GetActiveScene().name
-    //    );
-    //}
 }
