@@ -25143,6 +25143,76 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c42162970d9c6614aae0f187782bc3f0, type: 3}
+--- !u!1001 &1023622841
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1565212790353525307, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: delayBetweenNarrations
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565212790353525307, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: narrations.Array.data[0].text
+      value: "At last, the Koi\u2019s journey is nearly at an end. It will soon find
+        out if all the struggle was worth it. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565212790353525307, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: narrations.Array.data[0].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: cef709bc230db4044ade2c4f6fdb35be, type: 3}
+    - target: {fileID: 2846840284589550879, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_Name
+      value: NarratorTrue
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 700.5226
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 316.14273
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 465.92532
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
 --- !u!1001 &1023918936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52993,3 +53063,4 @@ SceneRoots:
   - {fileID: 906021520}
   - {fileID: 1161966914}
   - {fileID: 1379292972}
+  - {fileID: 1023622841}
