@@ -17972,6 +17972,22 @@ PrefabInstance:
       propertyPath: powerBar
       value: 
       objectReference: {fileID: 23666031839624872}
+    - target: {fileID: 9137114133148221528, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
+      propertyPath: m_Radius
+      value: 0.27049005
+      objectReference: {fileID: 0}
+    - target: {fileID: 9137114133148221528, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
+      propertyPath: m_Center.x
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 9137114133148221528, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
+      propertyPath: m_Center.y
+      value: -0.03999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 9137114133148221528, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
+      propertyPath: m_Center.z
+      value: -0.62
+      objectReference: {fileID: 0}
     - target: {fileID: 9138998596145729181, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
       propertyPath: m_Enabled
       value: 0
