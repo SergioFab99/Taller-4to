@@ -119,6 +119,22 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &220294 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1083303839782936982, guid: 7183aa9464b4431498f34207d21f3d11, type: 3}
+  m_PrefabInstance: {fileID: 66389919}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &220295 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6132106906759318936, guid: 7183aa9464b4431498f34207d21f3d11, type: 3}
+  m_PrefabInstance: {fileID: 66389919}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &709409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1841,6 +1857,18 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9204138442430827632, guid: 7183aa9464b4431498f34207d21f3d11, type: 3}
+      propertyPath: container
+      value: 
+      objectReference: {fileID: 220294}
+    - target: {fileID: 9204138442430827632, guid: 7183aa9464b4431498f34207d21f3d11, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 780521102}
+    - target: {fileID: 9204138442430827632, guid: 7183aa9464b4431498f34207d21f3d11, type: 3}
+      propertyPath: messageText
+      value: 
+      objectReference: {fileID: 220295}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18844,6 +18872,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d257a253a78b534582d04fb2f7e5c1b, type: 3}
+--- !u!82 &780521102 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7196144229714237486, guid: 7183aa9464b4431498f34207d21f3d11, type: 3}
+  m_PrefabInstance: {fileID: 66389919}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &780885416 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c42162970d9c6614aae0f187782bc3f0, type: 3}
