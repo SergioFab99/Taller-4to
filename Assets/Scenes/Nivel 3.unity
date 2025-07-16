@@ -19967,8 +19967,6 @@ GameObject:
   m_Component:
   - component: {fileID: 850239071}
   - component: {fileID: 850239070}
-  - component: {fileID: 850239068}
-  - component: {fileID: 850239073}
   - component: {fileID: 850239074}
   m_Layer: 0
   m_Name: Narrator
@@ -19977,22 +19975,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &850239068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 850239067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3786f2582a811149934e76f50c9c2c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  texts:
-  - "At last, the Koi\u2019s journey is nearly at an end. It will soon find out if
-    all the struggle was worth it. "
-  delay: 10
 --- !u!114 &850239070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20022,21 +20004,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2063257089}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &850239073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 850239067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c50830413ad37446b5dc93334b769b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clips:
-  - {fileID: 8300000, guid: cef709bc230db4044ade2c4f6fdb35be, type: 3}
-  volume: 1
 --- !u!114 &850239074
 MonoBehaviour:
   m_ObjectHideFlags: 0
