@@ -284,7 +284,7 @@ RectTransform:
   m_GameObject: {fileID: 446838943}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1.57572, y: 1.57572, z: 1.57572}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 466653123}
@@ -292,7 +292,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 709, y: -448}
+  m_AnchoredPosition: {x: 710.91, y: -458}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &446838945
@@ -569,7 +569,7 @@ RectTransform:
   m_GameObject: {fileID: 845108353}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1.64644, y: 1.64644, z: 1.64644}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 963308194}
@@ -577,7 +577,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 214, y: 114}
+  m_AnchoredPosition: {x: 228.5, y: 106}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &845108355
@@ -923,7 +923,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1019236300
 RectTransform:
   m_ObjectHideFlags: 0
@@ -933,7 +933,7 @@ RectTransform:
   m_GameObject: {fileID: 1019236299}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1.3935496, y: 1.54746, z: 1.54746}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1962145417}
@@ -941,7 +941,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 51, y: 18}
+  m_AnchoredPosition: {x: 51, y: 33}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1019236301
@@ -956,7 +956,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6e8f7018bdd51c489603a8bf0b66b4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pulseSpeed: 5
+  pulseSpeed: 4
   pulseAmount: 1
   hoverSound: {fileID: 8300000, guid: 1f705d82fa065fb40837be362452ea33, type: 3}
 --- !u!114 &1019236302

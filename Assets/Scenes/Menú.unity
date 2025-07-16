@@ -217,7 +217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreEscenaJuego: Tutorial Definitivo
   nombreEscenaJuego1: Creditos
-  nombreEscenaJuego2: RegisterScore
+  nombreEscenaJuego2: RankingUser
   EscenaMenu: "Men\xFA"
 --- !u!328 &1586262
 VideoPlayer:
