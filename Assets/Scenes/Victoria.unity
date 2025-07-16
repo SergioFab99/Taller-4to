@@ -307,7 +307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6e8f7018bdd51c489603a8bf0b66b4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pulseSpeed: 5
+  pulseSpeed: 4
   pulseAmount: 1
   hoverSound: {fileID: 8300000, guid: 1f705d82fa065fb40837be362452ea33, type: 3}
 --- !u!114 &446838946
@@ -463,8 +463,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Credits
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 168cac8bb11e7534396a328727a4af78, type: 2}
+  m_sharedMaterial: {fileID: 8992046742333321351, guid: 168cac8bb11e7534396a328727a4af78, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -494,7 +494,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -592,7 +592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6e8f7018bdd51c489603a8bf0b66b4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pulseSpeed: 5
+  pulseSpeed: 4
   pulseAmount: 1
   hoverSound: {fileID: 8300000, guid: 1f705d82fa065fb40837be362452ea33, type: 3}
 --- !u!114 &845108356
@@ -802,7 +802,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 50, y: -7}
+  m_AnchoredPosition: {x: 82, y: -12}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &963308195
@@ -827,8 +827,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Back to Menu
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 168cac8bb11e7534396a328727a4af78, type: 2}
+  m_sharedMaterial: {fileID: 8992046742333321351, guid: 168cac8bb11e7534396a328727a4af78, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -858,7 +858,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -923,7 +923,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1019236300
 RectTransform:
   m_ObjectHideFlags: 0
@@ -941,7 +941,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12, y: -446}
+  m_AnchoredPosition: {x: 51, y: 18}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1019236301
@@ -1003,7 +1003,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1615872201}
         m_TargetAssemblyTypeName: MenuSystem, Assembly-CSharp
         m_MethodName: Ranking
         m_Mode: 1
@@ -1210,7 +1210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8283019, g: 1, b: 0.95208806, a: 1}
+  m_Color: {r: 1, g: 1, b: 0.9037736, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
