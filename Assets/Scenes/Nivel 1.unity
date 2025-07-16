@@ -51866,8 +51866,6 @@ GameObject:
   m_Component:
   - component: {fileID: 687935446}
   - component: {fileID: 687935450}
-  - component: {fileID: 687935449}
-  - component: {fileID: 687935448}
   - component: {fileID: 687935451}
   m_Layer: 0
   m_Name: Narrator
@@ -51891,37 +51889,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2063257089}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &687935448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 687935445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c50830413ad37446b5dc93334b769b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clips:
-  - {fileID: 8300000, guid: dbff7b43729c8904db722a9cedf3084f, type: 3}
-  volume: 1
---- !u!114 &687935449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 687935445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3786f2582a811149934e76f50c9c2c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  texts:
-  - "Now standing before the magnificent mountain, the fish\u2019s true adventure
-    begins. Fated to fail, certainly. "
-  delay: 10
 --- !u!114 &687935450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57336,6 +57303,76 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5084400099377631058, guid: fc156dd6333a6b448bcd7fc328ed45ee, type: 3}
+--- !u!1001 &762189756
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1565212790353525307, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: delayBetweenNarrations
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565212790353525307, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: narrations.Array.data[0].text
+      value: "Now standing before the magnificent mountain, the fish\u2019s true
+        adventure begins. Fated to fail, certainly. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565212790353525307, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: narrations.Array.data[0].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: dbff7b43729c8904db722a9cedf3084f, type: 3}
+    - target: {fileID: 2846840284589550879, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_Name
+      value: NarratorTrue
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 513.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 31.282497
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1023.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
 --- !u!1001 &763570490
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60765,8 +60802,7 @@ GameObject:
   m_Component:
   - component: {fileID: 809081018}
   - component: {fileID: 809081021}
-  - component: {fileID: 809081020}
-  - component: {fileID: 809081019}
+  - component: {fileID: 809081022}
   m_Layer: 0
   m_Name: Progreso1
   m_TagString: Untagged
@@ -60789,37 +60825,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2063257089}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &809081019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 809081017}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8490222b5d6a264db53d2087a3e89eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clips:
-  - {fileID: 8300000, guid: c999d0ae626d0584d8a0db75069ec9af, type: 3}
-  volume: 1
---- !u!114 &809081020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 809081017}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b478173fd948b0409ae26576d746670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  texts:
-  - In a stroke of luck, the fish manages to flop its way forward. Fortune that is
-    soon to run out.
-  delay: 9
 --- !u!65 &809081021
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60841,6 +60846,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &809081022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809081017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b4815c6bd38975469e742ad67548143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  narrations:
+  - audioClip: {fileID: 8300000, guid: c999d0ae626d0584d8a0db75069ec9af, type: 3}
+    text: In a stroke of luck, the fish manages to flop its way forward. Fortune
+      that is soon to run out.
+    volume: 1
+  delayBetweenNarrations: 9
 --- !u!1 &809256579
 GameObject:
   m_ObjectHideFlags: 0
@@ -70637,8 +70660,7 @@ GameObject:
   m_Component:
   - component: {fileID: 927791858}
   - component: {fileID: 927791861}
-  - component: {fileID: 927791860}
-  - component: {fileID: 927791859}
+  - component: {fileID: 927791862}
   m_Layer: 0
   m_Name: Progreso2
   m_TagString: Untagged
@@ -70661,37 +70683,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2063257089}
   m_LocalEulerAnglesHint: {x: 0, y: 53.596, z: 0}
---- !u!114 &927791859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 927791857}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8490222b5d6a264db53d2087a3e89eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clips:
-  - {fileID: 8300000, guid: 98c198cbb88a2404fb892e778bcfe5b3, type: 3}
-  volume: 1
---- !u!114 &927791860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 927791857}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b478173fd948b0409ae26576d746670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  texts:
-  - "The fish\u2019s luck is as sizable as its idiocy, leading to it making some
-    small progress."
-  delay: 8
 --- !u!65 &927791861
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70713,6 +70704,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &927791862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927791857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b4815c6bd38975469e742ad67548143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  narrations:
+  - audioClip: {fileID: 8300000, guid: 98c198cbb88a2404fb892e778bcfe5b3, type: 3}
+    text: "The fish\u2019s luck is as sizable as its idiocy, leading to it making
+      some small progress."
+    volume: 1
+  delayBetweenNarrations: 8
 --- !u!1001 &929142765
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -79169,8 +79178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1045251344}
   - component: {fileID: 1045251347}
-  - component: {fileID: 1045251346}
-  - component: {fileID: 1045251345}
+  - component: {fileID: 1045251348}
   m_Layer: 0
   m_Name: Progreso3
   m_TagString: Untagged
@@ -79193,37 +79201,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2063257089}
   m_LocalEulerAnglesHint: {x: 0, y: 53.596, z: 0}
---- !u!114 &1045251345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1045251343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8490222b5d6a264db53d2087a3e89eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clips:
-  - {fileID: 8300000, guid: 7e025e6ebc01fc74a80948b1601b3718, type: 3}
-  volume: 1
---- !u!114 &1045251346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1045251343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b478173fd948b0409ae26576d746670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  texts:
-  - By some miracle, The Koi continues on its way, perhaps because the universe is
-    not yet done laughing at it.
-  delay: 9
 --- !u!65 &1045251347
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -79245,6 +79222,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1045251348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045251343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b4815c6bd38975469e742ad67548143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  narrations:
+  - audioClip: {fileID: 8300000, guid: 7e025e6ebc01fc74a80948b1601b3718, type: 3}
+    text: By some miracle, The Koi continues on its way, perhaps because the universe
+      is not yet done laughing at it.
+    volume: 1
+  delayBetweenNarrations: 9
 --- !u!1 &1045305066
 GameObject:
   m_ObjectHideFlags: 0
@@ -162839,7 +162834,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2131651626}
   - component: {fileID: 2131651625}
-  - component: {fileID: 2131651624}
   - component: {fileID: 2131651627}
   m_Layer: 0
   m_Name: FrogsIntro
@@ -162848,22 +162842,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2131651624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2131651623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b478173fd948b0409ae26576d746670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  texts:
-  - Much more capable animals than The Koi live in the mountain, drawn by the very
-    same magic. How will the feeble fish ever contend?
-  delay: 15
 --- !u!65 &2131651625
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -162909,12 +162887,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 2131651623}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8490222b5d6a264db53d2087a3e89eb, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b4815c6bd38975469e742ad67548143, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clips:
-  - {fileID: 8300000, guid: 8e44b6d2f97b7b4449fb05674f1f7e3e, type: 3}
-  volume: 1
+  narrations:
+  - audioClip: {fileID: 8300000, guid: 8e44b6d2f97b7b4449fb05674f1f7e3e, type: 3}
+    text: Much more capable animals than The Koi live in the mountain, drawn by the
+      very same magic. How will the feeble fish ever contend?
+    volume: 1
+  delayBetweenNarrations: 15
 --- !u!4 &2133873868 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cf002dcc06e09ae4f9fd5aec3313e4c3, type: 3}
@@ -164151,11 +164132,44 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9204138442430827632, guid: 7183aa9464b4431498f34207d21f3d11, type: 3}
+      propertyPath: container
+      value: 
+      objectReference: {fileID: 7243261608046721569}
+    - target: {fileID: 9204138442430827632, guid: 7183aa9464b4431498f34207d21f3d11, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 7243261608046721571}
+    - target: {fileID: 9204138442430827632, guid: 7183aa9464b4431498f34207d21f3d11, type: 3}
+      propertyPath: messageText
+      value: 
+      objectReference: {fileID: 7243261608046721570}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7183aa9464b4431498f34207d21f3d11, type: 3}
+--- !u!1 &7243261608046721569 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1083303839782936982, guid: 7183aa9464b4431498f34207d21f3d11, type: 3}
+  m_PrefabInstance: {fileID: 7243261608046721568}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7243261608046721570 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6132106906759318936, guid: 7183aa9464b4431498f34207d21f3d11, type: 3}
+  m_PrefabInstance: {fileID: 7243261608046721568}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7243261608046721569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!82 &7243261608046721571 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7196144229714237486, guid: 7183aa9464b4431498f34207d21f3d11, type: 3}
+  m_PrefabInstance: {fileID: 7243261608046721568}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7881299592533925385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -164614,3 +164628,4 @@ SceneRoots:
   - {fileID: 1643743851}
   - {fileID: 1901453639}
   - {fileID: 1418357530}
+  - {fileID: 762189756}
