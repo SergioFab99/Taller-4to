@@ -25,7 +25,6 @@ public class bar : MonoBehaviour
             currentOxygen -= drainRate * Time.deltaTime;
             currentOxygen = Mathf.Clamp(currentOxygen, 0f, maxOxygen);
             UpdateBar();
-            Debug.Log("aaaa help");
         }
 
         else if(!drowning)
@@ -33,7 +32,6 @@ public class bar : MonoBehaviour
             currentOxygen += (drainRate * 5f) * Time.deltaTime;
             currentOxygen = Mathf.Clamp(currentOxygen, 0f, maxOxygen);
             UpdateBar();
-            Debug.Log("yey");
         }
 
         if(currentOxygen <= 0)

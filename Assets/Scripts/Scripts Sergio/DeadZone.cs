@@ -11,6 +11,7 @@ public class DeadZoneTrigger : MonoBehaviour
         if (other.CompareTag(playerTag))
         {
             dead.isFuckingDead = false;
+            Debug.Log("dead");
         }
     }
 
