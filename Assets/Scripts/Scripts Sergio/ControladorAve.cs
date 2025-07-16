@@ -22,6 +22,8 @@ public class ControladorAve : MonoBehaviour
     private bool enDescenso = false;  // Indica si el ave está descendiendo
     private int indicePlataformaActual = 0;  // Indice de la plataforma actual hacia la cual el ave desciende
 
+    public MiBombo2 dead;
+
     void Start()
     {
         // Inicializamos la altura y el centro de vuelo
@@ -155,5 +157,14 @@ public class ControladorAve : MonoBehaviour
                 Gizmos.DrawWireSphere(plataforma.position, 0.5f);
             }
         }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.CompareTag("Player"))
+        {
+            dead.FuckingDie();
+            dead.GetComponentInChildren<MeshRenderer>().enabled = false;
+        }    
     }
 }
