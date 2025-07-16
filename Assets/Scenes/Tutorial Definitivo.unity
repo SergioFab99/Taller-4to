@@ -108357,8 +108357,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1641867788}
   - component: {fileID: 1641867787}
-  - component: {fileID: 1641867786}
-  - component: {fileID: 1641867785}
+  - component: {fileID: 1641867789}
   m_Layer: 0
   m_Name: Intro2
   m_TagString: Untagged
@@ -108366,38 +108365,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1641867785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641867784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8490222b5d6a264db53d2087a3e89eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clips:
-  - {fileID: 8300000, guid: d1ba23759299b284e8ddb33395b31003, type: 3}
-  volume: 1
---- !u!114 &1641867786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641867784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b478173fd948b0409ae26576d746670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  texts:
-  - This feeble little specimen is known as The Koi. It seems to believe itself capable
-    of reaching the top of the mountain, to wish for the ability to breathe out of
-    the water. How foolish.
-  delay: 15
 --- !u!65 &1641867787
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -108434,6 +108401,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &1641867789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641867784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b4815c6bd38975469e742ad67548143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  narrations:
+  - audioClip: {fileID: 8300000, guid: d1ba23759299b284e8ddb33395b31003, type: 3}
+    text: This feeble little specimen is known as The Koi. It seems to believe itself
+      capable of reaching the top of the mountain, to wish for the ability to breathe
+      out of the water. How foolish.
+    volume: 1
+  delayBetweenNarrations: 15
 --- !u!1001 &1643717853
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -109566,115 +109552,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a77b27bbae2c3654bb407f712e630762, type: 3}
   m_PrefabInstance: {fileID: 1653614239}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1654567113
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1654567118}
-  - component: {fileID: 1654567117}
-  - component: {fileID: 1654567116}
-  - component: {fileID: 1654567115}
-  - component: {fileID: 1654567119}
-  m_Layer: 0
-  m_Name: Narrator
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1654567115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1654567113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c50830413ad37446b5dc93334b769b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clips:
-  - {fileID: 8300000, guid: a329104ed0fb63d468f07bfe336f9ca2, type: 3}
-  volume: 1
---- !u!114 &1654567116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1654567113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3786f2582a811149934e76f50c9c2c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  texts:
-  - "There is a legend of a powerful magic, resting on top of a mountain, said to
-    be able to grant any wish. Ridiculous, isn\u2019t it? But there is one who sought
-    to reach that power. Must be a great adventurer, right? Well\u2026 not quite."
-  delay: 30
---- !u!114 &1654567117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1654567113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b569bc0f20a4a949affdf7a2a05e2e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  texts: []
-  delay: 0
---- !u!4 &1654567118
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1654567113}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1654567119
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1654567113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71aebd8aa7b20aa4a8fdcf8d3799eab5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  narrations:
-  - audioClip: {fileID: 8300000, guid: ca25c270f250e524bb91f476b7568534, type: 3}
-    text: "The Koi is slow in every sense of the word, it\u2019s oxygen quickly running
-      out, while it still delays. "
-    volume: 1
-  - audioClip: {fileID: 8300000, guid: c178b04d25434d34f8774d13308a44d5, type: 3}
-    text: 'The fish seems either too stubborn or too stupid to understand it''s impossible
-      for it to achieve his objective. '
-    volume: 1
-  - audioClip: {fileID: 8300000, guid: f0d432fbdf8883c48af924e2041852eb, type: 3}
-    text: It continues to climb and fall, to flop and fail, as it slowly and predictably
-      perishes.
-    volume: 1
-  delayBetweenNarrations: 10
-  player: {fileID: 253086581}
-  interval: 100
 --- !u!1 &1654589922
 GameObject:
   m_ObjectHideFlags: 0
@@ -141092,7 +140969,6 @@ SceneRoots:
   - {fileID: 1725965483}
   - {fileID: 70242992}
   - {fileID: 1641867788}
-  - {fileID: 1654567118}
   - {fileID: 176529256}
   - {fileID: 1196704592}
   - {fileID: 677782653}
