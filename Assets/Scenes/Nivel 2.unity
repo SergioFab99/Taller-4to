@@ -3586,9 +3586,6 @@ GameObject:
   m_Component:
   - component: {fileID: 134579856}
   - component: {fileID: 134579855}
-  - component: {fileID: 134579854}
-  - component: {fileID: 134579853}
-  - component: {fileID: 134579852}
   - component: {fileID: 134579857}
   m_Layer: 0
   m_Name: Narrator
@@ -3597,56 +3594,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &134579852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 134579851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 248be581da42b85488bac04621675344, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clips:
-  - {fileID: 8300000, guid: 89b4090c93258df49872901ef112c19f, type: 3}
-  - {fileID: 8300000, guid: 73a612817d9359943b712ba819998595, type: 3}
-  - {fileID: 8300000, guid: 4379a9e186b57244182528a563bdde1b, type: 3}
-  volume: 1
-  interval: 100
---- !u!114 &134579853
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 134579851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c50830413ad37446b5dc93334b769b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clips:
-  - {fileID: 8300000, guid: f095fc87050498e45824c0df845afba8, type: 3}
-  volume: 1
---- !u!114 &134579854
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 134579851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3786f2582a811149934e76f50c9c2c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  texts:
-  - 'Through a series of fortunate events, the Koi has managed to make its way inside
-    the mountain. Perhaps it believes the caves will serve as a shortcut. They will
-    not. '
-  delay: 15
 --- !u!114 &134579855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30027,7 +29974,6 @@ MonoBehaviour:
   radioDeteccion: 10
   plataformasObjetivo:
   - {fileID: 2025338486}
-  dead: {fileID: 6861602421200298386}
 --- !u!65 &1231569517
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40620,6 +40566,77 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3711057075402313907, guid: 92e33a3efa91f354a918b68a77135fec, type: 3}
+--- !u!1001 &1604207964
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1565212790353525307, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: delayBetweenNarrations
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565212790353525307, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: narrations.Array.data[0].text
+      value: 'Through a series of fortunate events, the Koi has managed to make its
+        way inside the mountain. Perhaps it believes the caves will serve as a shortcut.
+        They will not. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565212790353525307, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: narrations.Array.data[0].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f095fc87050498e45824c0df845afba8, type: 3}
+    - target: {fileID: 2846840284589550879, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_Name
+      value: NarratorTrue
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 483.1522
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 60.50467
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1463.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984531143438735521, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 78aa14e3067a967409bc2c6313366969, type: 3}
 --- !u!1 &1604923580
 GameObject:
   m_ObjectHideFlags: 0
@@ -42916,7 +42933,6 @@ MonoBehaviour:
   radioDeteccion: 10
   plataformasObjetivo:
   - {fileID: 2107164097}
-  dead: {fileID: 0}
 --- !u!65 &1713792200
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -56220,3 +56236,4 @@ SceneRoots:
   - {fileID: 1209175168}
   - {fileID: 395246745}
   - {fileID: 1940982354}
+  - {fileID: 1604207964}
