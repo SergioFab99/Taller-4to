@@ -164345,6 +164345,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1504723805}
     - target: {fileID: 3151055066241962928, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
+      propertyPath: maxJumpForce
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151055066241962928, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
       propertyPath: cameraTransform
       value: 
       objectReference: {fileID: 1941165569}
@@ -164426,7 +164430,11 @@ PrefabInstance:
       objectReference: {fileID: 5768519483034261429}
     - target: {fileID: 9137114133148221528, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
       propertyPath: m_Radius
-      value: 0.42109653
+      value: 0.4621352
+      objectReference: {fileID: 0}
+    - target: {fileID: 9137114133148221528, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
+      propertyPath: m_Center.x
+      value: 0.04244244
       objectReference: {fileID: 0}
     - target: {fileID: 9137114133148221528, guid: d99a328aa16ee414294555cbdf696a18, type: 3}
       propertyPath: m_Center.y
